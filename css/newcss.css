@@ -1,0 +1,45 @@
+.container {
+    //border: solid red 2px;
+}
+
+#body-1 {
+    //border: solid black 1px;
+    min-height: 1000px;
+}
+
+#body-upper {
+    margin-top: 20px;
+}
+
+#featured {
+    text-align: center;
+    height: 10px;
+}
+
+#h3-feat {
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+}
+
+#item-image {
+    //border: solid salmon 1px;
+}
+
+.item-image {
+    //border: solid teal 1px;
+    max-width:100%;
+    max-height:100%;
+}
+
+#l-ewwel, #it-tieni, #it-tielet {
+    //border: solid forestgreen 2px;
+    margin-top: 10px;
+}
+
+#l-ewwel, #it-tieni {
+    text-align: left;
+}
+
+#it-tielet {
+    text-align: right;
+}

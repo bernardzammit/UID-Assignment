@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>UID Website</title>
+    <link rel = "stylesheet" href = "css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "css/bootstrap.css" media= "screen">
+    <link rel="stylesheet" href="css/newcss.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-lg-4"  id="logo">LOGO</div>
+                <div class="col-lg-2 col-lg-offset-4" id="login">LOGIN</div>
+                <div class="col-lg-2" id="reg">REGISTER</div>
+            </div>
+            <div class="row">
+                <div class = "col-lg-12">
+                    <div class = "navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Home</a>
+                            </div>
+
+                           <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="navbar-collapse collapse" >
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Windows</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li><a href="#">One more separated link</a></li>
+                                        </ul>
+                                   </li>
+                                   <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tablets<span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">Windows</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li><a href="#">Something else here</a></li>
+                                                <li><a href="#">Separated link</a></li>
+                                                <li><a href="#">One more separated link</a></li>
+                                            </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mobiles<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                           <li><a href="#">HTC</a></li>
+                                           <li><a href="#">Nokia</a></li>
+                                           <li><a href="#">Apple</a></li>
+                                           <li><a href="#">Samsung</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Software<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu"></ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Audio<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu"></ul>
+                                    </li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <form class="navbar-form navbar-left">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                        </div>
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </form>
+                                    <li><a href="#"><img class="cart-image" src="images/cart.svg" alt="Cart Icon" onmouseover="this.src='images/cart_hover.svg'" onmouseout="this.src='images/cart.svg'"></a></li>
+                                    <li><a href="#"><img class="help-image" src="images/help.svg" alt="Help Icon" onmouseover="this.src='images/help_hover.svg'" onmouseout="this.src='images/help.svg'"></a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </div>
+                </div>
+            </div><!-- header -->
+        </div>
+            <!-- BODY -->
+            <div class="body" id="body-1">
+                <div class="row" id="body-upper"> <!-- welcome/login -->
+                    <div class="container-fluid">
+                        <div class="col-lg-5" id="log-in"> <!-- LOGIN DIV -->
+                            <div class="well bs-component">
+                                <form class="form-horizontal">
+                                    <fieldset>
+                                        <legend>Log In</legend>
+                                        <div class="form-group">
+                                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                                            <div class="col-lg-10">
+                                                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                                            <div class="col-lg-10">
+                                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                                <div class="checkbox">
+                                                    <label><input type="checkbox">Remember me</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-lg-10 col-lg-offset-2">
+                                                <button type="submit" class="btn btn-primary">Log in</button>
+                                                <button type="submit" class="btn btn-primary">Register</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div> <!-- LOGIN DIV -->
+                        
+                        <div class="col-lg-4" id="welcome"> <!-- WELCOME DIV -->
+                            <div class="alert alert-dismissable alert-info">
+                                <h3>Welcome!</h3> at its layout. The point of using Lorem 
+                                Ipsum is that it has a more-or-less normal distribution of 
+                                letters, as opposed to using 'Content here, content here', 
+                                making it look like readable English. Many desktop publishing 
+                                packages and web page editors now use Lorem Ipsum as their 
+                                default model text, and a search for 'lorem ipsum' will uncover 
+                                many web sites still in their infancy. Various versions have 
+                                evolved over the
+                            </div>
+                        </div> <!-- WELCOME DIV -->
+                        
+                        <div class="col-lg-3" id="welcome-2"> <!-- WELCOME DIV -->
+                            <div class="alert alert-dismissable alert-info">
+                                <h3>Welcome!</h3> at its layout. The point of using Lorem 
+                                Ipsum is that it has a more-or-less normal distribution of 
+                                letters, as opposed to using 'Content here, content here', 
+                                making it look like readable English. Many desktop publishing 
+                                packages and we
+                            </div>
+                        </div> <!-- WELCOME DIV -->
+                    </div> <!-- container-fluid of whole row -->
+                </div> <!-- WELCOME/LOGIN ROW -->
+                
+                <div class="row" id="featured"> <!-- Featured -->
+                    <div class="container-fluid">
+                        <div class="col-lg-12">
+                            <div class="well well-lg">
+                                <h3 id="h3-feat">FEATURED</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="items"> <!-- WHOLE ROW OF ITEMS (3) -->
+                    <div class="container-fluid">
+                        <div class="col-lg-4"> <!-- ONE ITEM -->
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Brand new desktop PC</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" id="item-image">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-12">
+                                                <img class="item-image" src="images/item-image.jpg" alt="Item image">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="row" id="item-info">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-3" id="l-ewwel">
+                                                watch
+                                            </div>
+                                            <div class="col-lg-3" id="it-tieni">
+                                                +cart
+                                            </div>
+                                            <div class="col-lg-5" id="it-tielet">
+                                                €900
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- ONE ITEM DIV -->
+                        <div class="col-lg-4"> <!-- ONE ITEM -->
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Brand new desktop PC</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" id="item-image">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-12">
+                                                <img class="item-image" src="images/item-image.jpg" alt="Item image">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="row" id="item-info">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-3" id="l-ewwel">
+                                                watch
+                                            </div>
+                                            <div class="col-lg-4" id="it-tieni">
+                                                +cart
+                                            </div>
+                                            <div class="col-lg-4" id="it-tielet">
+                                                €900
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- ONE ITEM DIV -->
+                        <div class="col-lg-4"> <!-- ONE ITEM -->
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Brand new desktop PC</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" id="item-image">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-12">
+                                                <img class="item-image" src="images/item-image.jpg" alt="Item image">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="row" id="item-info">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-3" id="l-ewwel">
+                                                watch
+                                            </div>
+                                            <div class="col-lg-4" id="it-tieni">
+                                                +cart
+                                            </div>
+                                            <div class="col-lg-4" id="it-tielet">
+                                                €900
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- ONE ITEM DIV -->
+                    </div>
+                </div> <!-- WHOLE ROW OF ITEMS -->
+                <div class="row" id="items"> <!-- WHOLE ROW OF ITEMS (3) -->
+                    <div class="container-fluid">
+                        <div class="col-lg-4"> <!-- ONE ITEM -->
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Brand new desktop PC</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" id="item-image">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-12">
+                                                <img class="item-image" src="images/item-image.jpg" alt="Item image">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="row" id="item-info">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-3" id="l-ewwel">
+                                                watch
+                                            </div>
+                                            <div class="col-lg-4" id="it-tieni">
+                                                +cart
+                                            </div>
+                                            <div class="col-lg-4" id="it-tielet">
+                                                €900
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- ONE ITEM DIV -->
+                        <div class="col-lg-4"> <!-- ONE ITEM -->
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Brand new desktop PC</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" id="item-image">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-12">
+                                                <img class="item-image" src="images/item-image.jpg" alt="Item image">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="row" id="item-info">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-3" id="l-ewwel">
+                                                watch
+                                            </div>
+                                            <div class="col-lg-4" id="it-tieni">
+                                                +cart
+                                            </div>
+                                            <div class="col-lg-4" id="it-tielet">
+                                                €900
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- ONE ITEM DIV -->
+                        <div class="col-lg-4"> <!-- ONE ITEM -->
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Brand new desktop PC</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" id="item-image">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-12">
+                                                <img class="item-image" src="images/item-image.jpg" alt="Item image">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="row" id="item-info">
+                                        <div class="container-fluid">
+                                            <div class="col-lg-3" id="l-ewwel">
+                                                watch
+                                            </div>
+                                            <div class="col-lg-4" id="it-tieni">
+                                                +cart
+                                            </div>
+                                            <div class="col-lg-4" id="it-tielet">
+                                                €900
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- ONE ITEM DIV -->
+                    </div>
+                </div> <!-- WHOLE ROW OF ITEMS -->
+            </div> <!-- BODY -->
+
+
+            <div class="page-footer">
+                <div class="row"> <!-- contains subscribe and contact us -->
+                    <div class="container-fluid">
+                        <div class="col-lg-6">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Subscribe</h3>
+                                </div>
+                                <div class="panel-body">form, enter e-mail to receive newsletter</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Contact Us</h3>
+                                </div>
+                                <div class="panel-body">Contact us.. share on fb, twitter, google+...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-lg-3">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Payment Methods</h3>
+                                </div>
+                                <div class="panel-body">Contact Us<br />
+                                                        My Account<br />
+                                                        Start Fitness Blog<br />
+                                                        North East Runner<br />
+                                                        Price Guarantee<br />
+                                                        Discount Codes<br /></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Order Information</h3>
+                                </div>
+                                <div class="panel-body">Contact Us<br />
+                                                        My Account<br />
+                                                        Start Fitness Blog<br />
+                                                        North East Runner<br />
+                                                        Price Guarantee<br />
+                                                        Discount Codes<br /></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Customer Care</h3>
+                                </div>
+                                <div class="panel-body">Contact Us<br />
+                                                        My Account<br />
+                                                        Start Fitness Blog<br />
+                                                        North East Runner<br />
+                                                        Price Guarantee<br />
+                                                        Discount Codes<br /></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Company Information</h3>
+                                </div>
+                                <div class="panel-body">Contact Us<br />
+                                                        My Account<br />
+                                                        Start Fitness Blog<br />
+                                                        North East Runner<br />
+                                                        Price Guarantee<br />
+                                                        Discount Codes<br /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
