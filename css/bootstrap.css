@@ -323,6 +323,7 @@ th {
 }
 .glyphicon-user:before {
   content: "\e008";
+  font-size: 10em;
 }
 .glyphicon-film:before {
   content: "\e009";
