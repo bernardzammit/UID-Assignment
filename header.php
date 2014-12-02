@@ -50,7 +50,7 @@
                                         </ul>
                                    </li>
                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tablets<span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tablets <span class="caret"></span></a>
                                             <ul class="dropdown-menu" role="menu">
                                                 <li><a href="#">Windows</a></li>
                                                 <li><a href="#">Another action</a></li>
@@ -60,7 +60,7 @@
                                             </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mobiles<span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mobiles <span class="caret"></span></a>
                                         <ul class="dropdown-menu" role="menu">
                                            <li><a href="#">HTC</a></li>
                                            <li><a href="#">Nokia</a></li>
@@ -69,11 +69,11 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Software<span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Software <span class="caret"></span></a>
                                         <ul class="dropdown-menu" role="menu"></ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Audio<span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Audio <span class="caret"></span></a>
                                         <ul class="dropdown-menu" role="menu"></ul>
                                     </li>
                                 </ul>
