@@ -14,7 +14,7 @@
     <div class="container">
         <div class="page-footer">
             <div class="row"> <!-- contains subscribe and contact us -->
-                <div class="container-fluid">
+                
                     <div class="col-lg-6">
                         <div class="panel panel-warning">
                             <div class="panel-heading">
@@ -34,7 +34,6 @@
                 </div>
             </div>
             <div class="row">
-                <div class="container-fluid">
                     <div class="col-lg-3">
                         <div class="panel panel-warning">
                             <div class="panel-heading">
@@ -87,8 +86,7 @@
                                                     Discount Codes<br /></div>
                         </div>
                     </div>
-                </div>
             </div>
-        </div>
+    
     </div>
 </body>

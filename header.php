@@ -5,6 +5,8 @@
     <link rel = "stylesheet" href = "css/bootstrap.min.css">
     <link rel = "stylesheet" href = "css/bootstrap.css" media= "screen">
     <link rel="stylesheet" href="css/newcss.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +35,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">Home</a>
+                                <a class="navbar-brand" href="#"><i class="fa fa-home fa-6"> </i></a>
                             </div>
 
                            <!-- Collect the nav links, forms, and other content for toggling -->
