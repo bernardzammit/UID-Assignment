@@ -34,8 +34,8 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="col-lg-10 col-lg-offset-2">
-                                        <button type="submit" class="btn btn-primary">Log in</button>
-                                        <button type="submit" class="btn btn-primary">Register</button>
+                                        <button type="submit" class="btn btn-primary" id="login-button">Log in</button>
+                                        <button type="submit" class="btn btn-primary" id="register-button">Register</button>
                                     </div>
                                 </div>
                             </fieldset>
@@ -79,184 +79,16 @@
         </div>
         <div class="row" id="items"> <!-- WHOLE ROW OF ITEMS (3) -->
             <div class="container-fluid">
-                <div class="col-lg-4"> <!-- ONE ITEM -->
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Brand new desktop PC</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row" id="item-image">
-                                <div class="container-fluid">
-                                    <div class="col-lg-12">
-                                        <img class="item-image" src="images/item-image.jpg" alt="Item image">
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="row" id="item-info">
-                                <div class="container-fluid">
-                                    <div class="col-lg-3" id="l-ewwel">
-                                        watch
-                                    </div>
-                                    <div class="col-lg-3" id="it-tieni">
-                                        +cart
-                                    </div>
-                                    <div class="col-lg-5" id="it-tielet">
-                                        €900
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- ONE ITEM DIV -->
-                <div class="col-lg-4"> <!-- ONE ITEM -->
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Brand new desktop PC</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row" id="item-image">
-                                <div class="container-fluid">
-                                    <div class="col-lg-12">
-                                        <img class="item-image" src="images/item-image.jpg" alt="Item image">
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="row" id="item-info">
-                                <div class="container-fluid">
-                                    <div class="col-lg-3" id="l-ewwel">
-                                        watch
-                                    </div>
-                                    <div class="col-lg-4" id="it-tieni">
-                                        +cart
-                                    </div>
-                                    <div class="col-lg-4" id="it-tielet">
-                                        €900
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- ONE ITEM DIV -->
-                <div class="col-lg-4"> <!-- ONE ITEM -->
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Brand new desktop PC</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row" id="item-image">
-                                <div class="container-fluid">
-                                    <div class="col-lg-12">
-                                        <img class="item-image" src="images/item-image.jpg" alt="Item image">
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="row" id="item-info">
-                                <div class="container-fluid">
-                                    <div class="col-lg-3" id="l-ewwel">
-                                        watch
-                                    </div>
-                                    <div class="col-lg-4" id="it-tieni">
-                                        +cart
-                                    </div>
-                                    <div class="col-lg-4" id="it-tielet">
-                                        €900
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- ONE ITEM DIV -->
+                <?php include 'item.php' ?>
+                <?php include 'item.php' ?>
+                <?php include 'item.php' ?>
             </div>
         </div> <!-- WHOLE ROW OF ITEMS -->
         <div class="row" id="items"> <!-- WHOLE ROW OF ITEMS (3) -->
             <div class="container-fluid">
-                <div class="col-lg-4"> <!-- ONE ITEM -->
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Brand new desktop PC</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row" id="item-image">
-                                <div class="container-fluid">
-                                    <div class="col-lg-12">
-                                        <img class="item-image" src="images/item-image.jpg" alt="Item image">
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="row" id="item-info">
-                                <div class="container-fluid">
-                                    <div class="col-lg-3" id="l-ewwel">
-                                        watch
-                                    </div>
-                                    <div class="col-lg-4" id="it-tieni">
-                                        +cart
-                                    </div>
-                                    <div class="col-lg-4" id="it-tielet">
-                                        €900
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- ONE ITEM DIV -->
-                <div class="col-lg-4"> <!-- ONE ITEM -->
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Brand new desktop PC</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row" id="item-image">
-                                <div class="container-fluid">
-                                    <div class="col-lg-12">
-                                        <img class="item-image" src="images/item-image.jpg" alt="Item image">
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="row" id="item-info">
-                                <div class="container-fluid">
-                                    <div class="col-lg-3" id="l-ewwel">
-                                        watch
-                                    </div>
-                                    <div class="col-lg-4" id="it-tieni">
-                                        +cart
-                                    </div>
-                                    <div class="col-lg-4" id="it-tielet">
-                                        €900
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- ONE ITEM DIV -->
-                <div class="col-lg-4"> <!-- ONE ITEM -->
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Brand new desktop PC</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row" id="item-image">
-                                <div class="container-fluid">
-                                    <div class="col-lg-12">
-                                        <img class="item-image" src="images/item-image.jpg" alt="Item image">
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="row" id="item-info">
-                                <div class="container-fluid">
-                                    <div class="col-lg-3" id="l-ewwel">
-                                        watch
-                                    </div>
-                                    <div class="col-lg-4" id="it-tieni">
-                                        +cart
-                                    </div>
-                                    <div class="col-lg-4" id="it-tielet">
-                                        €900
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- ONE ITEM DIV -->
+                <?php include 'item.php' ?>
+                <?php include 'item.php' ?>
+                <?php include 'item.php' ?>
             </div>
         </div> <!-- WHOLE ROW OF ITEMS -->
     </div> <!-- BODY -->

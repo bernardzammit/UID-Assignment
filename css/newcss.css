@@ -48,3 +48,27 @@
 #it-tielet {
     text-align: right;
 }
+
+#register-button, #login-button {
+    float: right;
+    margin-left: 4px;
+}
+
+#item-heading {
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+}
+
+#item-border {
+    border-color: #18bc9c;
+}
+
+#search {
+    //border: solid 1px #f39c12;
+    //height: 100px;
+}
+
+#view-all-items {
+    //border: solid 1px blue;
+    //min-height: 200px;
+}
