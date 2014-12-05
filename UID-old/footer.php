@@ -18,17 +18,25 @@
                     <div class="col-lg-6">
                         <div class="panel panel-warning">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Subscribe</h3>
+                                <h3 class="panel-title">Subscribe to our newsletter</h3>
                             </div>
-                            <div class="panel-body">form, enter e-mail to receive newsletter</div>
+                                <div class="panel-body">Subscribe to our email newsletters and be the first to receive updates on new products, and latest offers.</div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <label for="inputEmail" class="col-lg-2 control-label" id="email-footer">Email</label>
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="panel panel-warning">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Contact Us</h3>
+                                <h3 class="panel-title">Connect with us</h3>
                             </div>
-                            <div class="panel-body">Contact us.. share on fb, twitter, google+...</div>
+                            <div class="panel-body">Add us on social media for product teasers, test videos, latest offers, competitions and much more.</div>
                         </div>
                     </div>
                 </div>
