@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.html'; ?>
+<?php include 'header.php'; ?>
 <head>
 
 </head>
@@ -110,15 +110,6 @@
 
         <hr>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
-
     </div>
     <!-- /.container -->
 
@@ -129,5 +120,5 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
+<?php include 'footer.php'; ?>
 </html>

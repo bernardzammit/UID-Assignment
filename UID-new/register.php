@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.html'; ?>
+<?php include 'header.php'; ?>
 <head>
 
 </head>
@@ -158,6 +158,6 @@
     <!-- /.container -->
 
 </body>
-<?php include 'footer.html'; ?>
+<?php include 'footer.php'; ?>
 
 </html>
