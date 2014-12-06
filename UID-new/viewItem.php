@@ -27,7 +27,7 @@
         <!-- Portfolio Item Row -->
         <div class="row">
 
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -39,13 +39,13 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive" src="images/desktop-1-1.jpg" alt="" height="750" width="500">
+                            <img class="img-responsive center-block" src="images/desktop-1-1.jpg" alt="" width = 75%>
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                            <img class="img-responsive center-block" src="images/desktop-1-2.jpg" alt="" width=75%>
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                            <img class="img-responsive center-block" src="images/desktop-1-3.jpg" alt="" width=75%>
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h3>Project Description</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
                 <h3>Project Details</h3>
