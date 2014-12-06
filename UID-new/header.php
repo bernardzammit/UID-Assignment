@@ -19,6 +19,10 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Extra CSS -->
+    <link href="css/extracss.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Home</a>
+                <a class="navbar-brand" href="#"><i class="fa fa-home fa-6"> </i></a>
 				
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,19 +61,19 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="portfolio-1-col.html">Mac</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="portfolio-2-col.html">Asus</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="portfolio-3-col.html">Dell</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                                <a href="portfolio-4-col.html">Alienware</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="portfolio-item.html">Other</a>
                             </li>
                         </ul>
                     </li>
@@ -78,19 +82,22 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tablets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="portfolio-1-col.html">Samsung</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="portfolio-2-col.html">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="portfolio-3-col.html">Sony</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                                <a href="portfolio-4-col.html">Asus</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="portfolio-5-col.html">Acer</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Other</a>
                             </li>
                         </ul>
                     </li>
@@ -99,19 +106,22 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobiles <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="portfolio-1-col.html">HTC</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="portfolio-2-col.html">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="portfolio-3-col.html">LG</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                                <a href="portfolio-4-col.html">Nokia</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="portfolio-5-col.html">Samsung</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Other</a>
                             </li>
                         </ul>
                     </li>
@@ -120,19 +130,16 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="portfolio-1-col.html">Gaming</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="portfolio-2-col.html">Office</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="portfolio-3-col.html">Security</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="portfolio-item.html">Other</a>
                             </li>
                         </ul>
                     </li>
@@ -143,27 +150,27 @@
 				<ul class="nav navbar-nav navbar-right">		
 					
 					<li>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Search">
+						<div class="form-group" id="form-search-top">
+							<input type="text" class="form-control" placeholder="Search" id="search-header">
 						</div>
 						
 					</li>
 					
 					<li>
-						<button type="button" class="btn btn-default">
+						<button type="button" class="btn btn-default" id="button-top">
 							<span class="fa fa-search"></span>
 						</button>
                     </li>
 					
 					<li>
                         <a href="#">
-						  <span class="pull-right fa fa-shopping-cart"></span>
+						  <span class="pull-right fa fa-shopping-cart" id="cart-top"></span>
 						</a>
                     </li>
 					
 					<li>
                         <a href="#">
-						  <span class="pull-right fa fa-question"></span>
+						  <span class="pull-right fa fa-question" id="help-top"></span>
 						</a>
                     </li>
 					
