@@ -5,65 +5,26 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Modern Business - Start Bootstrap Template</title>
-
-	<!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-	
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">My Account
-                    <!-- <small>Subheading</small> -->
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">My Account</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Content Row -->
+        
+		
+		<!-- Content Row -->
         <div class="row">
             <!-- Sidebar Column -->
             <div class="col-md-3">
                 <div class="list-group">
-					<h3 class="list-group-item">Welcome User!</h3>
+					
 					<div class="list-group-item">
-						<span class="glyphicon glyphicon-user" style="vertical-align:middle"></span>
+						
+						<h3>Hi User!
+						<span class="glyphicon glyphicon-user pull-right" ></span>
+						</h3>
+					
 					</div>
-					<a href="#" class="list-group-item">
+					
+				<!--	<a href="#" class="list-group-item">
 						<span class="glyphicon glyphicon-pencil pull-right"></span><br>
 					</a>
 					<p class="list-group-item"><b>Name: </b> Sheryl Camilleri</p>
@@ -73,49 +34,13 @@
 					<p class="list-group-item"><b>Current Listings: </b></p>
 					<p class="list-group-item"><b>Items Sold: </b></p>
 					<p class="list-group-item"><b>Items Bought: </b></p>
+				--> 
 				
-				
-				<!--
-                    <a href="index.html" class="list-group-item">Home</a>
-                    <a href="about.html" class="list-group-item">About</a>
-                    <a href="services.html" class="list-group-item">Services</a>
-                    <a href="contact.html" class="list-group-item">Contact</a>
-                    <a href="portfolio-1-col.html" class="list-group-item">1 Column Portfolio</a>
-                    <a href="portfolio-2-col.html" class="list-group-item">2 Column Portfolio</a>
-                    <a href="portfolio-3-col.html" class="list-group-item">3 Column Portfolio</a>
-                    <a href="portfolio-4-col.html" class="list-group-item">4 Column Portfolio</a>
-                    <a href="portfolio-item.html" class="list-group-item">Single Portfolio Item</a>
-                    <a href="blog-home-1.html" class="list-group-item">Blog Home 1</a>
-                    <a href="blog-home-2.html" class="list-group-item">Blog Home 2</a>
-                    <a href="blog-post.html" class="list-group-item">Blog Post</a>
-                    <a href="full-width.html" class="list-group-item">Full Width Page</a>
-                    <a href="sidebar.html" class="list-group-item active">Sidebar Page</a>
-                    <a href="faq.html" class="list-group-item">FAQ</a>
-                    <a href="404.html" class="list-group-item">404</a>
-                    <a href="pricing.html" class="list-group-item">Pricing Table</a> -->
+                    <a href="index.html" class="list-group-item">Profile</a>
+                    <a href="about.html" class="list-group-item">Add Item</a>
+                    <a href="services.html" class="list-group-item">Current Listings</a>
+                    <a href="itemsBought.php" class="list-group-item">Items Bought</a>
+                    <a href="itemsSold.php" class="list-group-item">Items Sold</a>
                 </div>
             </div>
-            <!-- Content Column -->
-            <div class="col-md-9">
-                <h2>Section Heading</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <?php include 'footer.html'; ?>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+            
