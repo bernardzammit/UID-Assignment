@@ -232,8 +232,8 @@
     </div>
     <!-- /.container -->
 
-    
+    <?php include 'footer.php'; ?>
 
 </body>
-<?php include 'footer.html'; ?>
+
 </html>
