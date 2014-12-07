@@ -36,8 +36,8 @@
 					<p class="list-group-item"><b>Items Bought: </b></p>
 				--> 
 				
-                    <a href="index.html" class="list-group-item">Profile</a>
-                    <a href="about.html" class="list-group-item">Add Item</a>
+                    <a href="profile.php" class="list-group-item">Profile</a>
+                    <a href="addItem.php" class="list-group-item">Add Item</a>
                     <a href="services.html" class="list-group-item">Current Listings</a>
                     <a href="itemsBought.php" class="list-group-item">Items Bought</a>
                     <a href="itemsSold.php" class="list-group-item">Items Sold</a>
