@@ -55,6 +55,18 @@
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                 </div>
+                <br>
+
+                <div class="text-center">
+                    <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/" title="Share on Facebook - opens in a new window or tab"><i class="fa fa-2x fa-facebook-square"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" title="Share on Instagram - opens in a new window or tab"><i class="fa fa-2x fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.twitter.com/" title="Share on Twitter - opens in a new window or tab"><i class="fa fa-2x fa-twitter-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="col-md-6">
@@ -74,33 +86,28 @@
                         <span class="price"><sup>€</sup>1500<sup>00</sup></span>
 
                         <div class="media">
-                            <div class="pull-right">
-                                <a href="#" class="btn btn-primary">Add to Cart</a>
-                                <a href="#" class="btn btn-primary">Contact Seller</a>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary btn-lg">Contact Seller</a>
+                                <a href="#" class="btn btn-primary btn-lg">Add to Cart</a>
                             </div>
+                            <br>
+                            <div class="text-center">
+                                <a href="#">
+                                    <h4>
+                                        <span class="fa fa-eye"> Watch Item</span><br>
+                                    </h4>
+                                </a>
+                                <a href="#">
+                                    <h4>
+                                        <span class="fa fa-flag"> Report Item</span><br>
+                                    </h4>
+                                 </a>    
+                            </div>
+                            <br>
+
                         </div>
 
-                        <br>
-
-                        <a href="#">
-                            <span class="fa fa-eye"> Watch Item</span><br>
-                        </a>
-                        <br>
-
-                        <a href="#">
-                            <span class="fa fa-flag"> Report Item</span><br>
-                        </a>
-
-                        <br>
-
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-google-plus-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
+                        
                     </div>
                 </div>
             </div>
