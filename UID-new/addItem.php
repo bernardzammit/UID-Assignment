@@ -4,6 +4,78 @@
 <html lang="en">
 
 <head>
+	<script>
+		// display different brand options according to the category chosen
+		function changeBrandOptions(selectedValue) {
+			
+			var desktopOptions = ' <div class="form-group" id="demo"> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<div class="col-lg-3 col-xs-3"> \
+										<select class="form-control" id="desktopBrands"> \
+											<option value="1">Mac</option> \
+											<option value="2">Asus</option> \
+											<option value="3">Software</option> \
+											<option value="4">Tablets</option> \
+										</select> \
+									</div> \
+								</div> \ ';
+			
+			var tabletsOptions = ' <div class="form-group" id="demo"> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<div class="col-lg-3 col-xs-3"> \
+										<select class="form-control" id="tabletsBrands"> \
+											<option value="1">Samsung</option> \
+											<option value="2">Apple</option> \
+											<option value="3">Sony</option> \
+											<option value="4">Asus</option> \
+											<option value="5">Acer</option> \
+											<option value="6">Other</option> \
+										</select> \
+									</div> \
+								</div> \ ';
+			
+			
+			var mobilesOptions = ' <div class="form-group" id="demo"> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<div class="col-lg-3 col-xs-3"> \
+										<select class="form-control" id="mobilesBrands"> \
+											<option value="1">HTC</option> \
+											<option value="2">Apple</option> \
+											<option value="3">LG</option> \
+											<option value="4">Nokia</option> \
+											<option value="5">Samsung</option> \
+											<option value="6">Other</option> \
+										</select> \
+									</div> \
+								</div> \ ';
+			
+			var softwareOptions = ' <div class="form-group" id="demo"> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<div class="col-lg-3 col-xs-3"> \
+										<select class="form-control" id="softwareBrands"> \
+											<option value="1">Gaming</option> \
+											<option value="2">Office</option> \
+											<option value="3">Security</option> \
+											<option value="4">Other</option> \
+										</select> \
+									</div> \
+								</div> \ ';
+	
+			var y = document.getElementById("demo");
+			if(selectedValue=="1"){
+			   y.innerHTML = desktopOptions;
+			}
+			else if(selectedValue=="2"){
+			   y.innerHTML = tabletsOptions;
+			}
+			else if(selectedValue=="3"){
+			   y.innerHTML = mobilesOptions;
+			}
+			else if(selectedValue=="4"){
+			   y.innerHTML = softwareOptions;
+			}
+		}
+	</script>
 
 </head>
 
@@ -38,36 +110,41 @@
                 <form name = "addItem" id="addItemForm" class="form-horizontal">
                     <fieldset>
                         <legend>Listing Details</legend>
-							<div class="form-group">
-								<label for="category" class="col-lg-4 col-xs-4 control-label">Category</label>
-								<div class="col-lg-3 col-xs-3">
-									<select class="form-control" id="category">
-										<option>Desktops</option>
-										<option>Mobiles</option>
-										<option>Software</option>
-										<option>Tablets</option>
-										</select>
-								</div>
-							</div>
-
+						
 							<div class="form-group">
                               <label for="productName" class="col-lg-4 col-xs-4 control-label">Product Name</label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="nameFirst">
-                                    <input type="text" class="form-control" id="PName" placeholder= "">
+                                    <input type="text" class="form-control" id="PName" placeholder= "" autofocus>
                                 </span>
                               </div>
                             </div>
-
-                            <div class="form-group">
-                              <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label>
-                              <div class="col-lg-3 col-xs-3">
-                                <span class="brand">
-                                    <input type="text" class="form-control" id="FName" placeholder= "">
-                                </span>
-                              </div>
-                            </div>
-
+						
+							<div class="form-group">
+								<label for="category" class="col-lg-4 col-xs-4 control-label">Category</label>
+								<div class="col-lg-3 col-xs-3">
+									<select class="form-control" id="category" onchange="changeBrandOptions(this.value);">
+										<option value="1">Desktops</option>
+										<option value="2">Mobiles</option>
+										<option value="3">Software</option>
+										<option value="4">Tablets</option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="form-group" id="demo"> 
+								<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> 
+								<div class="col-lg-3 col-xs-3"> 
+									<select class="form-control" id="category"> 
+										<option value="1">Mac</option> 
+										<option value="2">Asus</option> 
+										<option value="3">Dell</option> 
+										<option value="4">Alienware</option> 
+										<option value="4">Other</option> 
+									</select> 
+								</div> 
+							</div> 
+							
                             <div class="form-group">
 								<label for="quanity" class="col-lg-4 col-xs-4 control-label">Quantity</label>
 								<div class="col-lg-2 col-xs-2">
@@ -94,12 +171,20 @@
                             </div>
 							
 							<div class="form-group">
-                              <label for="price" class="col-lg-4 col-xs-4 control-label">Price</label>
-                              <div class="col-lg-3 col-xs-3">
-                                <span class="price">
-                                    <input type="text" class="form-control" id="price" placeholder= "">
-                                </span>
-                              </div>
+								<label for="price" class="col-lg-4 col-xs-4 control-label">Price</label>
+								<div class="col-lg-2 col-xs-2">    								
+									<span class="price1" >	
+										$
+										<input type="text" class="form-control" id="price1" placeholder= "">
+									</span>
+								</div>
+								<div class="col-lg-2 col-xs-2">
+									
+									<span class="price2">
+									.
+										<input type="text" class="form-control" id="price2" placeholder="">
+									</span>
+								</div>
                             </div>
 
                             <div class="form-group">
@@ -126,11 +211,25 @@
                             <div class="form-group">
                               <label for="price" class="col-lg-4 col-xs-4 control-label">Upload Images</label>
                               <div class="col-lg-3 col-xs-3">
-								<button class="btn btn-default">Choose Files</button>
+								<a href="#" class="btn btn-default">Choose Files</a>
                               </div>
                             </div>
 							
-							
+							<div class="form-group">
+                                <label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment Method</label>
+                                <div class="col-lg-8 col-xs-8">                 
+									<div class="checkbox">	
+										<label>
+											<input type="checkbox" name="checkbox1" value="" title="Choose how you would like to be paid">Contact via phone / e-mail
+										</label>
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" name="checkbox2" value="" title="Choose how you would like to be paid">Direct payment via PayPal
+										</label>
+									</div>
+                                </div>                                
+                            </div>
                             
                             
                             <div class="form-group">
