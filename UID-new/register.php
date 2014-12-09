@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'header.php'; ?>
+
 <head>
+
 
 </head>
 
@@ -29,21 +31,21 @@
 
             <div class="col-lg-8">
               <div class="well">
-                <form name = "register" id="registerForm" class="form-horizontal">
+                <form id="registerForm" class="form-horizontal">
                     <fieldset>
                         <legend>Personal Details</legend>
-                            <div class="form-group">
+                        <div class="form-group">
                               <label for="Name" class="col-lg-4 col-xs-4 control-label">Name
                               <span class="required" aria-required="true">*</span>
                               </label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="nameFirst">
-                                    <input type="text" class="form-control" id="FName" placeholder= "First">
+                                    <input type="text" class="form-control" required id="fName" placeholder= "First">
                                 </span>
                               </div>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="nameLast">
-                                    <input type="text" class="form-control" id="LName" placeholder="Last">
+                                    <input type="text" class="form-control" required id="lName" placeholder="Last">
                                 </span>
                               </div>
                             </div>
@@ -87,22 +89,21 @@
                               <label for="Contact" class="col-lg-4 col-xs-4 control-label">Contact <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="mob">
-                                    <input type="text" class="form-control" id="Mobile" placeholder= "Mobile">
+                                    <input type="number" class="form-control" required id="mobile" placeholder= "Mobile">
                                 </span>
                               </div>
                               <div class="col-lg-3 col-xs-3">
-                                <span class="phone">
-                                    <input type="text" class="form-control" id="Phone" placeholder="Phone">
+                                <span class="number">
+                                    <input type="number" class="form-control" required id="phone" placeholder="Phone">
                                 </span>
                               </div>
                             </div>
 
                             <div class="form-group">
-                              <label for="Email" class="col-lg-4 col-xs-4 control-label">Email Address <span class="required" aria-required="true">*</span></label>
+                              <label class="col-lg-4 col-xs-4 control-label">Email Address <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-6 col-xs-6">
-                                    <input type="email" class="form-control" id="email" placeholder="Example: user2014@gmail.com">
+                                    <input type="email" class="form-control" required id="email" placeholder="Example: user2014@gmail.com">
                               </div>
-                              <label class="tooltip bottom error" style="margin-left: 0px;"><span for="email" class="error-label" style="display: inline;">This field is required.</span><span class="tooltip-arrow"></span></label>
                             </div>
 
                             <div class="form-group">
@@ -118,14 +119,14 @@
                             <div class="form-group">
                               <label for="inputUsername" class="col-lg-4 col-xs-4 control-label">Username <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-6 col-xs-6">
-                                <input type="text" class="form-control" id="inputUsername">
+                                <input type="text" class="form-control" required id="inputUsername">
                               </div>
                             </div>
 
                             <div class="form-group">
                               <label for="inputPassword" class="col-lg-4 col-xs-4 control-label">Password <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-6 col-xs-6">
-                                <input type="password" class="form-control" id="inputPassword">
+                                <input type="password" class="form-control" required id="inputPassword">
                               </div>
                             </div>
 
@@ -144,9 +145,12 @@
                                  </div>
                             </div>
 
+                            <br>
+
                             
                             <div class="form-group">
-                              <div class="col-lg-8 col-lg-offset-8">
+                              <div class="col-lg-8 col-lg-offset-7">
+                                <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
                                 <button type="submit" class="btn btn-primary">Submit</button>
                               </div>
