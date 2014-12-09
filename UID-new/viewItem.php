@@ -22,7 +22,7 @@
         </div>
         <!-- /.row -->
 
-        <!-- Portfolio Item Row -->
+        <!-- Item Row -->
         <div class="row">
 
             <div class="col-md-6">
@@ -204,11 +204,7 @@
     </div>
     <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
 </body>
 <?php include 'footer.php'; ?>
