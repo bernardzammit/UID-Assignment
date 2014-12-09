@@ -18,6 +18,9 @@
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/extracss.css" rel="stylesheet">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,23 +49,9 @@
                     </p>
                     <p><i class="fa fa-clock-o"></i> 
                         <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
-                    <ul class="list-unstyled list-inline list-social-icons">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                        </li>
-                    </ul>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="col-md-4" id="newsletter">
                     <h3>Subscribe to our newsletter</h3>
                     <p>Subscribe to our email newsletters and be the first to receive updates on new products, and latest offers.</p>
                     <form name="sentMessage" id="contactForm" novalidate>
@@ -75,17 +64,10 @@
                 </div>
                 
                 <div class="col-md-4">
-                    <h3>Contact Details</h3>
+                    <h3>Connect with us</h3>
                     <p>
-                        3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                        Add us on social media for product teasers, test videos, latest offers, competitions and much more.
                     </p>
-                    <p><i class="fa fa-phone"></i> 
-                        <abbr title="Phone">P</abbr>: (123) 456-7890</p>
-                    <p><i class="fa fa-envelope-o"></i> 
-                        <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
-                    </p>
-                    <p><i class="fa fa-clock-o"></i> 
-                        <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
                     <ul class="list-unstyled list-inline list-social-icons">
                         <li>
                             <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
@@ -98,6 +80,9 @@
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-youtube-square fa-2x"></i></i></a>
                         </li>
                     </ul>
                 </div>
