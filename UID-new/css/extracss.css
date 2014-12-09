@@ -14,3 +14,12 @@
 #email {
     width: 334px;
 }
+
+#login-email, #login-pass{
+    float: right;
+}
+
+#price {
+    float: right;
+    margin-top: 3px;
+}
