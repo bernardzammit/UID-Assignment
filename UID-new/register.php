@@ -33,7 +33,9 @@
                     <fieldset>
                         <legend>Personal Details</legend>
                             <div class="form-group">
-                              <label for="Name" class="col-lg-4 col-xs-4 control-label">Name</label>
+                              <label for="Name" class="col-lg-4 col-xs-4 control-label">Name
+                              <span class="required" aria-required="true">*</span>
+                              </label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="nameFirst">
                                     <input type="text" class="form-control" id="FName" placeholder= "First">
@@ -82,7 +84,7 @@
                             </div>
 
                             <div class="form-group">
-                              <label for="Contact" class="col-lg-4 col-xs-4 control-label">Contact</label>
+                              <label for="Contact" class="col-lg-4 col-xs-4 control-label">Contact <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="mob">
                                     <input type="text" class="form-control" id="Mobile" placeholder= "Mobile">
@@ -96,10 +98,11 @@
                             </div>
 
                             <div class="form-group">
-                              <label for="Email" class="col-lg-4 col-xs-4 control-label">Email Address:</label>
+                              <label for="Email" class="col-lg-4 col-xs-4 control-label">Email Address <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-6 col-xs-6">
                                     <input type="email" class="form-control" id="email" placeholder="Example: user2014@gmail.com">
                               </div>
+                              <label class="tooltip bottom error" style="margin-left: 0px;"><span for="email" class="error-label" style="display: inline;">This field is required.</span><span class="tooltip-arrow"></span></label>
                             </div>
 
                             <div class="form-group">
@@ -109,17 +112,18 @@
                                     
                               </div>
                             </div>
+                            <br>
 
                         <legend>Username & Password</legend>
                             <div class="form-group">
-                              <label for="inputUsername" class="col-lg-4 col-xs-4 control-label">Username</label>
+                              <label for="inputUsername" class="col-lg-4 col-xs-4 control-label">Username <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-6 col-xs-6">
                                 <input type="text" class="form-control" id="inputUsername">
                               </div>
                             </div>
 
                             <div class="form-group">
-                              <label for="inputPassword" class="col-lg-4 col-xs-4 control-label">Password</label>
+                              <label for="inputPassword" class="col-lg-4 col-xs-4 control-label">Password <span class="required" aria-required="true">*</span></label>
                               <div class="col-lg-6 col-xs-6">
                                 <input type="password" class="form-control" id="inputPassword">
                               </div>
