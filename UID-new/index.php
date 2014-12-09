@@ -111,7 +111,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <div class="col-lg-10 col-lg-offset-2">
+                                    <div class="col-lg-10 col-lg-offset-5">
                                         <button type="submit" class="btn btn-primary" id="login-login">Log in</button>
                                         <button type="submit" class="btn btn-primary" id="login-reg">Register</button>
                                     </div>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-globe"></i></i> Welcome!</h4>
@@ -166,6 +166,7 @@
         <!-- /.row -->
     </div>
     <!-- /.container -->
+
 
     <?php include 'footer.php'; ?>
 
