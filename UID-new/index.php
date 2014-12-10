@@ -153,15 +153,15 @@
             <div class="col-lg-12">
                 <h2 class="page-header">Promoted Items</h2>
             </div>
+            <?php include "item2.php" ?>
+            <?php include "item2.php" ?>
+            <?php include "item2.php" ?>
             <?php include "item.php" ?>
             <?php include "item.php" ?>
-            <?php include "item.php" ?>
-            <?php include "item.php" ?>
-            <?php include "item.php" ?>
-            <?php include "item.php" ?>
-            <?php include "item.php" ?>
-            <?php include "item.php" ?>
-            <?php include "item.php" ?>
+            <?php include "item.php" ?> 
+            <?php include "item3.php" ?>
+            <?php include "item3.php" ?>
+            <?php include "item3.php" ?>
         </div>
         <!-- /.row -->
     </div>
