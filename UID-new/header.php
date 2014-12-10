@@ -46,8 +46,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><i class="fa fa-home fa-6"> </i></a>
-				
+                <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"> </i></a>
+                <a class="navbar-brand" href="index.php" title="Log in"><i class="fa fa-lock fa-6"></i></a>
+                <a class="navbar-brand" href="index.php" title="Register"><i class="fa fa-pencil fa-6"></i></a>
+                		
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -164,13 +166,13 @@
 					
 					<li>
                         <a href="#">
-						  <span class="pull-right fa fa-shopping-cart" id="cart-top"></span>
+                            <span class="pull-right fa fa-shopping-cart" id="cart-top" title="My cart"></span>
 						</a>
                     </li>
 					
 					<li>
                         <a href="#">
-						  <span class="pull-right fa fa-question" id="help-top"></span>
+						  <span class="pull-right fa fa-question" id="help-top" title="Help"></span>
 						</a>
                     </li>
 					
