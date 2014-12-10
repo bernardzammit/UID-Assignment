@@ -23,3 +23,11 @@
     float: right;
     margin-top: 3px;
 }
+
+#categories {
+    margin-top: 20px;
+}
+
+#category-checkbox {
+    margin-left: 0px;
+}
