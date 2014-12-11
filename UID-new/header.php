@@ -57,7 +57,7 @@
 				<ul class="nav navbar-nav navbar-left">
 
 					<li>
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
 					<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>

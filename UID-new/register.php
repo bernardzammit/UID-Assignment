@@ -31,7 +31,7 @@
 
             <div class="col-lg-8">
               <div class="well">
-                <form id="registerForm" class="form-horizontal">
+                <form id="registerForm" class="form-horizontal" method="POST">
                     <fieldset>
                         <legend>Personal Details</legend>
                         <div class="form-group">
@@ -134,7 +134,7 @@
                                 <label for="textArea" class="col-lg-4 col-xs-4 control-label"></label>
                                 <div class="checkbox col-lg-8 col-xs-8">
                                   <label>
-                                    <input type="checkbox"> I confirm that I have read and accept the Website Terms of Use
+                                    <input type="checkbox" required> I confirm that I have read and accept the Website Terms of Use
                                   </label>
                                 </div>
                                   <label for="textArea" class="col-lg-4 col-xs-4 control-label"></label>
@@ -152,7 +152,24 @@
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button class="btn btn-primary" type="submit" data-toggle="modal-confirm" data-target="submit-register"  >Submit</button>
+                              </div>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="submit-register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Registration</h4>
+                                  </div>
+                                  <div class="modal-body">Successfully Completed!</div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" data-confirm="modal">OK</button>
+                                  </div>
+                                </div>
                               </div>
                             </div>
 
