@@ -55,8 +55,7 @@
 
 		<?php include 'sidebar.php'; ?>
 
-
-
+		
 	<!-- Content Column -->
 		<div class="col-md-9">
 			<!-- <h2>Section Heading</h2>  -->          
@@ -69,12 +68,19 @@
 				</div>
 				<div class="col-md-6">
 					<h3>
-						<a href="blog-post.html">Product title</a>
+						<a href="blog-post.html">iMac 21.5</a>
 					</h3>
-					<p><i>06/12/2014</i></p>
-					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
+					<h4><i>06/12/2014</i></h4><br>
+
+                        <ul>
+                            <li>Intel® Core™ i5 processor</li>
+                            <li>OS X Mavericks</li>
+                            <li>Hard drive: 1 TB</li>
+                            <li>Memory: 8 GB</li>
+                        </ul>
+						<br>
+                        <span class="price"><sup>€</sup>1500<sup>00</sup></span>
+
 				</div>
 			</div>
 			<!-- /.row -->
@@ -90,12 +96,19 @@
 				</div>
 				<div class="col-md-6">
 					<h3>
-						<a href="blog-post.html">Product title</a>
+						<a href="blog-post.html">iMac 21.5</a>
 					</h3>
-					<p><i>06/12/2014</i></p>
-					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-					<a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
+					<h4><i>06/12/2014</i></h4><br>
+
+                        <ul>
+                            <li>Intel® Core™ i5 processor</li>
+                            <li>OS X Mavericks</li>
+                            <li>Hard drive: 1 TB</li>
+                            <li>Memory: 8 GB</li>
+                        </ul>
+						<br>
+                        <span class="price"><sup>€</sup>1500<sup>00</sup></span>
+
 				</div>
 			</div>
 			<!-- /.row -->

@@ -5,9 +5,6 @@
 
 <head>
 
-<>
-
-
 </head>
 
 <body>
@@ -42,10 +39,12 @@
                     <fieldset>
                         <legend>Edit Personal Details</legend>
                             <div class="form-group">
-								<label for="Name" class="col-lg-4 col-xs-4 control-label">Name</label>
+								<label for="Name" class="col-lg-4 col-xs-4 control-label">Name
+									<span class="required" aria-required="true">*</span>
+								</label>
 								<div class="col-lg-3 col-xs-3">
 									<span class="nameFirst">
-										<input type="text" class="form-control" id="FName" placeholder= "First">
+										<input type="text" class="form-control" required id="FName" placeholder= "First">
 									</span>
 								</div>
 							  
@@ -56,7 +55,7 @@
 							  
 								<div class="col-lg-3 col-xs-3">
 									<span class="nameLast">
-										<input type="text" class="form-control" id="LName" placeholder="Last">
+										<input type="text" class="form-control" required id="LName" placeholder="Last">
 									</span>
 								</div>
 							  
@@ -68,16 +67,16 @@
 
                             <div class="form-group">
                                 <label for="Gender" class="col-lg-4 col-xs-4 control-label">Gender</label>
-                                    <div class="col-lg-6 col-xs-6">
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="m">Male</label>
-                                        </div>
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="f" checked>Female</label>
-                                        </div>
-                                    </div>
+								<div class="col-lg-6 col-xs-6">
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios" id="optionsRadios1" value="m">Male</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios" id="optionsRadios2" value="f" checked>Female</label>
+									</div>
+								</div>
                             </div>
 
                             <div class="form-group">
@@ -120,12 +119,12 @@
                               <label for="Contact" class="col-lg-4 col-xs-4 control-label">Contact</label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="mob">
-                                    <input type="text" class="form-control" id="Mobile" placeholder= "Mobile">
+                                    <input type="number" class="form-control" required id="Mobile" placeholder= "Mobile">
                                 </span>
                               </div>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="phone">
-                                    <input type="text" class="form-control" id="Phone" placeholder="Phone">
+                                    <input type="number" class="form-control" id="Phone" placeholder="Phone">
                                 </span>
                               </div>
                             </div>
@@ -139,9 +138,11 @@
 							</script>
 
                             <div class="form-group">
-                              <label for="Email" class="col-lg-4 col-xs-4 control-label">Email Address:</label>
+                              <label for="Email" class="col-lg-4 col-xs-4 control-label">Email Address:
+								<span class="required" aria-required="true">*</span>
+							  </label>
                               <div class="col-lg-6 col-xs-6">
-                                    <input type="email" class="form-control" id="email" placeholder="Example: user2014@gmail.com">
+                                    <input type="email" class="form-control" required id="email" placeholder="Example: user2014@gmail.com">
                               </div>
                             </div>
 							

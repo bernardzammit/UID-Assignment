@@ -9,7 +9,9 @@
 		function changeBrandOptions(selectedValue) {
 			
 			var desktopOptions = ' <div class="form-group" id="demo"> \
-									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+										<span class="required" aria-required="true">*</span> \
+									</label> \
 									<div class="col-lg-3 col-xs-3"> \
 										<select class="form-control" id="desktopBrands"> \
 											<option value="1">Mac</option> \
@@ -21,7 +23,9 @@
 								</div> \ ';
 			
 			var tabletsOptions = ' <div class="form-group" id="demo"> \
-									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+										<span class="required" aria-required="true">*</span> \
+									</label> \
 									<div class="col-lg-3 col-xs-3"> \
 										<select class="form-control" id="tabletsBrands"> \
 											<option value="1">Samsung</option> \
@@ -36,7 +40,9 @@
 			
 			
 			var mobilesOptions = ' <div class="form-group" id="demo"> \
-									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+										<span class="required" aria-required="true">*</span> \
+									</label> \
 									<div class="col-lg-3 col-xs-3"> \
 										<select class="form-control" id="mobilesBrands"> \
 											<option value="1">HTC</option> \
@@ -50,7 +56,9 @@
 								</div> \ ';
 			
 			var softwareOptions = ' <div class="form-group" id="demo"> \
-									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> \
+									<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+										<span class="required" aria-required="true">*</span> \
+									</label> \
 									<div class="col-lg-3 col-xs-3"> \
 										<select class="form-control" id="softwareBrands"> \
 											<option value="1">Gaming</option> \
@@ -75,6 +83,17 @@
 			   y.innerHTML = softwareOptions;
 			}
 		}
+		
+		function paymentCheck ()
+		{
+			alert('paymentCheck');
+			var checkedboxes = $('#paymentMethod :checkbox:checked').length;
+
+			if (checkedboxes === 0){
+				alert('At least one payment method must be selected!');
+			}
+		}
+
 	</script>
 
 </head>
@@ -110,18 +129,21 @@
                 <form name = "addItem" id="addItemForm" class="form-horizontal">
                     <fieldset>
                         <legend>Listing Details</legend>
-						
 							<div class="form-group">
-                              <label for="productName" class="col-lg-4 col-xs-4 control-label">Product Name</label>
-                              <div class="col-lg-3 col-xs-3">
+								<label for="productName" class="col-lg-4 col-xs-4 control-label">Product Name
+									<span class="required" aria-required="true">*</span>
+								</label>
+							  <div class="col-lg-3 col-xs-3">
                                 <span class="nameFirst">
-                                    <input type="text" class="form-control" id="PName" placeholder= "" autofocus>
+                                    <input type="text" class="form-control" required id="PName" placeholder= "" autofocus>
                                 </span>
                               </div>
                             </div>
 						
 							<div class="form-group">
-								<label for="category" class="col-lg-4 col-xs-4 control-label">Category</label>
+								<label for="category" class="col-lg-4 col-xs-4 control-label">Category
+									<span class="required" aria-required="true">*</span>
+								</label>
 								<div class="col-lg-3 col-xs-3">
 									<select class="form-control" id="category" onchange="changeBrandOptions(this.value);">
 										<option value="1">Desktops</option>
@@ -133,7 +155,9 @@
 							</div>
 							
 							<div class="form-group" id="demo"> 
-								<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand</label> 
+								<label for="brand" class="col-lg-4 col-xs-4 control-label">Brand
+									<span class="required" aria-required="true">*</span>
+								</label> 
 								<div class="col-lg-3 col-xs-3"> 
 									<select class="form-control" id="category"> 
 										<option value="1">Mac</option> 
@@ -171,24 +195,28 @@
                             </div>
 							
 							<div class="form-group">
-								<label for="price" class="col-lg-4 col-xs-4 control-label">Price</label>
+								<label for="price" class="col-lg-4 col-xs-4 control-label">Price
+									<span class="required" aria-required="true">*</span>
+								</label>
 								<div class="col-lg-2 col-xs-2">    								
 									<span class="price1" >	
 										$
-										<input type="text" class="form-control" id="price1" placeholder= "">
+										<input type="text" class="form-control" required id="price1" placeholder= "">
 									</span>
 								</div>
 								<div class="col-lg-2 col-xs-2">
 									
 									<span class="price2">
 									.
-										<input type="text" class="form-control" id="price2" placeholder="">
+										<input type="text" class="form-control" required id="price2" placeholder="">
 									</span>
 								</div>
                             </div>
 
                             <div class="form-group">
-								<label for="condition" class="col-lg-4 col-xs-4 control-label">Condition</label>
+								<label for="condition" class="col-lg-4 col-xs-4 control-label">Condition
+									<span class="required" aria-required="true">*</span>
+								</label>
 								<div class="col-lg-3 col-xs-3">
 									<select class="form-control" id="condition">
 										<option>New</option>
@@ -216,16 +244,23 @@
                             </div>
 							
 							<div class="form-group">
-                                <label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment Method</label>
-                                <div class="col-lg-8 col-xs-8">                 
-									<div class="checkbox">	
+                                <label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment Method
+									<span class="required" aria-required="true">*</span>
+								</label>
+                                <div class="col-lg-8 col-xs-8" >                 
+									<div class="checkbox" id="paymentMethod">	
 										<label>
 											<input type="checkbox" name="checkbox1" value="" title="Choose how you would like to be paid">Contact via phone / e-mail
 										</label>
 									</div>
-									<div class="checkbox">
+									<div class="checkbox" id="paymentMethod">
 										<label>
 											<input type="checkbox" name="checkbox2" value="" title="Choose how you would like to be paid">Direct payment via PayPal
+										</label>
+									</div>
+									<div class="checkbox" id="paymentMethod">
+										<label>
+											<input type="checkbox" name="checkbox2" value="" title="Choose how you would like to be paid">Both
 										</label>
 									</div>
                                 </div>                                
@@ -233,7 +268,8 @@
                             
                             
                             <div class="form-group">
-                              <div class="col-lg-8 col-lg-offset-8">
+                              <div class="col-lg-8 col-lg-offset-7">
+                                <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
                                 <button type="submit" class="btn btn-primary">Submit</button>
                               </div>
