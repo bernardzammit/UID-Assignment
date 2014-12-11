@@ -31,3 +31,9 @@
 #category-checkbox {
     margin-left: 0px;
 }
+
+#myAccListing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
