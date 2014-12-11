@@ -199,11 +199,11 @@
 		</div>
 		<!-- /.Content Column -->
 
-    <?php include 'footer.php'; ?>
+
 
     </div>
     <!-- /.container -->
-
+    <?php include 'footer.php'; ?>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
