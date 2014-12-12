@@ -48,7 +48,7 @@
                 </button>
                 <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"> </i></a>
                 <a class="navbar-brand" href="index.php" title="Log in"><i class="fa fa-lock fa-6"></i></a>
-                <a class="navbar-brand" href="index.php" title="Register"><i class="fa fa-pencil fa-6"></i></a>
+                <a class="navbar-brand" href="register.php" title="Register"><i class="fa fa-pencil fa-6"></i></a>
                 		
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->

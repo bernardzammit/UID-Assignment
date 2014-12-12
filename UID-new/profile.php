@@ -4,6 +4,24 @@
 <html lang="en">
 
 <head>
+	<script>
+		function showAlert()
+		{
+			alert('show message');
+			var y = document.getElementById("successAlert");
+			y.innerHTML = ' 	<div class="alert alert-dismissable alert-success"> \
+									<button type="button" class="close" data-dismiss="alert">×</button> \
+									<strong>Well done!</strong> You successfully edited and saved your new personal details. \
+								</div> \ ' ;
+		}
+		
+		function showTest()
+		{
+			alert('test');
+		}
+
+			</script>
+
 
 </head>
 
@@ -29,14 +47,19 @@
 		<?php include 'sidebar.php'; ?>
 	
 		<!-- Content Row -->
-        <div class="row">
+		
+		<div class="row">
             <div class="col-lg-2">
             </div>
-
+			
             <div class="col-lg-8">
+			<div class="form-group" id="successAlert"></div>
               <div class="well">
                 <form name = "register" id="registerForm" class="form-horizontal">
                     <fieldset>
+						
+						
+						
                         <legend>Edit Personal Details</legend>
                             <div class="form-group">
 								<label for="Name" class="col-lg-4 col-xs-4 control-label">Name
@@ -116,7 +139,9 @@
 							</script>
 
                             <div class="form-group">
-                              <label for="Contact" class="col-lg-4 col-xs-4 control-label">Contact</label>
+								<label for="Contact" class="col-lg-4 col-xs-4 control-label">Contact
+									<span class="required" aria-required="true">*</span>
+								</label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="mob">
                                     <input type="number" class="form-control" required id="Mobile" placeholder= "Mobile">
@@ -131,10 +156,10 @@
 							
 							<script type="text/javascript">
 								var elem = document.getElementById("Mobile");
-								elem.value = "Test";
+								elem.value = "1234";
 								
 								var elem = document.getElementById("Phone");
-								elem.value = "Test";
+								elem.value = "5678";
 							</script>
 
                             <div class="form-group">
@@ -167,7 +192,7 @@
 							<div class="form-group">
                               <div class="col-lg-8 col-lg-offset-8">
                                 <button class="btn btn-default">Cancel</button>
-                                <button type="submit" class="btn btn-primary">Edit</button>
+                                <button type="submit" class="btn btn-primary" onClick="showAlert()" oninvalid="showTest()" >Save</button>
                               </div>
                             </div>
 						<br>
@@ -211,10 +236,10 @@
     </div>
     <!-- /.container -->
 
-    <!-- jQuery -->
+    <!-- jQuery--> 
     <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
+    <!-- Bootstrap Core JavaScript--> 
     <script src="js/bootstrap.min.js"></script>
 
 </body>

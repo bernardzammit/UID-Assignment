@@ -93,6 +93,16 @@
 				alert('At least one payment method must be selected!');
 			}
 		}
+		
+		function showAlert()
+		{
+			alert('show message');
+			var y = document.getElementById("successAlert");
+			y.innerHTML = ' 	<div class="alert alert-dismissable alert-success"> \
+									<button type="button" class="close" data-dismiss="alert">×</button> \
+									<strong>Well done!</strong> You successfully edited and saved your new personal details. \
+								</div> \ ' ;
+		}
 
 	</script>
 
@@ -125,6 +135,8 @@
             </div>
 
             <div class="col-lg-8">
+			<div class="form-group" id="successAlert"> </div>
+			
               <div class="well">
                 <form name = "addItem" id="addItemForm" class="form-horizontal">
                     <fieldset>
@@ -271,7 +283,7 @@
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary" onClick="showAlert()">Submit</button>
                               </div>
                             </div>
 
