@@ -83,32 +83,57 @@
                         <hr>
                         <?php include 'myAccItem-mobile.php' ?>
                         <hr>                        
-                        <?php include 'myAccItem-mobile.php' ?>                      
+                        <?php include 'myAccItem-mobile.php' ?>
+                        <hr>
                     </div>
                     <div class="tab-pane fade" id="software-tab">
                         <hr>
-                        <?php include 'myAccItem-software2.php' ?>
-
-                        <?php include 'myAccItem-software2.php' ?>
+                        <?php include 'myAccItem-software.php' ?>
                         <hr>
-                        <?php include 'myAccItem-software2.php' ?>
+                        <?php include 'myAccItem-software.php' ?>
+                        <hr>
                     </div>
                     <div class="tab-pane fade" id="tablets-tab">
-                        
+                        <hr>
+                        <?php include 'myAccItem-tablet.php' ?>
+                        <hr>
                     </div>
-                </div>
-			
-			
-			
-		</div>
+                </div>			
+			<div class="row text-center" id="divPagination">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            </div>
 	</div>
 	<!-- /.row -->
 
-    <?php include 'footer.php'; ?>
-
     </div>
     <!-- /.container -->
-
+	
+    <?php include 'footer.php'; ?>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

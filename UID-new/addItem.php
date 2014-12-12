@@ -6,84 +6,86 @@
 <head>
 	<script>
 		// display different brand options according to the category chosen
+                var x = false;
+                
 		function changeBrandOptions(selectedValue) {
 			
-                    var desktopOptions = ' <div class="form-group" id="demo"> \
-                        <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
-                                <span class="required" aria-required="true">*</span> \
-                        </label> \
-                        <div class="col-lg-3 col-xs-3"> \
-                                <select class="form-control" id="desktopBrands"> \
-                                        <option value="1">Mac</option> \
-                                        <option value="2">Asus</option> \
-                                        <option value="3">Software</option> \
-                                        <option value="4">Tablets</option> \
-                                </select> \
-                        </div> \
-                </div> \ ';
+                    var desktopOptions = '  <div class="form-group" id="demo"> \
+                                                <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+                                                    <span class="required" aria-required="true">*</span> \
+                                                </label> \
+                                                <div class="col-lg-3 col-xs-3"> \
+                                                    <select class="form-control" id="desktopBrands"> \
+                                                        <option value="1">Mac</option> \
+                                                        <option value="2">Asus</option> \
+                                                        <option value="3">Software</option> \
+                                                        <option value="4">Tablets</option> \
+                                                    </select> \
+                                                </div> \
+                                            </div> \ ';
 			
-			var tabletsOptions = ' <div class="form-group" id="demo"> \
-                            <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
-                                    <span class="required" aria-required="true">*</span> \
-                            </label> \
-                            <div class="col-lg-3 col-xs-3"> \
-                                    <select class="form-control" id="tabletsBrands"> \
-                                            <option value="1">Samsung</option> \
-                                            <option value="2">Apple</option> \
-                                            <option value="3">Sony</option> \
-                                            <option value="4">Asus</option> \
-                                            <option value="5">Acer</option> \
-                                            <option value="6">Other</option> \
-                                    </select> \
-                            </div> \
-                    </div> \ ';
+                    var tabletsOptions = '  <div class="form-group" id="demo"> \
+                                                <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+                                                        <span class="required" aria-required="true">*</span> \
+                                                </label> \
+                                                <div class="col-lg-3 col-xs-3"> \
+                                                        <select class="form-control" id="tabletsBrands"> \
+                                                            <option value="1">Samsung</option> \
+                                                            <option value="2">Apple</option> \
+                                                            <option value="3">Sony</option> \
+                                                            <option value="4">Asus</option> \
+                                                            <option value="5">Acer</option> \
+                                                            <option value="6">Other</option> \
+                                                        </select> \
+                                                </div> \
+                                            </div> \ ';
 			
 			
-			var mobilesOptions = ' <div class="form-group" id="demo"> \
-                            <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
-                                    <span class="required" aria-required="true">*</span> \
-                            </label> \
-                            <div class="col-lg-3 col-xs-3"> \
-                                    <select class="form-control" id="mobilesBrands"> \
-                                            <option value="1">HTC</option> \
-                                            <option value="2">Apple</option> \
-                                            <option value="3">LG</option> \
-                                            <option value="4">Nokia</option> \
-                                            <option value="5">Samsung</option> \
-                                            <option value="6">Other</option> \
-                                    </select> \
-                            </div> \
-                    </div> \ ';
+                    var mobilesOptions = ' <div class="form-group" id="demo"> \
+                                                    <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+                                                        <span class="required" aria-required="true">*</span> \
+                                                    </label> \
+                                                    <div class="col-lg-3 col-xs-3"> \
+                                                        <select class="form-control" id="mobilesBrands"> \
+                                                            <option value="1">HTC</option> \
+                                                            <option value="2">Apple</option> \
+                                                            <option value="3">LG</option> \
+                                                            <option value="4">Nokia</option> \
+                                                            <option value="5">Samsung</option> \
+                                                            <option value="6">Other</option> \
+                                                        </select> \
+                                                    </div> \
+                                                </div> \ ';
 			
-			var softwareOptions = ' <div class="form-group" id="demo"> \
-                            <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
-                                    <span class="required" aria-required="true">*</span> \
-                            </label> \
-                            <div class="col-lg-3 col-xs-3"> \
-                                    <select class="form-control" id="softwareBrands"> \
-                                            <option value="1">Gaming</option> \
-                                            <option value="2">Office</option> \
-                                            <option value="3">Security</option> \
-                                            <option value="4">Other</option> \
-                                    </select> \
-                            </div> \
-                    </div> \ ';
+                    var softwareOptions = ' <div class="form-group" id="demo"> \
+                                                    <label for="brand" class="col-lg-4 col-xs-4 control-label">Brand \
+                                                        <span class="required" aria-required="true">*</span> \
+                                                    </label> \
+                                                    <div class="col-lg-3 col-xs-3"> \
+                                                        <select class="form-control" id="softwareBrands"> \
+                                                                <option value="1">Gaming</option> \
+                                                                <option value="2">Office</option> \
+                                                                <option value="3">Security</option> \
+                                                                <option value="4">Other</option> \
+                                                        </select> \
+                                                    </div> \
+                                                </div> \ ';
 	
                     var y = document.getElementById("demo");
-                    if(selectedValue=="1"){
+                    if(selectedValue==="1"){
                        y.innerHTML = desktopOptions;
                     }
-                    else if(selectedValue=="2"){
+                    else if(selectedValue==="2"){
                        y.innerHTML = tabletsOptions;
                     }
-                    else if(selectedValue=="3"){
+                    else if(selectedValue==="3"){
                        y.innerHTML = mobilesOptions;
                     }
-                    else if(selectedValue=="4"){
+                    else if(selectedValue==="4"){
                        y.innerHTML = softwareOptions;
                     }
 		}
-		
+                
 		function paymentCheck ()
 		{
                     alert('paymentCheck');
@@ -93,7 +95,7 @@
                             alert('At least one payment method must be selected!');
                     }
 		}
-		
+
 		function showAlert()
 		{
 			alert('show message');
@@ -103,9 +105,7 @@
                             <strong>Well done!</strong> You successfully edited and saved your new personal details. \
                     </div> \ ' ;
 		}
-
 	</script>
-
 </head>
 
 <body>
@@ -120,7 +120,7 @@
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
-					<li><a href="index.php">My Account</a></li>
+                        <li><a href="index.php">My Account</a></li>
                     <li class="active">Add Item</li>
                 </ol>
             </div>
@@ -141,11 +141,11 @@
                 <form name = "addItem" id="addItemForm" class="form-horizontal">
                     <fieldset>
                         <legend>Listing Details</legend>
-							<div class="form-group">
-								<label for="productName" class="col-lg-4 col-xs-4 control-label">Product Name
-									<span class="required" aria-required="true">*</span>
-								</label>
-							  <div class="col-lg-3 col-xs-3">
+                                    <div class="form-group">
+                                            <label name="prodName" for="productName" class="col-lg-4 col-xs-4 control-label">Product Name
+                                                    <span class="required" aria-required="true">*</span>
+                                            </label>
+                                      <div class="col-lg-3 col-xs-3">
                                 <span class="nameFirst">
                                     <input type="text" class="form-control" required id="PName" placeholder= "" autofocus>
                                 </span>
@@ -211,30 +211,30 @@
                                         <span class="required" aria-required="true">*</span>
                                     </label>
                                     <div class="col-lg-2 col-xs-2">    								
-                                            <span class="price1" >	
-                                                    $
-                                                <input type="text" class="form-control" required id="price1" placeholder= "">
-                                            </span>
+                                        <span class="price1" >	
+                                                $
+                                            <input type="text" class="form-control" required id="price1" placeholder= "">
+                                        </span>
                                     </div>
                                     <div class="col-lg-2 col-xs-2">
 
-                                            <span class="price2">
-                                            .
-                                                <input type="text" class="form-control" required id="price2" placeholder="">
-                                            </span>
+                                        <span class="price2">
+                                        .
+                                            <input type="text" class="form-control" required id="price2" placeholder="">
+                                        </span>
                                     </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="condition" class="col-lg-4 col-xs-4 control-label">Condition
-                                        <span class="required" aria-required="true">*</span>
+                                    <span class="required" aria-required="true">*</span>
                                 </label>
                                 <div class="col-lg-3 col-xs-3">
                                         <select class="form-control" id="condition">
-                                                <option>New</option>
-                                                <option>Good</option>
-                                                <option>Acceptable</option>
-                                                </select>
+                                            <option>New</option>
+                                            <option>Good</option>
+                                            <option>Acceptable</option>
+                                        </select>
                                 </div>
                             </div>
 							
@@ -251,30 +251,30 @@
                             <div class="form-group">
                               <label for="price" class="col-lg-4 col-xs-4 control-label">Upload Images</label>
                               <div class="col-lg-3 col-xs-3">
-								<a href="#" class="btn btn-default">Choose Files</a>
+                                    <a href="#" class="btn btn-default">Choose Files</a>
                               </div>
                             </div>
 							
-							<div class="form-group">
+                                    <div class="form-group">
                                 <label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment Method
-									<span class="required" aria-required="true">*</span>
-								</label>
+                                    <span class="required" aria-required="true">*</span>
+                                </label>
                                 <div class="col-lg-8 col-xs-8" >                 
-									<div class="checkbox" id="paymentMethod">	
-										<label>
-											<input type="checkbox" name="checkbox1" value="" title="Choose how you would like to be paid">Contact via phone / e-mail
-										</label>
-									</div>
-									<div class="checkbox" id="paymentMethod">
-										<label>
-											<input type="checkbox" name="checkbox2" value="" title="Choose how you would like to be paid">Direct payment via PayPal
-										</label>
-									</div>
-									<div class="checkbox" id="paymentMethod">
-										<label>
-											<input type="checkbox" name="checkbox2" value="" title="Choose how you would like to be paid">Both
-										</label>
-									</div>
+                                    <div class="radio" id="paymentMethod">	
+                                        <label>
+                                            <input type="radio" name="radio" value="" title="Choose how you would like to be paid">Contact via phone / e-mail
+                                        </label>
+                                    </div>
+                                    <div class="radio" id="paymentMethod">
+                                        <label>
+                                            <input type="radio" name="radio" id="radio" value="" title="Choose how you would like to be paid">Direct payment via PayPal
+                                        </label>
+                                    </div>
+                                    <div class="radio" id="paymentMethod">
+                                        <label>
+                                            <input type="radio" name="radio" value="" title="Choose how you would like to be paid">Both
+                                        </label>
+                                    </div>
                                 </div>                                
                             </div>
                             
@@ -283,7 +283,7 @@
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
-                                <button type="submit" class="btn btn-primary" onClick="showAlert()">Submit</button>
+    <!-- editing this line -->  <button type="submit" value="submit" class="btn btn-primary" onClick="showAlert()">Submit</button>
                               </div>
                             </div>
 
@@ -293,12 +293,11 @@
             </div>
         </div>
         <!-- /.row -->
-	
-    <?php include 'footer.php'; ?>
-
     </div>
     <!-- /.container -->
-
+	
+    <?php include 'footer.php'; ?>
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -306,7 +305,6 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
 
 

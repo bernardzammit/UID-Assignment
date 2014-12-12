@@ -33,9 +33,9 @@
                         </h3>
                         <p>The Acrobat X Standard Software for Windows from Adobe is a software suite that allows you to...</p>
                         <ul class="list-inline">
-                            <li><a href="#" title="Watch item" onClick="showAlert()"><i class="fa fa-2x fa-eye" id="watch-image"></i></i></a>
+                            <li><a title="Watch item" onClick="showAlert()"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
                             </li>
-                            <li><a href="#" title="Add to cart"><i class="fa fa-2x fa-shopping-cart" id="cart-image"></i></a>
+                            <li><a href="#" title="Add to cart"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
                             </li>
                             <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>60<sup>00</sup></span></div>
                             </li>

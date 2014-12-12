@@ -25,14 +25,14 @@
         <div class="row">
             <div class="col-md-5">
                 <a href="blog-post.html">
-                    <img class="img-responsive img-hover" src="images/nokia-x-plus.jpg" alt="">
+                    <img class="img-responsive img-hover" src="images/apple-tablet.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="blog-post.html">Nokia X Plus</a>
+                    <a href="blog-post.html">Apple Tablet</a>
                 </h3>
-                <h4><i>07/11/2014</i></h4><br>
+                <h4><i>31/12/2013</i></h4><br>
 
                 <ul>
                     <li>Intel® Core™ i5 processor</li>
@@ -41,7 +41,7 @@
                     <li>Memory: 8 GB</li>
                 </ul>
                 <br>
-                <span class="price"><sup>€</sup>450<sup>50</sup></span>
+                <span class="price"><sup>€</sup>899<sup>99</sup></span>
                 <div class="col-md-3">
                     <br />
                     <button class="btn btn-default">Promote</button>
