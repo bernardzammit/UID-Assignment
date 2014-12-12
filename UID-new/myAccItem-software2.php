@@ -22,8 +22,8 @@
     </head>
     
     <body>
-        <div class="col-md-4 col-sm-6">
-            <div class="thumbnail" id="item-thumbnail">
+        <div class="col-md-6 col-sm-6">
+            <div class="thumbnail">
                <img class="img-responsive" src="images\adobe_software.jpg" width="130" alt="">
                <div class="caption">
                     <h3>Adobe Acrobat X Standard<br>
@@ -31,11 +31,13 @@
                     </h3>
                     <p>The Acrobat X Standard Software for Windows from Adobe is a software suite that allows you to...</p>
                     <ul class="list-inline">
-                        <li><a href="#" title="Watch item"><i class="fa fa-2x fa-eye"></i></i></a>
+                        <li>
+                                <button class="btn btn-default">Promote</button>
                         </li>
-                        <li><a href="#" title="Add to cart"><i class="fa fa-2x fa-shopping-cart"></i></a>
+                        <li>
+                                <button class="btn btn-default">Remove</button>
                         </li>
-                        <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>60<sup>00</sup></span></div>
+                        <li  id="price"><div class="col-sm-1"><font size="4">&euro;60</font></div>
                         </li>
                     </ul>
                 </div>

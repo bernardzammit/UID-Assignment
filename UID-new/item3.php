@@ -23,7 +23,7 @@
     
     <body>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
+            <div class="thumbnail" id="item-thumbnail">
                <img class="img-responsive" src="images\apple-tablet.jpg" width=226" alt="">
                <div class="caption">
                     <h3>Apple Tablet<br>
@@ -31,11 +31,11 @@
                     </h3>
                     <p>Brand new Apple Tablet, 2 year warranty...</p>
                     <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-2x fa-eye"></i></i></a>
+                        <li><a href="#" title="Watch item"><i class="fa fa-2x fa-eye"></i></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-2x fa-shopping-cart"></i></a>
+                        <li><a href="#" title="Add to cart"><i class="fa fa-2x fa-shopping-cart"></i></a>
                         </li>
-                        <li  id="price"><div class="col-sm-1"><font size="4">&euro;500</font></div>
+                        <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>899<sup>99</sup></span></div>
                         </li>
                     </ul>
                 </div>

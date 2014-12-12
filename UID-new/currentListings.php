@@ -84,11 +84,11 @@
                     </div>
                     <div class="tab-pane fade" id="software-tab">
                         <hr>
-                        <?php include 'myAccItem-software.php' ?>
+                        <?php include 'myAccItem-software2.php' ?>
+
+                        <?php include 'myAccItem-software2.php' ?>
                         <hr>
-                        <?php include 'myAccItem-software.php' ?>
-                        <hr>
-                        <?php include 'myAccItem-software.php' ?>
+                        <?php include 'myAccItem-software2.php' ?>
                     </div>
                     <div class="tab-pane fade" id="tablets-tab">
                         

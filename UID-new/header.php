@@ -46,20 +46,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"> </i></a>
+                <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"></i></a>
                 <a class="navbar-brand" href="index.php" title="Log in"><i class="fa fa-lock fa-6"></i></a>
                 <a class="navbar-brand" href="register.php" title="Register"><i class="fa fa-pencil fa-6"></i></a>
                 		
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
-				<ul class="nav navbar-nav navbar-left">
-
-					<li>
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
                         <a href="about.php">About</a>
                     </li>
-					<li class="dropdown">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -80,7 +78,7 @@
                         </ul>
                     </li>
 					
-					<li class="dropdown">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tablets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -103,8 +101,8 @@
                             </li>
                         </ul>
                     </li>
-					
-					<li class="dropdown">
+                    
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobiles <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -128,7 +126,7 @@
                         </ul>
                     </li>
 					
-					<li class="dropdown">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -145,99 +143,32 @@
                             </li>
                         </ul>
                     </li>
-					
-					
-				</ul>
+		</ul>
 				
-				<ul class="nav navbar-nav navbar-right">		
-					
-					<li>
-						<div class="form-group" id="form-search-top">
-							<input type="text" class="form-control" placeholder="Search" id="search-header">
-						</div>
-						
-					</li>
-					
-					<li>
-						<button type="button" class="btn btn-default" id="button-top">
-							<span class="fa fa-search"></span>
-						</button>
-                    </li>
-					
-					<li>
-                        <a href="#">
-                            <span class="pull-right fa fa-shopping-cart" id="cart-top" title="My cart"></span>
-						</a>
-                    </li>
-					
-					<li>
-                        <a href="#">
-						  <span class="pull-right fa fa-question" id="help-top" title="Help"></span>
-						</a>
-                    </li>
-					
-					<!--
+                <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="services.html">Services</a>
+                        <div class="form-group" id="form-search-top">
+                                <input type="text" class="form-control" placeholder="Search" id="search-header">
+                        </div>
                     </li>
+
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <button type="button" class="btn btn-default" id="button-top">
+                                <span class="fa fa-search"></span>
+                        </button>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
+
+                    <li>
+                        <a href="#">
+                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="My cart"></span>
+                        </a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
+
+                    <li>
+                        <a href="#">
+                            <span class="pull-right fa fa-question fa-lg" id="help-top" title="Help"></span>
+                        </a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
-                        </ul>
-                    </li>
-					-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

@@ -21,7 +21,7 @@
 
 #price {
     float: right;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 #categories {
@@ -32,8 +32,16 @@
     margin-left: 0px;
 }
 
-#myAccListing {
+#myAccListing, #editItem{
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+#itemButtons {
+    margin-top: 20px;
+}
+
+#item-thumbnail {
+    padding-bottom: 15px;
 }
