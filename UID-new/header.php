@@ -58,7 +58,7 @@
                         <a href="about.php">About</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
+                        <a href="register.php" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">Mac</a>
@@ -176,8 +176,6 @@
         <!-- /.container -->
     </nav>
 
-	
-   
     <!-- /.container -->
 
     <!-- jQuery -->

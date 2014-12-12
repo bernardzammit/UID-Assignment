@@ -74,6 +74,9 @@
                     <div class="tab-pane fade active in" id="desktops-tab">
                         <hr>
                         <?php include 'myAccItem-desktop.php' ?>
+                        <hr>
+                        <?php include 'myAccItem-desktop.php' ?>
+                        <hr>
                     </div>
                     
                     <div class="tab-pane fade" id="mobiles-tab">

@@ -25,23 +25,23 @@
         <div class="row">
             <div class="col-md-5">
                 <a href="blog-post.html">
-                    <img class="img-responsive img-hover" src="images/nokia-x-plus.jpg" alt="" width="150" id="myAccListing" >
+                    <img class="img-responsive img-hover" src="images/nokia-x-plus.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="viewItem.php">Nokia X Plus</a>
+                    <a href="blog-post.html">Nokia X Plus</a>
                 </h3>
-                <div class="col-md-4">
-                    <p><i>Brand</i></p>
-                    <p><i>Price</i></p>
-                    <p><i>Quantity</i></p>
-                </div>
-                <div class="col-md-4">
-                    <p>Nokia</p>
-                    <p>€ 450</p>
-                    <p>1</p>
-                </div>
+                <h4><i>07/11/2014</i></h4><br>
+
+                <ul>
+                    <li>Intel® Core™ i5 processor</li>
+                    <li>OS X Mavericks</li>
+                    <li>Hard drive: 1 TB</li>
+                    <li>Memory: 8 GB</li>
+                </ul>
+                <br>
+                <span class="price"><sup>€</sup>450<sup>00</sup></span>
             </div>
         </div>
     </body>
