@@ -35,6 +35,7 @@
 
 <body>
 
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -46,19 +47,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"></i></a>
+                <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"> </i></a>
                 <a class="navbar-brand" href="index.php" title="Log in"><i class="fa fa-lock fa-6"></i></a>
                 <a class="navbar-brand" href="register.php" title="Register"><i class="fa fa-pencil fa-6"></i></a>
                 		
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li>
+                
+				<ul class="nav navbar-nav navbar-left">
+
+					<li>
                         <a href="about.php">About</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="register.php" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">Mac</a>
@@ -78,7 +81,7 @@
                         </ul>
                     </li>
 					
-                    <li class="dropdown">
+					<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tablets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -101,8 +104,8 @@
                             </li>
                         </ul>
                     </li>
-                    
-                    <li class="dropdown">
+					
+					<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobiles <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -126,7 +129,7 @@
                         </ul>
                     </li>
 					
-                    <li class="dropdown">
+					<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -143,32 +146,37 @@
                             </li>
                         </ul>
                     </li>
-		</ul>
+					
+					
+				</ul>
 				
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <div class="form-group" id="form-search-top">
-                                <input type="text" class="form-control" placeholder="Search" id="search-header">
-                        </div>
+				<ul class="nav navbar-nav navbar-right">		
+					
+					<li>
+						<div class="form-group" id="form-search-top">
+							<input type="text" class="form-control" placeholder="Item, price, category" id="search-header" width=100%>
+						</div>
+						
+					</li>
+					
+					<li>
+						<button type="button" class="btn btn-default" id="button-top">
+							<span class="fa fa-search"></span>
+						</button>
                     </li>
-
-                    <li>
-                        <button type="button" class="btn btn-default" id="button-top">
-                                <span class="fa fa-search"></span>
-                        </button>
+					
+					<li>
+                        <a href="shoppingCart.php">
+                            <span class="pull-right fa fa-shopping-cart" id="cart-top" title="My cart"></span>
+						</a>
                     </li>
-
-                    <li>
+					
+					<li>
                         <a href="#">
-                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="My cart"></span>
-                        </a>
+						  <span class="pull-right fa fa-question" id="help-top" title="Help"></span>
+						</a>
                     </li>
-
-                    <li>
-                        <a href="#">
-                            <span class="pull-right fa fa-question fa-lg" id="help-top" title="Help"></span>
-                        </a>
-                    </li>
+					
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -176,6 +184,8 @@
         <!-- /.container -->
     </nav>
 
+	
+   
     <!-- /.container -->
 
     <!-- jQuery -->

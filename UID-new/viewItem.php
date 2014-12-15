@@ -37,7 +37,7 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive center-block" src="images/desktop-1-1.jpg" alt="" width = 50%>
+                            <img class="img-responsive center-block" src="images/desktop-1-1.jpg" alt="" width = 75%>
                         </div>
                         <div class="item">
                             <img class="img-responsive center-block" src="images/desktop-1-2.jpg" alt="" width=75%>
