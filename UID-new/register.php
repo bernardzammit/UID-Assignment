@@ -3,6 +3,12 @@
 <?php include 'header.php'; ?>
 
 <head>
+  <!--Load script.js which will create datepicker for input field -->
+ <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="js/datepicker.js"></script> 
+    <script typ="text/javascript" src="validation.js" > </script>
 
 
 </head>
@@ -109,8 +115,7 @@
                             <div class="form-group">
                               <label for="inputDOB" class="col-lg-4 col-xs-4 control-label">Date of Birth</label>
                               <div class="col-lg-6 col-xs-6">
-                                    <input type="text" class="form-control" name="date" placeholder="mm-dd-yyyy" id="datepicker">                               
-                                    
+                                    <input type="text" class="form-control" name="date" id="datepicker">                               
                               </div>
                             </div>
                             <br>
@@ -152,26 +157,11 @@
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
-                                <button class="btn btn-primary" type="submit" data-toggle="modal-confirm" data-target="submit-register"  >Submit</button>
+                                <button class="btn btn-primary" type="submit" onClick="return validateForm()" value="Submit" >Submit</button>
                               </div>
                             </div>
 
-                            <!-- Modal -->
-                            <div class="modal fade" id="submit-register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Registration</h4>
-                                  </div>
-                                  <div class="modal-body">Successfully Completed!</div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary" data-confirm="modal">OK</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                    
 
                     </fieldset>
                 </form>
