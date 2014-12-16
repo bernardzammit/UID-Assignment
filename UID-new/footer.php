@@ -52,11 +52,11 @@
                             <h3>Subscribe to our newsletter</h3>
                             <p>Subscribe to our email newsletters and be the first to receive updates on new products, and latest offers.</p>
                             <form name="sentMessage" id="contactForm" novalidate>
-                                <div class="control-group form-group">
-                                    <div class="controls">
-                                        <label>Email Address:</label>
-                                        <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-                                    </div>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Your e-mail address">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="submit"  value="Submit">Subscribe</button>
+                                    </span>
                                 </div>
                         </div>
                     
