@@ -37,7 +37,6 @@
         <?php 
             $var_value = $_GET['varname'];
             $checkbox_val = $_GET['checkbox'];
-            echo $checkbox_val;
             include $var_value;
         ?>
         

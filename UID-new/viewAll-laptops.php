@@ -30,31 +30,31 @@
                     <ul class="list-unstyled">
                         <div class="checkbox col-xs-12" id="category-checkbox">
                             <label>
-                                <input type="checkbox"> Apple
+                                <input type="checkbox" <?php if($checkbox_val==1){ echo 'checked = checked';} ?>> Apple
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Asus
+                                <input type="checkbox" <?php if($checkbox_val==2){ echo 'checked = checked';} ?>> Asus
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Dell
+                                <input type="checkbox" <?php if($checkbox_val==3){ echo 'checked = checked';} ?>> Dell
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Alienware
+                                <input type="checkbox" <?php if($checkbox_val==4){ echo 'checked = checked';} ?>> Alienware
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Acer
+                                <input type="checkbox" <?php if($checkbox_val==5){ echo 'checked = checked';} ?>> Acer
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> HP
+                                <input type="checkbox" <?php if($checkbox_val==6){ echo 'checked = checked';} ?>> HP
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Other
+                                <input type="checkbox" <?php if($checkbox_val==7){ echo 'checked = checked';} ?>> Other
                             </label>
                         </div>
                     </ul>

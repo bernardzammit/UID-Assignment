@@ -59,112 +59,112 @@
                                 <a href="viewAllItems.php?varname=<?php echo 'viewAll-desktops.php'?>&checkbox=<?php echo '1'?>">Dell</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Apple</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-desktops.php'?>&checkbox=<?php echo '2'?>">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Asus</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-desktops.php'?>&checkbox=<?php echo '3'?>">Asus</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Other</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-desktops.php'?>&checkbox=<?php echo '4'?>">Other</a>
                             </li>
                         </ul>
                     </li>
                     
                     <li class="dropdown">
-                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="laptops">Laptops <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '0'?>" class="dropdown-toggle" data-toggle="dropdown" id="laptops">Laptops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">Apple</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '1'?>">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Asus</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '2'?>">Asus</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Dell</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '3'?>">Dell</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Alienware</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '4'?>">Alienware</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Acer</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '5'?>">Acer</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">HP</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '6'?>">HP</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Other</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '7'?>">Other</a>
                             </li>
                         </ul>
                     </li>
 					
                     <li class="dropdown">
-                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="tablets">Tablets <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '0'?>" class="dropdown-toggle" data-toggle="dropdown" id="tablets">Tablets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">Samsung</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '1'?>">Acer</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Apple</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '2'?>">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Microsoft</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '3'?>">Microsoft</a>
                             </li>
                             <li>
-                                <a href="portfolio-5-col.html">Acer</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '4'?>">Samsung</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Other</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '5'?>">Other</a>
                             </li>
                         </ul>
                     </li>
 					
                     <li class="dropdown">
-                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="mobiles">Mobiles <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '0'?>" class="dropdown-toggle" data-toggle="dropdown" id="mobiles">Mobiles <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">HTC</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '1'?>">HTC</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Apple</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '2'?>">Nokia</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">LG</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '3'?>">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">Nokia</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '4'?>">LG</a>
                             </li>
                             <li>
-                                <a href="portfolio-5-col.html">Samsung</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '5'?>">Samsung</a>
                             </li>
                             <li>
-                                <a href="portfolio-5-col.html">Blackberry</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '6'?>">Blackberry</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Other</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '7'?>">Other</a>
                             </li>
                         </ul>
                     </li>
 					
                     <li class="dropdown">
-                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="software">Software <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>&checkbox=<?php echo '0'?>" class="dropdown-toggle" data-toggle="dropdown" id="software">Software <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">Gaming</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>&checkbox=<?php echo '1'?>">Operating Systems</a>
                             </li>
                             <li>
-                                <a href="portfolio-1-col.html">Office</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>&checkbox=<?php echo '2'?>">Office</a>
                             </li>
                             <li>
-                                <a href="portfolio-1-col.html">Security/Anti-Virus</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>&checkbox=<?php echo '3'?>">Security/Anti-Virus</a>
                             </li>
                             <li>
-                                <a href="portfolio-1-col.html">Photo & Video</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>&checkbox=<?php echo '4'?>">Photo & Video</a>
                             </li>
                             <li>
-                                <a href="portfolio-1-col.html">Gaming</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>&checkbox=<?php echo '5'?>">Gaming</a>
                             </li>
                             <li>
-                                <a href="portfolio-1-col.html">Other</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>&checkbox=<?php echo '6'?>">Other</a>
                             </li>
                         </ul>
                     </li>

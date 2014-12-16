@@ -30,27 +30,27 @@
                     <ul class="list-unstyled">
                         <div class="checkbox col-xs-12" id="category-checkbox">
                             <label>
-                                <input type="checkbox"> Operating Systems
+                                <input type="checkbox" <?php if($checkbox_val==1){ echo 'checked = checked';} ?>> Operating Systems
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Office
+                                <input type="checkbox" <?php if($checkbox_val==2){ echo 'checked = checked';} ?>> Office
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Security/Anti-Virus
+                                <input type="checkbox" <?php if($checkbox_val==3){ echo 'checked = checked';} ?>> Security/Anti-Virus
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Photo & Video
+                                <input type="checkbox" <?php if($checkbox_val==4){ echo 'checked = checked';} ?>> Photo & Video
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Gaming
+                                <input type="checkbox" <?php if($checkbox_val==5){ echo 'checked = checked';} ?>> Gaming
                             </label>
                             <br />
                             <label>
-                                <input type="checkbox"> Other
+                                <input type="checkbox" <?php if($checkbox_val==6){ echo 'checked = checked';} ?>> Other
                             </label>
                         </div>
                     </ul>
