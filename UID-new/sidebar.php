@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'loggedInHeader.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">

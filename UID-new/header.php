@@ -26,8 +26,6 @@
 </head>
 
 <body>
-
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -40,9 +38,51 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"> </i></a>
-                <a class="navbar-brand" href="#" title="Log in"><i class="fa fa-lock fa-6"></i></a>
+                <!--<a class="navbar-brand" href="#" title="Log in"><i class="fa fa-lock fa-6"></i></a>-->
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
+                        <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-lock fa-6"></i></a>
+                        <ul class="dropdown-menu">
+                            <div class="col-md-12">
+                                <div id="dropdown-login" class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4><i class="fa fa-fw fa-lock"></i> Log In</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                         <form class="form-horizontal">
+                                            <fieldset>
+                                                <!-- <legend>Log In</legend> -->
+                                                <div class="form-group">
+                                                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                                                    <div class="col-lg-9" id="login-email">
+                                                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                                                    <div class="col-lg-9" id="login-pass">
+                                                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                                        <div class="checkbox" id="login-rem">
+                                                            <label><input type="checkbox">Remember me</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-lg-10 col-lg-offset-5">
+                                                        <a href="loggedInIndex.php" class="btn btn-primary" role="button">Log in</a>
+                                                        <a href="register.php" class="btn btn-primary" role="button">Register</a>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
                 <a class="navbar-brand" href="register.php" title="Register"><i class="fa fa-pencil fa-6"></i></a>
-                		
+
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -269,6 +309,16 @@
             window.location = href;
         });
     });
+    
+    function show_sidebar()
+    {
+        document.getElementById('sidebar').style.visibility="visible";
+    }
+
+    function hide_sidebar()
+    {
+        document.getElementById('sidebar').style.visibility="hidden";
+    }
     
     </script>
 
