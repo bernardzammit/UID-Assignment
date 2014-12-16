@@ -1,5 +1,13 @@
 .dropdown:hover .dropdown-menu {
-display: block;
+    display: block;
+}
+
+#car-mobile, #car-software, #car-tablet {
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    padding-bottom:0px;
 }
 
 #successAlert {

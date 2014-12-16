@@ -107,11 +107,49 @@
                 </h1>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <img id="img" src="startpicture.jpg">
-                    <button onclick="displayPreviousImage()">Previous</button>
-                    <button onclick="displayNextImage()">Next</button>
-                </div>
+                <div id="carousel-logged-in" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        
+                        <div class="item active">
+                            <img id="car-software" src="images/adobe_creative.jpg" alt="..." width="182px">
+                            <!--
+                            <div class="carousel-caption">
+                                <h3>Software</h3>
+                            </div>
+                            -->
+                        </div>
+                        
+                        <div class="item">
+                            <img id="car-mobile" src="images/nokia-x-plus.jpg" alt="..." width="130px">
+                            <!--
+                            <div class="carousel-caption">
+                                <h3>Mobiles</h3>
+                            </div>
+                            -->
+                        </div>
+                        
+                        <div class="item">
+                            <img id="car-tablet" src="images/tablet-1-3.jpg" alt="..." width="205px">
+                            <!--
+                            <div class="carousel-caption">
+                                <h3>Tablets</h3>
+                            </div>
+                            -->
+                        </div>
+                        
+                        <div class="item">
+                            <img id="car-tablet" src="images/desktop-3-3.jpg" alt="..." width="205px">
+                            <!--
+                            <div class="carousel-caption">
+                                <h3>Desktops</h3>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+
+                    
+                  </div> <!-- Carousel -->
             </div>
             <div class="col-md-8">
                 <div class="panel panel-default">
