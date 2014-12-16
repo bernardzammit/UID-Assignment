@@ -30,7 +30,7 @@
                     <ul class="list-unstyled">
                         <div class="checkbox col-xs-12" id="category-checkbox">
                             <label>
-                                <input type="checkbox"> Dell
+                                <input type="checkbox" <?php if($checkbox_val==1){ $value = true;}?> value='<?php $value ?>'> Dell
                             </label>
                             <br />
                             <label>

@@ -23,14 +23,6 @@
     <!-- Extra CSS -->
     <link href="css/extracss.css" rel="stylesheet">
 
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
@@ -55,25 +47,22 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
-				<ul class="nav navbar-nav navbar-left">
+                    <ul class="nav navbar-nav navbar-left">
 
-					<li>
+                    <li>
                         <a href="about.php">About</a>
                     </li>
                     <li class="dropdown">
-                        <a href="viewAll-desktops.php" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-desktops.php'?>&checkbox=<?php echo '0'?>" class="dropdown-toggle" data-toggle="dropdown" id="desktops">Desktops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">Mac</a>
+                                <a href="viewAllItems.php?varname=<?php echo 'viewAll-desktops.php'?>&checkbox=<?php echo '1'?>">Dell</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Asus</a>
+                                <a href="portfolio-2-col.html">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Dell</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">Alienware</a>
+                                <a href="portfolio-3-col.html">Asus</a>
                             </li>
                             <li>
                                 <a href="portfolio-item.html">Other</a>
@@ -82,10 +71,10 @@
                     </li>
                     
                     <li class="dropdown">
-                        <a href="viewAll-laptops.php" class="dropdown-toggle" data-toggle="dropdown" id="laptops">Laptops <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="laptops">Laptops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">Mac</a>
+                                <a href="portfolio-1-col.html">Apple</a>
                             </li>
                             <li>
                                 <a href="portfolio-2-col.html">Asus</a>
@@ -94,10 +83,13 @@
                                 <a href="portfolio-3-col.html">Dell</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">HP</a>
+                                <a href="portfolio-3-col.html">Alienware</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Samsung</a>
+                                <a href="portfolio-3-col.html">Acer</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">HP</a>
                             </li>
                             <li>
                                 <a href="portfolio-item.html">Other</a>
@@ -106,7 +98,7 @@
                     </li>
 					
                     <li class="dropdown">
-                        <a href="viewAll-tablets.php" class="dropdown-toggle" data-toggle="dropdown">Tablets <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="tablets">Tablets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">Samsung</a>
@@ -115,10 +107,7 @@
                                 <a href="portfolio-2-col.html">Apple</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Sony</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">Asus</a>
+                                <a href="portfolio-3-col.html">Microsoft</a>
                             </li>
                             <li>
                                 <a href="portfolio-5-col.html">Acer</a>
@@ -130,7 +119,7 @@
                     </li>
 					
                     <li class="dropdown">
-                        <a href="viewAll-mobiles.php" class="dropdown-toggle" data-toggle="dropdown">Mobiles <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="mobiles">Mobiles <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">HTC</a>
@@ -148,31 +137,38 @@
                                 <a href="portfolio-5-col.html">Samsung</a>
                             </li>
                             <li>
+                                <a href="portfolio-5-col.html">Blackberry</a>
+                            </li>
+                            <li>
                                 <a href="portfolio-item.html">Other</a>
                             </li>
                         </ul>
                     </li>
 					
                     <li class="dropdown">
-                        <a href="viewAll-software.php" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+                        <a href="viewAllItems.php?varname=<?php echo 'viewAll-software.php'?>" class="dropdown-toggle" data-toggle="dropdown" id="software">Software <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">Gaming</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Office</a>
+                                <a href="portfolio-1-col.html">Office</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">Security</a>
+                                <a href="portfolio-1-col.html">Security/Anti-Virus</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Other</a>
+                                <a href="portfolio-1-col.html">Photo & Video</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-1-col.html">Gaming</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-1-col.html">Other</a>
                             </li>
                         </ul>
                     </li>
-					
-					
-				</ul>
+		</ul>
 				
 				<ul class="nav navbar-nav navbar-right">		
 					
@@ -191,13 +187,13 @@
 					
 					<li>
                         <a href="shoppingCart.php">
-                            <span class="pull-right fa fa-shopping-cart" id="cart-top" title="My cart"></span>
+                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="My cart"></span>
 						</a>
                     </li>
 					
 					<li>
                         <a href="#">
-						  <span class="pull-right fa fa-question" id="help-top" title="Help"></span>
+						  <span class="pull-right fa fa-question fa-lg" id="help-top" title="Help"></span>
 						</a>
                     </li>
 					
@@ -222,7 +218,58 @@
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
-    })
+    });
+    
+    $(document).ready( function(){
+        $('#desktops').click(
+        function() {
+            // get the link in the href
+            var href = $(this).attr('href');
+            // Go to that URL
+            window.location = href;
+        });
+    });
+    
+    $(document).ready( function(){
+        $('#laptops').click(
+        function() {
+            // get the link in the href
+            var href = $(this).attr('href');
+            // Go to that URL
+            window.location = href;
+        });
+    });
+    
+    $(document).ready( function(){
+        $('#tablets').click(
+        function() {
+            // get the link in the href
+            var href = $(this).attr('href');
+            // Go to that URL
+            window.location = href;
+        });
+    });
+    
+    $(document).ready( function(){
+        $('#mobiles').click(
+        function() {
+            // get the link in the href
+            var href = $(this).attr('href');
+            // Go to that URL
+            window.location = href;
+        });
+    });
+    
+    $(document).ready( function(){
+        $('#software').click(
+        function() {
+            // get the link in the href
+            var href = $(this).attr('href');
+            // Go to that URL
+            window.location = href;
+        });
+    });
+    
     </script>
 
 </body>
