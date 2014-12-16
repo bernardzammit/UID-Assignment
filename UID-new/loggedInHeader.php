@@ -23,6 +23,14 @@
     <!-- Extra CSS -->
     <link href="css/extracss.css" rel="stylesheet">
 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
@@ -39,8 +47,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"></i></a>
-                <a class="navbar-brand" href="loggedInIndex.php" title="Log In" onmouseover="showLogin()" onmouseout="hideLogin()"><i id="login-icon" class="fa fa-lock fa-6"></i></a>
-                <a class="navbar-brand" href="register.php" title="Register"><i id="register-icon" class="fa fa-pencil fa-6"></i></a>                
+                <a class="navbar-brand" href="profile.php" title="My Account"><i class="fa fa-user fa-6"></i></a>
+                <a class="navbar-brand" href="index.php" title="Log Out"><i class="fa fa-reply fa-6"></i></a>
+                		
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,7 +58,7 @@
                         <a href="about.php">About</a>
                     </li>
                     <li class="dropdown">
-                        <a href="viewAll-desktops.php" class="dropdown-toggle" data-toggle="dropdown" id="desktops">Desktops <b class="caret"></b></a>
+                        <a href="register.php" class="dropdown-toggle" data-toggle="dropdown">Desktops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">Mac</a>
@@ -68,33 +77,9 @@
                             </li>
                         </ul>
                     </li>
-                    
-                    <li class="dropdown">
-                        <a href="viewAll-desktops.php" class="dropdown-toggle" data-toggle="dropdown" id="laptops">Laptops <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">Mac</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">Asus</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">Dell</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">HP</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">Samsung</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Other</a>
-                            </li>
-                        </ul>
-                    </li>
 					
                     <li class="dropdown">
-                        <a href="viewAll-tablets.php" class="dropdown-toggle" data-toggle="dropdown" id="tablets">Tablets <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tablets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">Samsung</a>
@@ -118,7 +103,7 @@
                     </li>
                     
                     <li class="dropdown">
-                        <a href="viewAll-mobiles.php" class="dropdown-toggle" data-toggle="dropdown" id="mobiles">Mobiles <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobiles <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">HTC</a>
@@ -142,7 +127,7 @@
                     </li>
 					
                     <li class="dropdown">
-                        <a href="viewAll-software.php" class="dropdown-toggle" data-toggle="dropdown" id="software">Software <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="portfolio-1-col.html">Gaming</a>
@@ -204,27 +189,6 @@
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
-    </script>
-    
-    <script>        
-        function showLogin {
-            document.getElementById('login-hover').style.visibility="visible";
-        }
-        
-        function hideLogin()
-        {
-            document.getElementById('login-hover').style.visibility="hidden";
-        }
-        
-        $(document).ready( function(){
-        $('#desktops').click(
-            function() {
-                // get the link in the href
-                var href = $(this).attr('href');
-                // Go to that URL
-                window.location = href;
-            });
-	});
     </script>
 
 </body>

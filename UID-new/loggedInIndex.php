@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.php'; ?>
+<?php include 'loggedInHeader.php'; ?>
 <head>
 
     <meta charset="utf-8">
@@ -27,10 +27,30 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script type = "text/javascript">
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("img").src = images[x];
+        }
+        
+        function displayPreviousImage() {
+            x = (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("img").src = images[x];
+        }
 
+        function startTimer() {
+            setInterval(displayNextImage, 3000);
+        }
+
+        var images = [], x = -1;
+        images[0] = "image1.jpg";
+        images[1] = "image2.jpg";
+        images[2] = "image3.jpg";
+      </script>
 </head>
 
-<body>
+<body onload="startTimer()">
 	
 	 <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
@@ -88,38 +108,9 @@
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-lock"></i> Log In</h4>
-                    </div>
-                    <div class="panel-body">
-                         <form class="form-horizontal">
-                            <fieldset>
-                                <!-- <legend>Log In</legend> -->
-                                <div class="form-group">
-                                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                                    <div class="col-lg-9" id="login-email">
-                                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-                                    <div class="col-lg-9" id="login-pass">
-                                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                                        <div class="checkbox" id="login-rem">
-                                            <label><input type="checkbox">Remember me</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-lg-10 col-lg-offset-5">
-                                        <a href="loggedInIndex.php" id="login-login"><button type="submit" class="btn btn-primary">Log in</button></a>
-                                        <button type="submit" class="btn btn-primary" id="login-reg">Register</button>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                        <!-- <a href="#" class="btn btn-default">Learn More</a> -->
-                    </div>
+                    <img id="img" src="startpicture.jpg">
+                    <button onclick="displayPreviousImage()">Previous</button>
+                    <button onclick="displayNextImage()">Next</button>
                 </div>
             </div>
             <div class="col-md-8">
@@ -183,20 +174,10 @@
         </div>
     </div>
     <!-- /.container -->
-    
+
+
     <?php include 'footer.php'; ?>
     
-    <script>
-        $(document).ready( function(){
-        $('#login-login').click(
-            function() {
-                // get the link in the href
-                var href = $(this).attr('href');
-                // Go to that URL
-                window.location = href;
-            });
-	});
-    </script>
 </body>
 
 </html>
