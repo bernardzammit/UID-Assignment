@@ -45,64 +45,52 @@
             <div class="col-lg-12">
                 <h2 class="page-header">Our Services</h2>
             </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+
+            <div class="col-md-4 col-sm-8">
+                <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-puzzle-piece fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <h4>Functionalities</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.um dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicin</p>
+                        </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+
+            <div class="col-md-4 col-sm-8">
+                <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <h4>User Experience</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.um dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicin</p>
+                        </div>
                 </div>
             </div>
-            
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+
+            <div class="col-md-4 col-sm-8">
+                <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <span class="fa-stack fa-5x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="panel-body">
+                            <h4>Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.um dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicin</p>
+                        </div>
                 </div>
             </div>
+
             
         </div>
         <!-- /.row -->

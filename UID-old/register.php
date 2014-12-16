@@ -19,7 +19,7 @@
     	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
 		<!--Load script.js which will create datepicker for input field -->
-		<script src="scripts/js/datepicker.js"></script> 
+		<script src="js/datepicker.js"></script> 
 
 	</head>
 	
@@ -97,7 +97,7 @@
 						    <div class="form-group">
 						      <label for="inputDOB" class="col-lg-4 col-xs-4 control-label">Date of Birth</label>
 						      <div class="col-lg-6 col-xs-6">
-						      		<input type="text" class="form-control" name="date" placeholder="mm-dd-yyyy" id="datepicker">					      		
+						      		<input type="date" class="form-control" name="date" placeholder="mm-dd-yyyy" id="datepicker">					      		
 						      		
 						      </div>
 						    </div>
