@@ -41,6 +41,7 @@
                     <a href="currentListings.php" class="list-group-item">Current Listings</a>
                     <a href="itemsBought.php" class="list-group-item">Items Bought</a>
                     <a href="itemsSold.php" class="list-group-item">Items Sold</a>
+					<a href="watchList.php" class="list-group-item">Watch List</a>
                 </div>
             </div>
             

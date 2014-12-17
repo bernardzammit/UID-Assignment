@@ -60,7 +60,9 @@
 		<div class="col-md-9">       
 			
 			<ul id="myTab" class="nav nav-tabs nav-justified">
-                    <li class="active"><a href="#desktops-tab" data-toggle="tab"><i class="fa fa-desktop"></i> Desktops</a>
+					<li class="active"><a href="#all-tab" data-toggle="tab">All</a>
+					</li>	
+				   <li class=""><a href="#desktops-tab" data-toggle="tab"><i class="fa fa-desktop"></i> Desktops</a>
                     </li>
                     <li class=""><a href="#mobiles-tab" data-toggle="tab"><i class="fa fa-mobile"></i> Mobiles</a>
                     </li>

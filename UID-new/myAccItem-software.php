@@ -30,7 +30,7 @@
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="blog-post.html">Adobe Acrobat X Standard</a>
+                    <a href="viewItem.php">Adobe Acrobat X Standard</a>
                 </h3>
                 <h4><i>30/10/2014</i></h4><br>
 

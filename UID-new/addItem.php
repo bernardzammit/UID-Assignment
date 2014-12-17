@@ -105,10 +105,38 @@
                             <strong>Well done!</strong> You successfully edited and saved your new personal details. \
                     </div> \ ' ;
 		}
+		
+		function showPromotionDialog()
+		{
+			if (document.getElementById('promotionCheckbox').checked) {
+				alert("checked");
+				var y = document.getElementById("promotionDialog");
+				y.innerHTML = '		<div class="modal"> \
+				<div class="modal-dialog">\
+					<div class="modal-content">\
+					  <div class="modal-header">\
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>\
+						<h4 class="modal-title">Modal title</h4>\
+					  </div>\
+					  <div class="modal-body">\
+						<p>One fine body…</p>\
+					  </div>\
+					  <div class="modal-footer">\
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>\
+						<button type="button" class="btn btn-primary">Save changes</button>\
+					  </div>\
+					</div>\
+				  </div>\
+				</div> \
+				';
+			}
+		}
 	</script>
 </head>
 
 <body>
+	<div id=promotionDialog> </div>
+	
 	<!-- Page Content -->
     <div class="container">
 
@@ -130,7 +158,7 @@
 		<?php include 'sidebar.php'; ?>
 
 		 <!-- Content Row -->
-        <div class="row">
+		<div class="row">
             <div class="col-lg-2">
             </div>
 
@@ -237,17 +265,7 @@
                                         </select>
                                 </div>
                             </div>
-							
-                            <div class="form-group">
-                                <label for="textArea" class="col-lg-4 col-xs-4 control-label"></label>
-                                <div class="checkbox col-lg-8 col-xs-8">
-                                  <label>
-                                    <input type="checkbox"> Yes promote item!
-                                  </label>
-                                </div>
-                                  
-                            </div>
-							
+
                             <div class="form-group">
                               <label for="price" class="col-lg-4 col-xs-4 control-label">Upload Images</label>
                               <div class="col-lg-3 col-xs-3">
@@ -255,7 +273,7 @@
                               </div>
                             </div>
 							
-                                    <div class="form-group">
+                            <div class="form-group">
                                 <label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment Method
                                     <span class="required" aria-required="true">*</span>
                                 </label>
@@ -277,20 +295,30 @@
                                     </div>
                                 </div>                                
                             </div>
-                            
-                            
+							
+							<div class="form-group">
+                                <label for="textArea" class="col-lg-4 col-xs-4 control-label"></label>
+                                <div class="checkbox col-lg-8 col-xs-8">
+                                  <label>
+                                    <input type="checkbox" onClick="showPromotionDialog()" id="promotionCheckbox"> Yes promote item!
+                                  </label>
+                                </div> 
+                            </div>
+
                             <div class="form-group">
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
     <!-- editing this line -->  <button type="submit" value="submit" class="btn btn-primary" onClick="showAlert()">Submit</button>
                               </div>
-                            </div>
-
+                            </div>							
                     </fieldset>
                 </form>
               </div>
             </div>
+			
+
+
         </div>
         <!-- /.row -->
     </div>
