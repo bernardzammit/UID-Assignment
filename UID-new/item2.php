@@ -33,9 +33,9 @@
                         </h3>
                         <p>Second hand Nokia X Plus, used only once...</p>
                         <ul class="list-inline">
-                            <li><a title="Watch item" onClick="showAlert()"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
+                            <li><a title="Watch item" id="watch-btn"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
                             </li>
-                            <li><a href="#" title="Add to cart"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
+                            <li><a title="Add to cart" id="add-cart-btn"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
                             </li>
                             <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>450<sup>50</sup></span></div>
                             </li>
@@ -47,14 +47,5 @@
     </body>
     
     <script>
-        function showAlert() {
-            //alert('show message');
-            var y = document.getElementById("successAlert");
-            y.innerHTML = ' <div class="alert alert-dismissable alert-success"> \
-                            <button type="button" class="close" data-dismiss="alert">×</button> \
-                            Item added to Watch List. \
-                            </div> \ ';
-            return false;
-        }
     </script>
 </html>

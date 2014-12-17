@@ -178,15 +178,16 @@
     
     <script>
         $(document).ready( function(){
-        $('#login-button-se-taqbez').click(
-        function() {
-            // get the link in the href
-            var href = $(this).attr('href');
-            // Go to that URL
-            window.location = href;
+            $('#login-button').click(
+            function() {
+                // get the link in the href
+                var href = $(this).attr('href');
+                // Go to that URL
+                window.location = href;
+            });
         });
-    });
 
+        
     </script>
 </body>
 

@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+#alert {
+    margin-bottom: 0px;
+}
+
 #dropdown-login {
     width: 330px;
 }

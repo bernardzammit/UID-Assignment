@@ -242,7 +242,11 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
+        <div class="hide" id="alert">
+
+        </div>
     </nav>
+    
 
 	
    
@@ -256,6 +260,28 @@
 
     <!-- Script to Activate the Carousel -->
     <script>
+        
+        $(document).on('click','#watch-btn', function(evt){
+            evt.preventDefault();
+            
+            $('#alert').removeClass().addClass('alert alert-success');
+            
+            var y = document.getElementById("alert");
+			y.innerHTML = ' <button type="button" class="close" data-dismiss="alert">&times;</button> \
+                                        <strong>Success!</strong> Added to watch list.' ;
+        });
+        
+        $(document).on('click','#add-cart-btn', function(evt){
+            evt.preventDefault();
+            
+            $('#alert').removeClass().addClass('alert alert-success');
+            
+            var y = document.getElementById("alert");
+			y.innerHTML = ' <button type="button" class="close" data-dismiss="alert">&times;</button> \
+                                        <strong>Success!</strong> Added to shopping cart.' ;
+        });
+        
+        
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     });
@@ -319,6 +345,8 @@
     {
         document.getElementById('sidebar').style.visibility="hidden";
     }
+    
+    
     
     </script>
 
