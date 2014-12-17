@@ -15,12 +15,14 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Shopping Cart
+                <h1 class="page-header">Checkout
+                    <small>Confirm item list</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.php">Home</a>
-                    </li>
-                    <li class="active">Shopping Cart</li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="shoppingCart.php">Shopping cart</a></li>
+					<li>Checkout</li>
+					<li class="active">1) Confirm item list</li>
                 </ol>
             </div>
         </div>
@@ -38,23 +40,18 @@
                 <h4>Tablets</h4>
                 <span class="price"><sup>€</sup>650<sup>00</sup></span>
             </div>
-            <div class="col-md-2">
+			<div class="col-md-1">
+			</div>
+            <div class="col-md-3">
                 <br>
                 <div class="input-group number-spinner">
-                    <span class="input-group-btn data-dwn">
-                        <button class="btn btn-default btn-default" data-dir="dwn"><span class="fa fa-minus"></span></button>
-                    </span>
-                    <input type="text" class="form-control text-center" value="1" min="0" max="40">
-                    <span class="input-group-btn data-up">
-                        <button class="btn btn-default btn-default" data-dir="up"><span class="fa fa-plus"></span></button>
-                    </span>
+					<span class="label label-default">Quantity = 1</span>
+                    <!-- <label for="quanity" class="control-label text-center"><h4>Quantity = 1</h4></label> -->
+
                 </div>
             </div>
 
-            <div class="col-md-2">
-                <br>
-                <a class="btn btn-primary" href="#">Remove</i></a>
-            </div>
+           
         </div>
         <!-- /.row -->
 
@@ -72,23 +69,17 @@
                 <h4>Tablets</h4>
                 <span class="price"><sup>€</sup>650<sup>00</sup></span>
             </div>
-            <div class="col-md-2">
+			<div class="col-md-1">
+			</div>
+            <div class="col-md-3">
                 <br>
                 <div class="input-group number-spinner">
-                    <span class="input-group-btn data-dwn">
-                        <button class="btn btn-default btn-default" data-dir="dwn"><span class="fa fa-minus"></span></button>
-                    </span>
-                    <input type="text" class="form-control text-center" value="1" min="0" max="40">
-                    <span class="input-group-btn data-up">
-                        <button class="btn btn-default btn-default" data-dir="up"><span class="fa fa-plus"></span></button>
-                    </span>
+					<span class="label label-default">Quantity = 1</span>
+                    <!-- <label for="quanity" class="control-label text-center"><h4>Quantity = 1</h4></label> -->
+
                 </div>
             </div>
-
-            <div class="col-md-2">
-                <br>
-                <a class="btn btn-primary" href="#">Remove</i></a>
-            </div>
+            
         </div>
         <!-- /.row -->
 
@@ -101,17 +92,15 @@
                 <div class="jumbotron">
                     <h3>Subtotal: €--.--</h3>
                     <h1><b>Total: €--.--</b></h1>
-                    <div class="col-md-10 col-lg-offset-6">
-                        <button class="btn btn-default">Continue Shopping</button>
-						<a href="checkout-1.php" class="btn btn-primary" role="button">Checkout</a>
+                    <div class="col-md-10 col-lg-offset-5">
+                        <a href="shoppingCart.php" class="btn btn-primary" role="button">Shopping Cart</a>
+						<a href="checkout-2.php" class="btn btn-primary" role="button">Confirm and Proceed</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <hr>
-
-        <!-- Project Three -->
         
         <!-- /.row -->
 

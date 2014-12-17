@@ -12,7 +12,6 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
@@ -130,7 +129,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Featured Items</h2>
-            </div>
+            
             <?php include "item2.php" ?>
             <?php include "item2.php" ?>
             <?php include "item2.php" ?>
@@ -140,6 +139,7 @@
             <?php include "item3.php" ?>
             <?php include "item3.php" ?>
             <?php include "item3.php" ?>
+			</div>
         </div>
         <!-- /.row -->
         <br>

@@ -73,7 +73,15 @@
                 </ul>
 
                 <div id="myTabContent" class="tab-content">
-                    <div class="tab-pane fade active in" id="desktops-tab">
+                    <div class="tab-pane fade active in" id="all-tab">
+                        <hr>
+                        <?php include 'myAccItem-desktop.php' ?>
+                        <hr>
+                        <?php include 'myAccItem-desktop.php' ?>
+                        <hr>
+                    </div>
+
+				   <div class="tab-pane fade" id="desktops-tab">
                         <hr>
                         <?php include 'myAccItem-desktop.php' ?>
                         <hr>

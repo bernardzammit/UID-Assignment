@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to show the dialog.</p>
+
+<button onclick="myFunction()">Show dialog</button>
+
+<p><b>Note:</b> Use the "Esc" button to close the modal.</p>
+<p><b>Note:</b> The dialog element is only supported in Chrome 37+, Safari 6+ and Opera 24+.</p>
+
+<!-- <dialog id="myDialog">This is a dialog window</dialog> -->
+
+
+<script>
+        
+
+        /**
+         * Alert window
+         * 
+         * @param {type} message
+         * @param {type} callback
+         * @returns {undefined}
+         */
+        BootstrapDialog.alert = function(message, callback) {
+            new BootstrapDialog({
+                message: message,
+                data: {
+                    'callback': callback
+                },
+                closable: false,
+                buttons: [{
+                        label: 'OK',
+                        action: function(dialog) {
+                            typeof dialog.getData('callback') === 'function' && dialog.getData('callback')(true);
+                            dialog.close();
+                        }
+                    }]
+            }).open();
+        };
+
+        /**
+         * Confirm window
+         * 
+         * @param {type} message
+         * @param {type} callback
+         * @returns {undefined}
+         */
+        BootstrapDialog.confirm = function(message, callback) {
+            new BootstrapDialog({
+                title: 'Confirmation',
+                message: message,
+                closable: false,
+                data: {
+                    'callback': callback
+                },
+                buttons: [{
+                        label: 'Cancel',
+                        action: function(dialog) {
+                            typeof dialog.getData('callback') === 'function' && dialog.getData('callback')(false);
+                            dialog.close();
+                        }
+                    }, {
+                        label: 'OK',
+                        cssClass: 'btn-primary',
+                        action: function(dialog) {
+                            typeof dialog.getData('callback') === 'function' && dialog.getData('callback')(true);
+                            dialog.close();
+                        }
+                    }]
+            }).open();
+        };
+		
+		BootstrapDialog.alert('I want banana!');
+</script>
+
+
+
+</body>
+</html>

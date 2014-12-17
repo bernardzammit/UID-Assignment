@@ -66,7 +66,7 @@
 	</style>
 	
 	<script>
-			function showAlert()
+	/*		function showAlert()
 		{
 			alert('show message');
 			var y = document.getElementById("successAlert");
@@ -74,7 +74,7 @@
 									<button type="button" class="close" data-dismiss="alert">×</button> \
 									<strong>Well done!</strong> You successfully edited and saved your new personal details. \
 								</div> \ ' ;
-		}
+		} */
 	
 	
 	</script>
@@ -83,9 +83,9 @@
 </head>
 <body>
 
-<div class="form-group" id="successAlert"></div>
-
 <form>
+	<div class="form-group" id="successAlert"></div>
+	
 	<ul class="errorMessages"></ul>
 	
 	<div>
@@ -129,11 +129,34 @@
 			
 			if (hasErrors == 0) {
 			alert('show message');
+		
 			var y = document.getElementById("successAlert");
 			y.innerHTML = ' 	<div class="alert alert-dismissable alert-success"> \
 									<button type="button" class="close" data-dismiss="alert">×</button> \
 									<strong>Well done!</strong> You successfully edited and saved your new personal details. \
-								</div> \ ' ;
+								</div> \ ' ; 
+								
+			
+			
+			/*y.innerHTML = '<div id="openModal" class="modal"> \
+			  <div class="modal-dialog">\
+				<div class="modal-content">\
+				  <div class="modal-header">\
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>\
+					<h4 class="modal-title">Modal title</h4>\
+				  </div>\
+				  <div class="modal-body">\
+					<p>One fine body…</p>\
+				  </div>\
+				  <div class="modal-footer">\
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>\
+					<button type="button" class="btn btn-primary">Save changes</button>\
+				  </div>\
+				</div>\
+			  </div>\
+			</div> 	\		'; */
+								
+								
 			}
 			 
 			
