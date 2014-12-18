@@ -75,40 +75,95 @@
                 <div id="myTabContent" class="tab-content">
                    
 				   <div class="tab-pane fade active in" id="all-tab">
-                        <hr>
-                        <?php include 'myAccItem-desktop.php' ?>
+                        <br>					
+						<!-- Product 1 -->
+						<div class="row">
+							<div class="col-md-5">
+								<a href="blog-post.html">
+									<img class="img-responsive img-hover" src="images/desktop-2-1.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-6">
+								<h3>
+									<a href="blog-post.html">iMac 21.5</a>
+								</h3>
+								<h4><i>29/11/2014</i></h4><br>
+
+								<ul>
+									<li>Intel® Core™ i5 processor</li>
+									<li>OS X Mavericks</li>
+									<li>Hard drive: 1 TB</li>
+									<li>Memory: 8 GB</li>
+								</ul>
+								<br>
+								<span class="price"><sup>€</sup>1500<sup>00</sup></span>
+							</div>
+							<div class="col-md-3">
+								<br />
+								<button class="btn btn-default">Remove</button>
+							</div>
+						</div>
+                        
+						<br>
+						<hr>
+                        
+						<!-- Product 2 -->
+						<div class="row">
+							<div class="col-md-5">
+								<a href="blog-post.html">
+									<img class="img-responsive img-hover" src="images/desktop-2-1.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-6">
+								<h3>
+									<a href="blog-post.html">iMac 21.5</a>
+								</h3>
+								<h4><i>29/11/2014</i></h4><br>
+
+								<ul>
+									<li>Intel® Core™ i5 processor</li>
+									<li>OS X Mavericks</li>
+									<li>Hard drive: 1 TB</li>
+									<li>Memory: 8 GB</li>
+								</ul>
+								<br>
+								<span class="price"><sup>€</sup>1500<sup>00</sup></span>
+							</div>
+							<div class="col-md-3">
+								<br />
+								<button class="btn btn-default">Remove</button>
+							</div>
+						</div>
 						
-                        <hr>
-                        <?php include 'myAccItem-desktop.php' ?>
                         <hr>
                     </div>
 					
 					<div class="tab-pane fade" id="desktops-tab">
                         <hr>
-                        <?php include 'myAccItem-desktop.php' ?>
+                        
 						
                         <hr>
-                        <?php include 'myAccItem-desktop.php' ?>
+                        
                         <hr>
                     </div>
                     
                     <div class="tab-pane fade" id="mobiles-tab">
                         <hr>
-                        <?php include 'myAccItem-mobile.php' ?>
+                       
                         <hr>                        
-                        <?php include 'myAccItem-mobile.php' ?>
+                       
                         <hr>
                     </div>
                     <div class="tab-pane fade" id="software-tab">
                         <hr>
-                        <?php include 'myAccItem-software.php' ?>
+                        
                         <hr>
-                        <?php include 'myAccItem-software.php' ?>
+                        
                         <hr>
                     </div>
                     <div class="tab-pane fade" id="tablets-tab">
                         <hr>
-                        <?php include 'myAccItem-tablet.php' ?>
+                        
                         <hr>
                     </div>
                 </div>			

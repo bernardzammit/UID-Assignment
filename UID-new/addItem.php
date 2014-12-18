@@ -111,26 +111,61 @@
 			if (document.getElementById('promotionCheckbox').checked) {
 				alert("checked");
 				var y = document.getElementById("promotionDialog");
-				y.innerHTML = '		<div class="modal"> \
-				<div class="modal-dialog">\
-					<div class="modal-content">\
-					  <div class="modal-header">\
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>\
-						<h4 class="modal-title">Modal title</h4>\
-					  </div>\
-					  <div class="modal-body">\
-						<p>One fine body…</p>\
-					  </div>\
-					  <div class="modal-footer">\
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>\
-						<button type="button" class="btn btn-primary">Save changes</button>\
-					  </div>\
-					</div>\
-				  </div>\
-				</div> \
-				';
-			}
-		}
+				y.innerHTML = ' <div class="modal fade" id="promotionDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> \
+									<div class="modal-dialog"> \
+										<div class="modal-content"> \
+											<div class="modal-header"> \
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">× </button>  \
+												<h4 class="modal-title" id="myModalLabel"> This Modal title </h4> \
+											 </div> \
+											 <div class="modal-body"> \
+												Press ESC button to exit. \
+											 </div>\
+											 <div class="modal-footer">\
+												<button type="button" class="btn btn-default" \
+												   data-dismiss="modal">Close\
+												</button>\
+												<button type="button" class="btn btn-primary">\
+												   Submit changes\
+												</button>\
+											 </div>\
+										  </div><!-- /.modal-content \
+								   </div>\
+								</div>\ ';
+				
+				
+				   $(function () { $('#promotionDialog').modal({
+					  keyboard: true
+				   })});
+				
+				/*y.innerHTML = ' <div class="modal fade" id="myModal" tabindex="-1" role="dialog" \
+								   aria-labelledby="myModalLabel" aria-hidden="true"> \
+								   <div class="modal-dialog"> \
+									  <div class="modal-content"> \
+										 <div class="modal-header"> \
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">× </button> \ 
+											<h4 class="modal-title" id="myModalLabel"> This Modal title </h4> \
+										 </div> \ 
+										 <div class="modal-body"> \
+											Press ESC button to exit. \
+										 </div>\
+										 <div class="modal-footer">\
+											<button type="button" class="btn btn-default" \
+											   data-dismiss="modal">Close\
+											</button>\
+											<button type="button" class="btn btn-primary">\
+											   Submit changes\
+											</button>\
+										 </div>\
+									  </div><!-- /.modal-content -->\
+								   </div><!-- /.modal-dialog -->\
+								</div><!-- /.modal -->\ '; 
+
+   $(function () { $('#myModal').modal({
+      keyboard: true
+   })}); */
+			} // end if
+		} // end showPromotionDialog() */
 	</script>
 </head>
 
@@ -305,6 +340,7 @@
                                 </div> 
                             </div>
 
+
                             <div class="form-group">
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
@@ -316,9 +352,6 @@
                 </form>
               </div>
             </div>
-			
-
-
         </div>
         <!-- /.row -->
     </div>
