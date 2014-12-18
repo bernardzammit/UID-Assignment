@@ -214,7 +214,8 @@
 					
 					<li>
 						<div class="form-group" id="form-search-top">
-							<input type="text" class="form-control" placeholder="Item, price, category" id="search-header" width=100%>
+							<!--<input type="text" class="form-control" placeholder="Item, price, category" id="search-header" width=100%>-->
+                            <input type="text" class="form-control" placeholder="Search by item, price, category" width= 80%>
 						</div>
 						
 					</li>
