@@ -157,42 +157,11 @@
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
-                                <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#myModal" >Submit</button>
+                                <button class="btn btn-primary" type="submit" onClick="return validateForm()" value="Submit" >Submit</button>
                               </div>
                             </div>
 
-                    <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" 
-   aria-labelledby="myModalLabel" aria-hidden="true">
-   <div class="modal-dialog">
-      <div class="modal-content">
-         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" 
-               aria-hidden="true">×
-            </button>
-            <h4 class="modal-title" id="myModalLabel">
-               This Modal title
-            </h4>
-         </div>
-         <div class="modal-body">
-            Press ESC button to exit.
-         </div>
-         <div class="modal-footer">
-            <button type="button" class="btn btn-default" 
-               data-dismiss="modal">Close
-            </button>
-            <button type="button" class="btn btn-primary">
-               Submit changes
-            </button>
-         </div>
-      </div><!-- /.modal-content -->
-   </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-<script>
-   $(function () { $('#myModal').modal({
-      keyboard: true
-   })});
-</script>
+                    
 
                     </fieldset>
                 </form>
