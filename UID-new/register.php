@@ -4,12 +4,11 @@
 
 <head>
   <!--Load script.js which will create datepicker for input field -->
- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-    <script src="js/datepicker.js"></script> 
-    <script typ="text/javascript" src="validation.js" > </script>
-
+ <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="js/datepicker.js"></script>
 
 </head>
 
@@ -37,7 +36,7 @@
 
             <div class="col-lg-8">
               <div class="well">
-                <form id="registerForm" class="form-horizontal" method="POST">
+                <form id="registerForm" class="form-horizontal" method="POST" onSubmit="if(!confirm('Registration was successful!')){return false;}">
                     <fieldset>
                         <legend>Personal Details</legend>
                         <div class="form-group">
@@ -115,7 +114,7 @@
                             <div class="form-group">
                               <label for="inputDOB" class="col-lg-4 col-xs-4 control-label">Date of Birth</label>
                               <div class="col-lg-6 col-xs-6">
-                                    <input type="text" class="form-control" name="date" id="datepicker">                               
+                                    <input type="date" class="form-control" name="date" id="datepicker">                               
                               </div>
                             </div>
                             <br>
@@ -153,11 +152,12 @@
                             <br>
 
 						                    
-                            <div class="form-group">
+                            <div class="form-actions">
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
                                 <button class="btn btn-default">Cancel</button>
-                                <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#myModal" >Submit</button>
+                                <button class="btn btn-primary" type="submit" >Submit</button>
+
                               </div>
                             </div>
                     </fieldset>
@@ -170,9 +170,17 @@
     <!-- /.container -->
 
 
+  
+
   <script>
-    $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+   $(function f() {
+                $(if(!confirm(alert("Registration was successful!")))
+                {return false;})
+              
+            
+            });
   </script>
+
 
 </body>
 <?php include 'footer.php'; ?>
