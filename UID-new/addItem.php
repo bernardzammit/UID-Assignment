@@ -111,7 +111,8 @@
 			if (document.getElementById('promotionCheckbox').checked) {
 				alert("checked");
 				var y = document.getElementById("promotionDialog");
-				y.innerHTML = ' <div class="modal fade" id="promotionDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> \
+				
+				/*y.innerHTML = ' <div class="modal fade" id="promotionDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> \
 									<div class="modal-dialog"> \
 										<div class="modal-content"> \
 											<div class="modal-header"> \
@@ -136,7 +137,7 @@
 				
 				   $(function () { $('#promotionDialog').modal({
 					  keyboard: true
-				   })});
+				   })});*/
 				
 				/*y.innerHTML = ' <div class="modal fade" id="myModal" tabindex="-1" role="dialog" \
 								   aria-labelledby="myModalLabel" aria-hidden="true"> \
@@ -170,8 +171,6 @@
 </head>
 
 <body>
-	<div id=promotionDialog> </div>
-	
 	<!-- Page Content -->
     <div class="container">
 
@@ -308,8 +307,31 @@
                               </div>
                             </div>
 							
+							<div class="form-group">
+                                <label for="textArea" class="col-lg-4 col-xs-4 control-label">Preferred shipping method
+                                    <span class="required" aria-required="true">*</span>
+                                </label>
+                                <div class="col-lg-8 col-xs-8" >                 
+                                    <div class="radio" id="paymentMethod">	
+                                        <label>
+                                            <input type="radio" name="radio" value="" title="Item delivered to the customer">Delivery
+                                        </label>
+                                    </div>
+                                    <div class="radio" id="paymentMethod">
+                                        <label>
+                                            <input type="radio" name="radio" id="radio" value="" title="The customer collects item from the specified address">Collection
+                                        </label>
+                                    </div>
+                                    <div class="radio" id="paymentMethod">
+                                        <label>
+                                            <input type="radio" name="radio" value="" title="Customer has a choice to choose the shipping method on payment">Both
+                                        </label>
+                                    </div>
+                                </div>                                
+                            </div>
+							
                             <div class="form-group">
-                                <label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment Method
+                                <label for="textArea" class="col-lg-4 col-xs-4 control-label">Preferred payment Method
                                     <span class="required" aria-required="true">*</span>
                                 </label>
                                 <div class="col-lg-8 col-xs-8" >                 
@@ -330,17 +352,28 @@
                                     </div>
                                 </div>                                
                             </div>
-							
+	
 							<div class="form-group">
-                                <label for="textArea" class="col-lg-4 col-xs-4 control-label"></label>
-                                <div class="checkbox col-lg-8 col-xs-8">
-                                  <label>
-                                    <input type="checkbox" onClick="showPromotionDialog()" id="promotionCheckbox"> Yes promote item!
-                                  </label>
-                                </div> 
+                                <label for="textArea" class="col-lg-4 col-xs-4 control-label">Promote item</label>
+                                <div class="col-lg-8 col-xs-8" >                 
+                                    <div class="radio" id="promotion">	
+                                        <label>
+                                            <input type="radio" name="radio" value="" title="Promotion will help your item occur higher in the listings">Pay €5.00 and listing will be promoted for the next 7 days
+                                        </label>
+                                    </div>
+                                    <div class="radio" id="paymentMethod">
+                                        <label>
+                                            <input type="radio" name="radio" id="radio" value="" title="Promotion will help your item occur higher in the listings">Pay €10.00 and listing will be promoted for the next 14 days
+                                        </label>
+                                    </div>
+                                    <div class="radio" id="paymentMethod">
+                                        <label>
+                                            <input type="radio" name="radio" value="" title="Promotion will help your item occur higher in the listings">Pay €15.00 and listing will be promoted for the next 21 days
+                                        </label>
+                                    </div>
+                                </div>                                
                             </div>
-
-
+							<br>
                             <div class="form-group">
                               <div class="col-lg-8 col-lg-offset-7">
                                 <button class="btn btn-default"><span class="fa fa-save"></span> Save for Later</button>
@@ -352,10 +385,13 @@
                 </form>
               </div>
             </div>
+			
         </div>
         <!-- /.row -->
+		
     </div>
     <!-- /.container -->
+	
 	
     <?php include 'footer.php'; ?>
     

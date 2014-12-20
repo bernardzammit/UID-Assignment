@@ -54,7 +54,7 @@
                                     <input type="text" class="form-control" required id="lName" placeholder="Last">
                                 </span>
                               </div>
-                            </div>
+                        </div>
 
                             <div class="form-group">
                                 <label for="Gender" class="col-lg-4 col-xs-4 control-label">Gender</label>

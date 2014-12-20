@@ -26,7 +26,6 @@
 		
 		<div class="col-md-4 col-sm-6">
             <div class="thumbnail">
-                
                 <a href="viewItem.php"><img class="img-responsive" src="images\nokia-x-plus.jpg" width="130" alt="" id="item-image"></a>
                 <div class="well" id="item-thumbnail-well">
                     <div class="caption">
