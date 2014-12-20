@@ -243,8 +243,9 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
-        <div class="hide" id="alert">
-
+        <div class="alert alert-success collapse" id="alert">
+            <button type="button" class="close" id="close-alert">&times;</button>
+            <strong>Success!</strong> Added to watch list. 
         </div>
     </nav>
     
@@ -262,26 +263,20 @@
     <!-- Script to Activate the Carousel -->
     <script>
         
-        $(document).on('click','#watch-btn', function(evt){
-            evt.preventDefault();
-            
-            $('#alert').removeClass().addClass('alert alert-success');
-            
-            var y = document.getElementById("alert");
-			y.innerHTML = ' <button type="button" class="close" data-dismiss="alert">&times;</button> \
-                                        <strong>Success!</strong> Added to watch list.' ;
+        
+        
+        $(document).ready(function() {
+            $('#watch-btn').click(function() {
+                $('#alert').removeClass().addClass('alert alert-success');
+                $('#alert').show();
+            });
         });
         
-        $(document).on('click','#add-cart-btn', function(evt){
-            evt.preventDefault();
-            
-            $('#alert').removeClass().addClass('alert alert-success');
-            
-            var y = document.getElementById("alert");
-			y.innerHTML = ' <button type="button" class="close" data-dismiss="alert">&times;</button> \
-                                        <strong>Success!</strong> Added to shopping cart.' ;
+        $(document).ready(function() {
+            $('#close-alert').click(function() {
+                $('#alert').hide();
+            });
         });
-        
         
     $('.carousel').carousel({
         interval: 5000 //changes the speed

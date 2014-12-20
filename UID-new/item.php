@@ -36,7 +36,7 @@
                         <ul class="list-inline">
                             <li><a title="Watch item" id="watch-btn"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
                             </li>
-                            <li><a title="Add to cart" id="add-cart-btn"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
+                            <li><a title="Add to cart"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
                             </li>
                             <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>60<sup>00</sup></span></div>
                             </li>
