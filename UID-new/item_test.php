@@ -18,7 +18,7 @@
 
 	</head>
 	<body>
-		<div class="container demo-3">
+		<div class="col-md-4 col-sm-6">
 			<ul class="grid cs-style-3">
 				<li>
 					<figure>
