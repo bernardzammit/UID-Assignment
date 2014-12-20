@@ -7,17 +7,23 @@
 
 	<script>
 		function changeForm(){
-			if(document.getElementById('deliveryOption').checked) {
+			if(document.getElementById('cardOption').checked) {
 				//alert('Deliver');
-				document.getElementById("deliveryForm").style.display="block";
-				document.getElementById("collectionForm").style.display="none";
-				document.getElementById("deliveryFormShow").style.display="none";
+				document.getElementById("paymentForm").style.display="block";
+				document.getElementById("cashMessage").style.display="none";
+				document.getElementById("paypalMessage").style.display="none";
 				
-			}else if(document.getElementById('collectionOption').checked) {
+			}else if(document.getElementById('cashOption').checked) {
 				//alert('Collect');
-				document.getElementById("collectionForm").style.display="block";
-				document.getElementById("deliveryForm").style.display="none";
-				document.getElementById("deliveryFormShow").style.display="none";
+				document.getElementById("cashMessage").style.display="block";
+				document.getElementById("paymentForm").style.display="none";
+				document.getElementById("paypalMessage").style.display="none";
+				
+			}else if(document.getElementById('paypalOption').checked) {
+				//alert('Collect');
+				document.getElementById("paypalMessage").style.display="block";
+				document.getElementById("cashMessage").style.display="none";
+				document.getElementById("paymentForm").style.display="none";
 			}
 		}
 	</script>
@@ -40,7 +46,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="shoppingCart.php">Shopping cart</a></li>
 					<li>Checkout</li>
-					<li><a href="checkout1.php">(1) Delivery/Collection Details</a></li>
+					<li><a href="checkout-1.php">(1) Delivery/Collection Details</a></li>
 					<li>(2) Payment Method</li>
 					<li>(3) Verify Order</li>
                 </ol>
@@ -51,108 +57,60 @@
 		<!-- Content Row -->
         <div class="row">
 
-            <!-- Blog Post Content Column -->
+            <!-- Main Page Content -->
             <div class="col-lg-7">
                 <div class="form-group" onchange="changeForm()">
 					<label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment method	
 					</label><br>
 					<div class="col-lg-8 col-xs-8" >                 
-						<div class="radio" id="paymentMethod">	
+						<div class="radio" id="paymentMethod">	<!-- by default check first option -->
 							<label>
-								<input type="radio" name="radio" id="deliveryOption" checked value="" title="Item delivered to the customer">Delivery
+								<input type="radio" name="radio" id="cardOption" checked value="" title="">Credit / Debit Card
 							</label>
 						</div>
 						<div class="radio" id="paymentMethod">
 							<label>
-								<input type="radio" name="radio" id="collectionOption" value="" title="The customer collects item from the specified address">Collection
+								<input type="radio" name="radio" id="cashOption" value="" title="">Cash on Delivery / Collection
 							</label>
-						</div>					
+						</div>	
+						<div class="radio" id="paymentMethod">	
+							<label>
+								<input type="radio" name="radio" id="paypalOption" value="" title="">PayPal
+							</label>
+						</div>
 					</div> 				
 				</div>
 				<br>
                 <hr>
 				<br>
-                
-				<div class="well" id="deliveryFormShow" style="display:block">
+				<br>
+
+				<!-- Show form/message according to option chosen (by default credit/debit card radio button is checked) -->
+				<div class="well" id="paymentForm" style="display:block">
 					<form class="form-horizontal"   method="POST">
-						<fieldset>
-							<legend>Delivery</legend>
-							<div class="form-group">
-								<label class="col-lg-7 col-xs-7 control-label">Delivery cost: €5.00</label>
-								<label class="col-lg-7 col-xs-7 control-label">Estimated Arrival Date: 19/01/2015</label>
-								
-								<div class="col-lg-2 col-xs-2">
-									<a href="#" class="btn btn-primary btn-lg">Contact Seller</a>
-								</div>
-								<br>
-								<hr>
-								
-								
-								
-								  <label for="Name" class="col-lg-2 col-xs-2 control-label">Name
-								  <span class="required" aria-required="true">*</span>
-								  </label>
-								  <div class="col-lg-3 col-xs-3">
-									<span class="nameFirst">
-										<input type="text" class="form-control" required id="fName" placeholder= "First">
-									</span>
-								  </div>
-								  <div class="col-lg-3 col-xs-3">
-									<span class="nameLast">
-										<input type="text" class="form-control" required id="lName" placeholder="Last">
-									</span>
-								  </div>
-							</div>
-						</fieldset>
+						<p>Card payment details form</p>
 					</form>		
 				</div>
 				
-				<!-- Post Content according to option chosen -->
-				<div class="well" id="deliveryForm" style="display:none">
+				<div class="well" id="cashMessage" style="display:none">
 					<form class="form-horizontal"   method="POST">
-						<fieldset>
-							<legend>Delivery</legend>
-							<div class="form-group">
-								<label class="col-lg-7 col-xs-7 control-label">Delivery cost: €5.00</label>
-								<label class="col-lg-7 col-xs-7 control-label">Estimated Arrival Date: 19/01/2015</label>
-								
-								<div class="col-lg-2 col-xs-2">
-									<a href="#" class="btn btn-primary btn-lg">Contact Seller</a>
-								</div>
-								<br>
-								<hr>
-								
-								
-								
-								  <label for="Name" class="col-lg-2 col-xs-2 control-label">Name
-								  <span class="required" aria-required="true">*</span>
-								  </label>
-								  <div class="col-lg-3 col-xs-3">
-									<span class="nameFirst">
-										<input type="text" class="form-control" required id="fName" placeholder= "First">
-									</span>
-								  </div>
-								  <div class="col-lg-3 col-xs-3">
-									<span class="nameLast">
-										<input type="text" class="form-control" required id="lName" placeholder="Last">
-									</span>
-								  </div>
-							</div>
-						</fieldset>
+						<p>You are expected to pay upon delivery/collection. Please click <a href="checkout-3.php">next</a> to verify your order...</p>
 					</form>		
 				</div>
 				
-				<form class="form-horizontal" id="collectionForm" style="display:none" method="POST">
-                   <p>Collection</p>
-                </form>
-				
+				<div class="well" id="paypalMessage" style="display:none">
+					<form class="form-horizontal"   method="POST">
+						<p><i class="fa fa-spinner fa-spin"></i>  You will be redirected to Paypal in a few seconds...</p>
+					</form>		
+				</div>
+
 				<!-- Display next and previous buttons -->
 				<div class="form-group">
-					<div class="col-lg-8 col-lg-offset-8">
-						<a href="checkout-1.php" class="btn btn-primary btn-lg">Previous</a>
-						<a href="#" class="btn btn-primary btn-lg">Next</a>
+					<div class="col-lg-8 col-lg-offset-9">
+						<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
+						<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
 					</div>
-				</div>
+				</div>	
                
 
             </div>
@@ -162,9 +120,13 @@
 
                 <!-- Help Well -->
                 <div class="well">
-                    <h4>Help</h4>
-                    <div class="input-group">
-                        <!-- include customer service and live chat -->
+                   <div class="input-group">
+						<div class="col-lg-8 col-xs-8">
+							<h4><i class="fa fa-phone"></i></i> Customer Service</h4>
+						</div>
+						<div class="col-lg-4 col-xs-4">
+							<h4><i class="fa fa-comments"></i></i> Live Chat</h4>
+						</div>
                     </div>
                     <!-- /.input-group -->
                 </div>
