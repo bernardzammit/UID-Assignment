@@ -23,10 +23,11 @@
     
     <body>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
+            <div class="img-thumbnail">
                 <div class="form-group" id="successAlert"> </div>
-                <a href="viewItem.php"><img class="img-responsive" src="images\adobe_software.jpg" width="130" alt="" id="item-image"></a>
-                <div class="well" id="item-thumbnail-well">
+                <a href="viewItem.php"><img id="item-image" src="images\adobe_software.jpg" width="130" alt="" ></a>
+                 <hr>
+                <div id="item-thumbnail">
                     <div class="caption">
                         <h3>Adobe Acrobat X Standard<br>
                             <small>For Windows</small>
@@ -44,8 +45,7 @@
                 </div>
             </div>
         </div>
-        <script>
-            
-        </script>
+
+       
     </body>
 </html>

@@ -169,6 +169,11 @@
     </div>
     <!-- /.container -->
 
+
+  <script>
+    $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+  </script>
+
 </body>
 <?php include 'footer.php'; ?>
 

@@ -71,10 +71,21 @@
     margin-top: 20px;
 }
 
-#item-thumbnail-well {
+#item-thumbnail {
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+
+}
+
+#thumbnail_item{
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+     border: solid blue 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #item-image {
@@ -84,4 +95,11 @@
 
 #watch-image, #cart-image {
     margin-top: 15px;
+}
+
+#item-image{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
