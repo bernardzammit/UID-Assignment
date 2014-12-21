@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <div class="well">
+    <div class="footerBack">
         <div class="container">
                    
             <!-- Footer -->
@@ -42,11 +42,12 @@
                             <p><i class="fa fa-phone"></i> 
                                 <abbr title="Phone">P</abbr>: (356) 79958771</p>
                             <p><i class="fa fa-envelope-o"></i> 
-                                <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                                <abbr title="Email">E</abbr>: <a id ="a" href="mailto:name@example.com">name@example.com</a> 
                             </p>
                             <p><i class="fa fa-clock-o"></i> 
                                 <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
                         </div>
+    
                         
                         <div class="col-md-4" id="newsletter">
                             <h3>Subscribe to our newsletter</h3>
@@ -55,9 +56,10 @@
                                 <div class="input-group">
                                     <input type="email" class="form-control" placeholder="Your e-mail address">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-primary" type="submit"  value="Submit">Subscribe</button>
+                                        <button class="btn btn-default" type="submit"  value="Submit">Subscribe</button>
                                     </span>
                                 </div>
+                            </form>
                         </div>
                     
                         <div class="col-md-4">
@@ -65,23 +67,9 @@
                             <p>
                                 Add us on social media for product teasers, test videos, latest offers, competitions and much more.
                             </p>
-                            <ul class="list-unstyled list-inline list-social-icons">
-                                <li>
-                                    <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-youtube-square fa-2x"></i></i></a>
-                                </li>
-                            </ul>
+                            
+                            <div class="share42init"></div>
+                            <script type="text/javascript" src="share42/share42.js"></script>
                         </div>
                 
                 </div>
@@ -90,7 +78,6 @@
         <!-- /.container -->
     </div>
     
-
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow79.js"></script>
     
