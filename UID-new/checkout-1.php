@@ -78,30 +78,29 @@
 					<form class="form-horizontal"   method="POST">
 						<fieldset>
 							<legend>Delivery Details</legend>
-							
-								<div class="form-group">
-									<span class="pull-left">
-										<label class="col-lg-7 control-label">Delivery cost: €5.00</label>
-									</span>
-								</div>
-								<div class="form-group">
-									<label class="col-lg-7 control-label">Estimated Arrival Date: 19/01/2015</label>
-								</div>
-								<div class="form-group">
-									<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
-									<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
-								</div>
-	
-								<br>
+							<div class="form-group">		
+									<label class="col-lg-4 control-label">Delivery cost: €5.00</label>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-6 control-label">Estimated Arrival Date: 19/01/2015</label>
+							</div>
 							<hr>
-							
+							<div class="form-group">
+								<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
+								<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
+							</div>
+	
+							<hr>
+							<div class="form-group">		
+									<!--<label class="col-lg-4 control-label">Collection of item(s) can be done during the following days at these particular times</label> -->
+									<p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;The item(s) being bought will be delivered to this address. </p>
+							</div>
 							<div class="form-group">
                                 <label for="inputAddress" class="col-lg-4 col-xs-4 control-label">Address
 								<span class="required" aria-required="true">*</span>
 								</label>
                                 <div class="col-lg-6 col-xs-6">
                                     <textarea class="form-control" required rows="3" id="inputAddress"></textarea>
-									<span class="help-block">The item(s) being bought will be delivered to this address.</span>
                                 </div>
                             </div>
 
@@ -139,17 +138,21 @@
 					<form class="form-horizontal" method="POST">
 						<fieldset>
 							<legend>Collection Details</legend>
-							<div class="form-group">
-								<label for="" class="col-lg-8 control-label">Monday - Friday&nbsp;&nbsp;&nbsp;&nbsp;9:00-12:00</label>
+							<div class="form-group">		
+									<!--<label class="col-lg-4 control-label">Collection of item(s) can be done during the following days at these particular times</label> -->
+									<p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;Collection of item(s) can be done during the following days at these particular times from the<br>&nbsp;&nbsp;&nbsp;&nbsp;place specified in the address below. </p>
 							</div>
 							<div class="form-group">
-								<label class="col-lg-7 control-label">For more information: </label>
-								<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
+								<label for="" class="col-lg-7 control-label">Monday - Friday</label>
+								<label for="" class="col-lg-5 col-lg-offset-1 control-label">9:00 - 12:00</label>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-9 control-label">Address: University of Malta Msida MSD 2080</label>
 							</div>
 							<hr>
 							<div class="form-group">
-								<label class="col-lg-9 control-label">Address: University of Malta Msida MSD 2080</label>
-								
+								<label class="col-lg-9 control-label">For more information: </label>
+								<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
 							</div>
 							<hr>
 							<div class="form-group">
@@ -174,12 +177,14 @@
                 <!-- Help Well -->
                 <div class="well">
                     <div class="input-group">
-						<div class="col-lg-8 col-xs-8">
-							<h4><i class="fa fa-phone"></i></i> Customer Service</h4>
+						<div class="col-lg-12 col-xs-12">
+							<h4>
+								<i class="fa fa-phone"></i> Customer Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								
+								<i class="fa fa-comments"></i> Live Chat
+							</h4>
 						</div>
-						<div class="col-lg-4 col-xs-4">
-							<h4><i class="fa fa-comments"></i></i> Live Chat</h4>
-						</div>
+						
                     </div>
                     <!-- /.input-group -->
                 </div>

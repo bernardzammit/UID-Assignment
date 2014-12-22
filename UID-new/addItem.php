@@ -314,17 +314,17 @@
                                 <div class="col-lg-8 col-xs-8" >                 
                                     <div class="radio" id="paymentMethod">	
                                         <label>
-                                            <input type="radio" name="radio" value="" title="Item delivered to the customer">Delivery
+                                            <input type="radio" name="radio1" title="Item delivered to the customer">Delivery
                                         </label>
                                     </div>
                                     <div class="radio" id="paymentMethod">
                                         <label>
-                                            <input type="radio" name="radio" id="radio" value="" title="The customer collects item from the specified address">Collection
+                                            <input type="radio" name="radio1" title="The customer collects item from the specified address">Collection
                                         </label>
                                     </div>
                                     <div class="radio" id="paymentMethod">
                                         <label>
-                                            <input type="radio" name="radio" value="" title="Customer has a choice to choose the shipping method on payment">Both
+                                            <input type="radio" name="radio1" title="Customer has a choice to choose the shipping method on payment">Both
                                         </label>
                                     </div>
                                 </div>                                
@@ -337,17 +337,17 @@
                                 <div class="col-lg-8 col-xs-8" >                 
                                     <div class="radio" id="paymentMethod">	
                                         <label>
-                                            <input type="radio" name="radio" value="" title="Choose how you would like to be paid">Contact via phone / e-mail
+                                            <input type="radio" name="radio2" value="" title="Choose how you would like to be paid">Contact via phone / e-mail
                                         </label>
                                     </div>
                                     <div class="radio" id="paymentMethod">
                                         <label>
-                                            <input type="radio" name="radio" id="radio" value="" title="Choose how you would like to be paid">Direct payment via PayPal
+                                            <input type="radio" name="radio2" id="radio" value="" title="Choose how you would like to be paid">Direct payment via PayPal
                                         </label>
                                     </div>
                                     <div class="radio" id="paymentMethod">
                                         <label>
-                                            <input type="radio" name="radio" value="" title="Choose how you would like to be paid">Both
+                                            <input type="radio" name="radio2" value="" title="Choose how you would like to be paid">Both
                                         </label>
                                     </div>
                                 </div>                                
@@ -358,17 +358,22 @@
                                 <div class="col-lg-8 col-xs-8" >                 
                                     <div class="radio" id="promotion">	
                                         <label>
-                                            <input type="radio" name="radio" value="" title="Promotion will help your item occur higher in the listings">Pay €5.00 and listing will be promoted for the next 7 days
+                                            <input type="radio" name="radio3" title="Promotion will help your item occur higher in the listings">Pay €5.00 and listing will be promoted for the next 7 days
                                         </label>
                                     </div>
                                     <div class="radio" id="paymentMethod">
                                         <label>
-                                            <input type="radio" name="radio" id="radio" value="" title="Promotion will help your item occur higher in the listings">Pay €10.00 and listing will be promoted for the next 14 days
+                                            <input type="radio" name="radio3"  title="Promotion will help your item occur higher in the listings">Pay €10.00 and listing will be promoted for the next 14 days
                                         </label>
                                     </div>
                                     <div class="radio" id="paymentMethod">
                                         <label>
-                                            <input type="radio" name="radio" value="" title="Promotion will help your item occur higher in the listings">Pay €15.00 and listing will be promoted for the next 21 days
+                                            <input type="radio" name="radio3"  title="Promotion will help your item occur higher in the listings">Pay €15.00 and listing will be promoted for the next 21 days
+                                        </label>
+                                    </div>
+									<div class="radio" id="paymentMethod">
+                                        <label>
+                                            <input type="radio" name="radio3" title="Promotion will help your item occur higher in the listings">No promotion
                                         </label>
                                     </div>
                                 </div>                                

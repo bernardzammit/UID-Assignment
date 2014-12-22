@@ -88,29 +88,124 @@
 				<!-- Show form/message according to option chosen (by default credit/debit card radio button is checked) -->
 				<div class="well" id="paymentForm" style="display:block">
 					<form class="form-horizontal"   method="POST">
-						<p>Card payment details form</p>
+						<fieldset>
+							<legend>Card Payment Details</legend>
+							<div class="form-group">
+								<label for="" class="col-lg-4 col-xs-4 control-label">Card Type</label>
+								<div class="col-lg-6 col-xs-6">
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios">MASTERCARD</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios">VISA</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="optionsRadios">CashLink / Premier</label>
+									</div>
+								</div>	  
+							</div>
+							<br>
+							<div class="form-group">								
+								<label for="inputCardName" class="col-lg-4 col-xs-4 control-label">Card Holder's Name</label>
+								<div class="col-lg-6 col-xs-6">
+									<input type="text" class="form-control" placeholder="as it appears on your card">
+								</div>
+                            </div>
+							<div class="form-group">								
+								<label for="inputCardNumber" class="col-lg-4 col-xs-4 control-label">Card Number</label>
+								<div class="col-lg-6 col-xs-6">
+									<input type="text" class="form-control" placeholder="no dashes or spaces" maxLength="16">
+								</div>
+                            </div>
+							<div class="form-group">								
+								<label for="inputCardCode" class="col-lg-4 col-xs-4 control-label">Security code</label>
+								<div class="col-lg-2 col-xs-2">
+									<input type="text" class="form-control" maxLength="3">
+									
+								</div>
+                            </div>
+							<div class="form-group">								
+								<label for="inputCardDate" class="col-lg-4 col-xs-4 control-label">Expiry Date</label>
+								<div class="col-lg-3">
+									<select class="form-control" id="select">
+									  <option selected="true" style="display:none;">Month</option>
+									  <option>January</option>
+									  <option>February</option>
+									  <option>March</option>
+									  <option>April</option>
+									  <option>May</option>
+									  <option>June</option>
+									  <option>July</option>
+									  <option>August</option>
+									  <option>September</option>
+									  <option>October</option>
+									  <option>November</option>
+									  <option>December</option>
+									</select>
+								</div>
+								<div class="col-lg-3">
+									<select class="form-control" id="select">
+									   <option selected="true" style="display:none;">Year</option>
+									  <option>2014</option>
+									  <option>2015</option>
+									  <option>2016</option>
+									  <option>2017</option>
+									  <option>2018</option>
+									  <option>2019</option>
+									  <option>2020</option>
+									  <option>2021</option>
+									  <option>2022</option>
+									  <option>2023</option> 
+									  </select>
+								</div>
+                            </div>
+							<br>
+							<br>
+							<!-- Display next and previous buttons -->
+							<div class="form-group">
+								<div class="col-lg-8 col-lg-offset-9">
+									<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
+									<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>	
+							
+							
+						</fieldset>
 					</form>		
 				</div>
 				
 				<div class="well" id="cashMessage" style="display:none">
 					<form class="form-horizontal"   method="POST">
-						<p>You are expected to pay upon delivery/collection. Please click <a href="checkout-3.php">next</a> to verify your order...</p>
+						<p>You are expected to pay upon delivery/collection. Please click <a href="checkout-3.php">next</a> to verify your order.</p>
+						<br>
+						<!-- Display next and previous buttons -->
+						<div class="form-group">
+							<div class="col-lg-8 col-lg-offset-9">
+								<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
+								<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+							</div>
+						</div>	
 					</form>		
 				</div>
 				
 				<div class="well" id="paypalMessage" style="display:none">
 					<form class="form-horizontal"   method="POST">
 						<p><i class="fa fa-spinner fa-spin"></i>  You will be redirected to Paypal in a few seconds...</p>
+						<br>
+						<!-- Display next and previous buttons -->
+						<div class="form-group">
+							<div class="col-lg-8 col-lg-offset-9">
+								<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
+								<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+							</div>
+						</div>	
 					</form>		
 				</div>
 
-				<!-- Display next and previous buttons -->
-				<div class="form-group">
-					<div class="col-lg-8 col-lg-offset-9">
-						<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
-						<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
-					</div>
-				</div>	
+				
                
 
             </div>
@@ -120,13 +215,15 @@
 
                 <!-- Help Well -->
                 <div class="well">
-                   <div class="input-group">
-						<div class="col-lg-8 col-xs-8">
-							<h4><i class="fa fa-phone"></i></i> Customer Service</h4>
+                    <div class="input-group">
+						<div class="col-lg-12 col-xs-12">
+							<h4>
+								<i class="fa fa-phone"></i> Customer Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								
+								<i class="fa fa-comments"></i> Live Chat
+							</h4>
 						</div>
-						<div class="col-lg-4 col-xs-4">
-							<h4><i class="fa fa-comments"></i></i> Live Chat</h4>
-						</div>
+						
                     </div>
                     <!-- /.input-group -->
                 </div>
