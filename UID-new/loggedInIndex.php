@@ -21,6 +21,11 @@
     <!-- Extra CSS -->
     <link href="css/extracss.css" rel="stylesheet">
 
+     <link rel="shortcut icon" href="../favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,45 +57,70 @@
 
 <body onload="startTimer()">
 	
-	 <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+	 <div class="row">
+       <div class="col-lg-3 col-md-6 col-sm-3">
+            <ul class="grid cs-style-3">
+                <li>
+                    <figure>
+                        <img src="images/logo.jpg">
+                        
+                       
+                    </figure>
+                </li>
+            </ul>
+        </div><!-- /container -->
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('http://cdni.wired.co.uk/1920x1280/s_v/Samsung-laptop.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
+        <div class="col-lg-3 col-md-6 col-sm-3">
+            <ul class="grid cs-style-3">
+                <li>
+                    <figure>
+                        <img src="images/index-2.jpg">
+                        
+                        <figcaption>
+                            <h3>Checkout the Latest Listings</h3>
+                            
+
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div><!-- /container -->
+
+        <div class="col-lg-3 col-md-6 col-sm-3">
+            <ul class="grid cs-style-3">
+                <li>
+                    <figure>
+                        <img src="images/index-3.jpg">
+                        
+                        <figcaption>
+                            <h3>Sell your Products</h3>
+                            
+
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div><!-- /container -->
+
+        <div class="col-lg-3 col-md-6 col-sm-3">
+            <ul class="grid cs-style-3">
+                <li>
+                    <figure>
+                        <img src="images/index-1.jpg">
+                        
+                        <figcaption>
+                            <h3>Promote your Products</h3>
+                            
+
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
+    </div>
+    
+    <script src="js/toucheffects.js"></script>
+    
 		
 
 
@@ -101,11 +131,7 @@
 		
         <!-- Marketing Icons Section -->
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    Welcome to Digistore!
-                </h1>
-            </div>
+           
             <div class="col-md-4">
                 <div id="carousel-logged-in" class="carousel slide" data-ride="carousel" data-interval="3000">
                     <!-- Wrapper for slides -->
