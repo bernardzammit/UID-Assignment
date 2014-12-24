@@ -23,10 +23,12 @@
     
     <body>
         <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
+
+            <div class="img-thumbnail" id="thumbnail_item">
                 <div class="form-group" id="successAlert"> </div>
-                <a href="viewItem.php"><img class="img-responsive" src="images\apple-tablet.jpg" width="130" alt="" id="item-image"></a>
-                <div class="well" id="item-thumbnail-well">
+                <a href="viewItem.php"><img id="item-image" src="images\apple-tablet.jpg" width="130" height = "130" alt="" ></a>
+                 <hr>
+                <div id="item-thumbnail">
                     <div class="caption">
                         <h3>Apple Tablet<br>
                             <small>Apple</small>

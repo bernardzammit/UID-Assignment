@@ -33,9 +33,9 @@
             </div>
             <div class="col-md-6">
                 <h2>Our Location</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+                <p>We are currently situated in Malta. Our offices are located in Msida, which open from Monday to Saturday between ##:## am - ##:## excluding public holidays and shutdown between 10 - 20 th of August</p>
+                <p>For any queries, you will alwyas find us available online on facebook, twitter, and by sending us an email or subscribing to our products by enetering your e-mail below in the footer. </p>
+                <p>We appreciate for any suggestions about our website or any queries that you may have whilst using this website. The company will keep all your infoormation private and safe according to the Data Protection Law of Malta.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -56,7 +56,7 @@
                         </div>
                         <div class="panel-body">
                             <h4>Functionalities</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.um dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicin</p>
+                            <p>The main functionalities of this website is to sell, buy used/new products from sellers who are registered with this website. Registered users have the ability to sell their products and promote their products so that they can be listed on the featured section. The user can also share any product that intrest him/her on various social networking websites.</p>
                         </div>
                 </div>
             </div>
@@ -71,8 +71,7 @@
                         </div>
                         <div class="panel-body">
                             <h4>User Experience</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.um dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicin</p>
-                        </div>
+                            <p>The website is always being updated and improved so that all users can have the best experience whilst purchasing or selling a product on this website. Digistore ensures that the website follow web accessibilty standards and is constantly testing for user interaction satisfaction. Digistore is always seeking for methods and ways of improving the user experience by applying the best user interface. </p>                  </div>
                 </div>
             </div>
 
@@ -86,7 +85,7 @@
                         </div>
                         <div class="panel-body">
                             <h4>Design</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.um dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicinum dolor sit amet, consectetur adipisicin</p>
+                            <p>The design of the website and the layout of the content is planned and tested with an eye for every possible scenario and all users that access the website. This website is developed according to the Bootstrap framework which aims for responsive layout across multiple devices, and includes open source CSS and jQuery plugins. FontAwesome was used for all the icons in the website.</p>
                         </div>
                 </div>
             </div>

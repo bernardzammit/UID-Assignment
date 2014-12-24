@@ -23,7 +23,7 @@
     
     <body>
         <div class="col-md-4 col-sm-6">
-            <div class="img-thumbnail">
+            <div class="img-thumbnail" id="thumbnail_item">
                 <div class="form-group" id="successAlert"> </div>
                 <a href="viewItem.php"><img id="item-image" src="images\adobe_software.jpg" width="130" alt="" ></a>
                  <hr>

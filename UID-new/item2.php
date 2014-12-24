@@ -25,9 +25,11 @@
         <div class="form-group" id="successAlert"> </div>
 		
 		<div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                <a href="viewItem.php"><img class="img-responsive" src="images\nokia-x-plus.jpg" width="130" alt="" id="item-image"></a>
-                <div class="well" id="item-thumbnail-well">
+            <div class="img-thumbnail" id ="thumbnail_item">
+                <div class="form-group" id="successAlert"> </div>
+                <a href="viewItem.php"><img id="item-image" src="images\nokia-x-plus.jpg" width="130" alt="" ></a>
+                 <hr>
+                <div id="item-thumbnail">
                     <div class="caption">
                         <h3>Nokia X Plus<br>
                             <small>Android</small>
@@ -47,6 +49,4 @@
         </div>
     </body>
     
-    <script>
-    </script>
 </html>
