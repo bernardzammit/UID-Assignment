@@ -233,7 +233,7 @@
                     </li>
 					
 					<li>
-                        <a href="#">
+                        <a href="faq.php">
 						  <span class="pull-right fa fa-question fa-lg" id="help-top" title="Help"></span>
 						</a>
                     </li>

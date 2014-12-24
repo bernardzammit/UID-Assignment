@@ -67,7 +67,7 @@
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
-	width: 300px;
+	width: 350px;
 }
 
 .no-touch .cs-style-3 figure:hover img,
@@ -80,7 +80,7 @@
 
 .cs-style-3 figcaption {
 	height: 150px;
-	width: 312px;
+	width: 350px;
 	top: auto;
 	bottom: 0;
 	opacity: 0;
