@@ -20,13 +20,12 @@
         <link href="css/extracss.css" rel="stylesheet">
         
     </head>
-    
     <body>
         <div class="col-md-4 col-sm-6">
-            <div class="img-thumbnail">
-                <div class="form-group" id="successAlert"> </div>
-                <a href="viewItem.php"><img id="item-image" src="images\adobe_software.jpg" width="130" alt="" ></a>
-                <div class="well" id="item-thumbnail-well">
+            <div class="img-thumbnail" id="thumbnail_item">
+                <a href="viewItem.php"><img id="item-image" src="images\adobe_software.jpg" width="130" height = "130" alt="" ></a>
+                <hr>
+                <div id="item-thumbnail">
                     <div class="caption">
                         <h3>Adobe Acrobat X Standard<br>
                             <small>For Windows</small>
@@ -42,10 +41,7 @@
                         </ul>
                     </div>
                 </div>
-                
             </div>
         </div>
-
-       
     </body>
 </html>

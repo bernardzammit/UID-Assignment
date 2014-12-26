@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'header.php'; ?>
@@ -19,94 +18,64 @@
     <!-- Extra CSS -->
     <link href="css/extracss.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="../favicon.ico"> 
-    <link rel="stylesheet" type="text/css" href="css/default.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <script src="js/modernizr.custom.js"></script>
-
 </head>
 
 <body>
-   
-            
-
-    <div class="row">
-       <div class="col-lg-3 col-md-6 col-sm-3">
-            <ul class="grid cs-style-3">
-                <li>
-                    <figure>
-                        <img src="images/logo.jpg">
-                         <figcaption>
-                            <h3>Welcome to our E-Commerce Website</h3>
-                            
-
-                        </figcaption>
-                        
-                       
-                    </figure>
-                </li>
-            </ul>
-        </div><!-- /container -->
-
-        <div class="col-lg-3 col-md-6 col-sm-3">
-            <ul class="grid cs-style-3">
-                <li>
-                    <figure>
-                        <img src="images/index-2.jpg">
-                        
-                        <figcaption>
-                            <h3>Checkout the Latest Listings</h3>
-                            
-
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div><!-- /container -->
-
-        <div class="col-lg-3 col-md-6 col-sm-3">
-            <ul class="grid cs-style-3">
-                <li>
-                    <figure>
-                        <img src="images/index-3.jpg">
-                        
-                        <figcaption>
-                            <h3>Sell your Products</h3>
-                            
-
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div><!-- /container -->
-
-        <div class="col-lg-3 col-md-6 col-sm-3">
-            <ul class="grid cs-style-3">
-                <li>
-                    <figure>
-                        <img src="images/index-1.jpg">
-                        
-                        <figcaption>
-                            <h3>Promote your Products</h3>
-                            
-
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-    </div>
     
-    <script src="js/toucheffects.js"></script>
+     <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://cdni.wired.co.uk/1920x1280/s_v/Samsung-laptop.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+        
 
 
-    <br>
+    </div>
 
     <!-- Page Content -->
     <div class="container">
         
         <!-- Marketing Icons Section -->
         <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to Digistore!
+                </h1>
+            </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -229,8 +198,3 @@
 </body>
 
 </html>
-
-
-
-
-
