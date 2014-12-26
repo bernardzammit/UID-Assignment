@@ -22,13 +22,10 @@
     </head>
     
     <body>
-        <div class="form-group" id="successAlert"> </div>
-		
-		<div class="col-md-4 col-sm-6">
-            <div class="img-thumbnail" id ="thumbnail_item">
-                <div class="form-group" id="successAlert"> </div>
-                <a href="viewItem.php"><img id="item-image" src="images\nokia-x-plus.jpg" width="130" alt="" ></a>
-                 <hr>
+        <div class="col-md-4 col-sm-6">
+            <div class="img-thumbnail" id="thumbnail_item">
+                <a href="viewItem.php"><img id="item-image" src="images\nokia-x-plus.jpg" width="130" height = "130" alt="" ></a>
+                <hr>
                 <div id="item-thumbnail">
                     <div class="caption">
                         <h3>Nokia X Plus<br>
@@ -36,9 +33,9 @@
                         </h3>
                         <p>Second hand Nokia X Plus, used only once...</p>
                         <ul class="list-inline">
-                            <li><a title="Watch item" id="watch-btn"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
+                            <li><a title="Watch item" class="watch-btn"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
                             </li>
-                            <li><a title="Add to cart" id="add-cart-btn"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
+                            <li><a title="Add to cart" class="add-cart-btn"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
                             </li>
                             <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>450<sup>50</sup></span></div>
                             </li>
@@ -48,5 +45,4 @@
             </div>
         </div>
     </body>
-    
 </html>

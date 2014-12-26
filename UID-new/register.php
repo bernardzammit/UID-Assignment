@@ -10,6 +10,13 @@
   <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
   <script src="js/datepicker.js"></script>
 
+   <script type="text/javascript">
+        function CheckAndSubmit () {
+            if(!confirm('Registration was successful!'))
+              {return false;}
+        }
+    </script>
+
 </head>
 
 <body>
@@ -36,7 +43,7 @@
 
             <div class="col-lg-8">
               <div class="well">
-                <form id="registerForm" class="form-horizontal" method="POST" onSubmit="if(!confirm('Registration was successful!')){return false;}">
+                <form id="registerForm" class="form-horizontal" method="POST" onSubmit="return CheckAndSubmit()">
                     <fieldset>
                         <legend>Personal Details</legend>
                         <div class="form-group">
@@ -189,16 +196,6 @@
     <!-- /.container -->
 
 
-  
-
-  <script>
-   $(function f() {
-                $(if(!confirm(alert("Registration was successful!")))
-                {return false;})
-              
-            
-            });
-  </script>
 
 
 </body>
