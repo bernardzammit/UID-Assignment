@@ -264,18 +264,11 @@
     <script>
         
         $(document).ready(function() {
-            $('.watch-btn').click(function() {
-                $('#alert').removeClass().addClass('alert alert-success');
-                $('#alert').find('span').text(' Added to watch list');
-                $('#alert').show();
-            });
-        });
-        
-        $(document).ready(function() {
-            $('.add-cart-btn').click(function() {
-                $('#alert').removeClass().addClass('alert alert-success');
-                $('#alert').find('span').text(' Added to cart');
-                $('#alert').show();
+            $('.watch-btn, .add-cart-btn').click(function() {
+                    $('#alert').removeClass().addClass('alert alert-success');
+                    var text = $(this).data('alert-text');
+                    $('#alert').find('span').text(text);
+                    $('#alert').show();
             });
         });
         

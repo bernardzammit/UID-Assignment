@@ -33,9 +33,9 @@
                         </h3>
                         <p>Second hand Nokia X Plus, used only once...</p>
                         <ul class="list-inline">
-                            <li><a title="Watch item" class="watch-btn"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
+                            <li><a title="Watch item" class="watch-btn" data-alert-text=" Added to watch list"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
                             </li>
-                            <li><a title="Add to cart" class="add-cart-btn"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
+                            <li><a title="Add to cart" class="add-cart-btn" data-alert-text=" Added to cart"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
                             </li>
                             <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>450<sup>50</sup></span></div>
                             </li>
