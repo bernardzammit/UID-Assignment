@@ -26,23 +26,23 @@
             <div class="img-thumbnail">
                 <div class="form-group" id="successAlert"> </div>
                 <a href="viewItem.php"><img id="item-image" src="images\adobe_software.jpg" width="130" alt="" ></a>
-                 <hr>
-                <div id="item-thumbnail">
+                <div class="well" id="item-thumbnail-well">
                     <div class="caption">
                         <h3>Adobe Acrobat X Standard<br>
                             <small>For Windows</small>
                         </h3>
                         <p>The Acrobat X Standard Software for Windows from Adobe is a software suite that allows you to...</p>
                         <ul class="list-inline">
-                            <li><a title="Watch item" id="watch-btn"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
+                            <li><a title="Watch item" class="watch-btn"><i class="fa fa-eye fa-2x" id="watch-image"></i></i></a>
                             </li>
-                            <li><a title="Add to cart"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
+                            <li><a title="Add to cart" class="add-cart-btn"><i class="fa fa-shopping-cart fa-2x" id="cart-image"></i></a>
                             </li>
                             <li  id="price"><div class="col-sm-1"><span class="price"><sup>€</sup>60<sup>00</sup></span></div>
                             </li>
                         </ul>
                     </div>
                 </div>
+                
             </div>
         </div>
 

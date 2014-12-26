@@ -245,7 +245,7 @@
         <!-- /.container -->
         <div class="alert alert-success collapse" id="alert">
             <button type="button" class="close" id="close-alert">&times;</button>
-            <strong>Success!</strong> Added to watch list. 
+            <strong>Success!</strong><span></span>
         </div>
     </nav>
     
@@ -263,11 +263,18 @@
     <!-- Script to Activate the Carousel -->
     <script>
         
-        
+        $(document).ready(function() {
+            $('.watch-btn').click(function() {
+                $('#alert').removeClass().addClass('alert alert-success');
+                $('#alert').find('span').text(' Added to watch list');
+                $('#alert').show();
+            });
+        });
         
         $(document).ready(function() {
-            $('#watch-btn').click(function() {
+            $('.add-cart-btn').click(function() {
                 $('#alert').removeClass().addClass('alert alert-success');
+                $('#alert').find('span').text(' Added to cart');
                 $('#alert').show();
             });
         });
