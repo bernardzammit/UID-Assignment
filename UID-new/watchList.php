@@ -79,13 +79,13 @@
 						<!-- Product 1 -->
 						<div class="row">
 							<div class="col-md-5">
-								<a href="blog-post.html">
+								<a href="viewItem.php">
 									<img class="img-responsive img-hover" src="images/desktop-2-1.jpg" alt="">
 								</a>
 							</div>
 							<div class="col-md-6">
 								<h3>
-									<a href="blog-post.html">iMac 21.5</a>
+									<a href="viewItem.php">iMac 21.5</a>
 								</h3>
 								<h4><i>29/11/2014</i></h4><br>
 
@@ -107,16 +107,50 @@
 						<br>
 						<hr>
                         
-						<!-- Product 2 -->
+						<!-- Product Row 2 -->
 						<div class="row">
 							<div class="col-md-5">
-								<a href="blog-post.html">
+								<a href="viewItem.php">
+									<img class="img-responsive img-hover" src="images/adobe_software.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-6">
+								<h3>
+									<a href="viewItem.php">Adobe Acrobat X Standard</a>
+								</h3>
+								<h4><i>30/10/2014</i></h4><br>
+
+								<ul>
+									<li>Intel® Core™ i5 processor</li>
+									<li>OS X Mavericks</li>
+									<li>Hard drive: 1 TB</li>
+									<li>Memory: 8 GB</li>
+								</ul>
+								<br>
+								<span class="price"><sup>€</sup>450<sup>50</sup></span>
+							</div>
+							<div class="col-md-3">
+								<br />
+								<button class="btn btn-default">Remove</button>
+							</div>
+						</div>
+						<!-- /.row -->
+						<br>
+                        
+                    </div>
+					
+					<div class="tab-pane fade" id="desktops-tab">
+						<br>
+						<!-- Product 1 -->
+						<div class="row">
+							<div class="col-md-5">
+								<a href="viewItem.php">
 									<img class="img-responsive img-hover" src="images/desktop-2-1.jpg" alt="">
 								</a>
 							</div>
 							<div class="col-md-6">
 								<h3>
-									<a href="blog-post.html">iMac 21.5</a>
+									<a href="viewItem.php">iMac 21.5</a>
 								</h3>
 								<h4><i>29/11/2014</i></h4><br>
 
@@ -133,67 +167,64 @@
 								<br />
 								<button class="btn btn-default">Remove</button>
 							</div>
-						</div>
-						
-                        <hr>
-                    </div>
-					
-					<div class="tab-pane fade" id="desktops-tab">
-                        <hr>
-                        
-						
-                        <hr>
-                        
-                        <hr>
+						</div>                       
+                        <br>
                     </div>
                     
                     <div class="tab-pane fade" id="mobiles-tab">
-                        <hr>
-                       
-                        <hr>                        
-                       
-                        <hr>
+                        <br>
+					
+						<div class="col-md-5" >
+							<p>You have no mobiles in your watching list!</p><br>
+							
+							<a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '0'?>">See mobiles for sale</a>
+						</div>	
                     </div>
-                    <div class="tab-pane fade" id="software-tab">
-                        <hr>
-                        
-                        <hr>
-                        
-                        <hr>
+                    
+					<div class="tab-pane fade" id="software-tab">
+						<br>
+                        <!-- Product Row 1 -->
+						<div class="row">
+							<div class="col-md-5">
+								<a href="viewItem.php">
+									<img class="img-responsive img-hover" src="images/adobe_software.jpg" alt="">
+								</a>
+							</div>
+							<div class="col-md-6">
+								<h3>
+									<a href="viewItem.php">Adobe Acrobat X Standard</a>
+								</h3>
+								<h4><i>30/10/2014</i></h4><br>
+
+								<ul>
+									<li>Intel® Core™ i5 processor</li>
+									<li>OS X Mavericks</li>
+									<li>Hard drive: 1 TB</li>
+									<li>Memory: 8 GB</li>
+								</ul>
+								<br>
+								<span class="price"><sup>€</sup>450<sup>50</sup></span>
+							</div>
+							<div class="col-md-3">
+								<br />
+								<button class="btn btn-default">Remove</button>
+							</div>
+						</div>
+						<!-- /.row -->
+						<br>
                     </div>
+					
                     <div class="tab-pane fade" id="tablets-tab">
-                        <hr>
-                        
-                        <hr>
+                        <br>
+					
+						<div class="col-md-5" >
+							<p>You have not tablets in your watching list!</p><br>
+							
+							<a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '0'?>">See tablets for sale</a>
+						</div>	
                     </div>
                 </div>			
-			<div class="row text-center" id="divPagination">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+			
             </div>
 	</div>
 	<!-- /.row -->

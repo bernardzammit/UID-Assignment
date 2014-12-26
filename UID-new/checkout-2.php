@@ -126,6 +126,9 @@
 									<input type="text" class="form-control" maxLength="3">
 									
 								</div>
+								<div class="col-lg-2 col-xs-2">
+								<img src="images/securityCode2.gif" alt="security code" style="width:80px;height:40px">
+								</div>
                             </div>
 							<div class="form-group">								
 								<label for="inputCardDate" class="col-lg-4 col-xs-4 control-label">Expiry Date</label>
@@ -254,7 +257,7 @@
 					<!-- Item Two -->
 					<div class="row">
                         <div class="col-lg-3">
-                            <a href="portfolio-item.html">
+                            <a href="viewItem.php">
 								<img class="img-responsive img-hover" src="images/tablet-1-1.jpg" alt="" width=100%>
 							</a>
 						</div>
@@ -290,7 +293,7 @@
 
         </div>
         <!-- /.row -->
-
+		
         
  
     </div>

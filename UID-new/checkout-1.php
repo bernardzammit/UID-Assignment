@@ -20,6 +20,12 @@
 				document.getElementById("deliveryFormShow").style.display="none";
 			}
 		}
+		
+		function nextPage(){
+			window.location.assign("checkout-2.php");
+			alert("nxtPage");
+		}
+		
 	</script>
 
 
@@ -75,16 +81,14 @@
  
 				<!-- Show form according to option chosen (by default delivery form is shown) -->
 				<div class="well" id="deliveryForm" style="display:block">
+					<div class="bs-component">
+						<legend>Delivery/Collection Details</legend>
+						<p><strong>Delivery cost:</strong> €5.00</p>
+						<p><strong>Estimated Arrival Date: </strong>19/01/2015</p>
+					</div>
+					<hr>
 					<form class="form-horizontal"   method="POST">
 						<fieldset>
-							<legend>Delivery Details</legend>
-							<div class="form-group">		
-									<label class="col-lg-4 control-label">Delivery cost: €5.00</label>
-							</div>
-							<div class="form-group">
-								<label class="col-lg-6 control-label">Estimated Arrival Date: 19/01/2015</label>
-							</div>
-							<hr>
 							<div class="form-group">
 								<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
 								<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
@@ -128,6 +132,7 @@
 								<div class="col-lg-8 col-lg-offset-9">
 									<a href="shoppingCart.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
 									<a href="checkout-2.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+									<button type="submit" value="submit" class="btn btn-primary" onSubmit="return nextPage()" >Submit</button>
 								</div>
 							</div>	
 						</fieldset>
@@ -135,40 +140,34 @@
 				</div>
 				
 				<div class="well" id="collectionForm" style="display:none">
-					<form class="form-horizontal" method="POST">
+					<div class="bs-component">
+						<legend>Collection Details</legend>
+						<p>Collection of item(s) can be done during the following days at these particular times from the place specified in the address below.</p>
+						<br>
+						<div class="col-lg-10">
+							<p><strong>Opening hours: </strong>Monday - Friday from 9:00 - 12:00</p>
+							<p><strong>Address: </strong> 35, Triq is-Salini, Marsaskala, MSK 3010</p>
+						</div>
+						<hr>
+					</div>
+					<hr>
+					<br>
+					<form class="form-horizontal"   method="POST">
 						<fieldset>
-							<legend>Collection Details</legend>
-							<div class="form-group">		
-									<!--<label class="col-lg-4 control-label">Collection of item(s) can be done during the following days at these particular times</label> -->
-									<p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;Collection of item(s) can be done during the following days at these particular times from the<br>&nbsp;&nbsp;&nbsp;&nbsp;place specified in the address below. </p>
-							</div>
 							<div class="form-group">
-								<label for="" class="col-lg-7 control-label">Monday - Friday</label>
-								<label for="" class="col-lg-5 col-lg-offset-1 control-label">9:00 - 12:00</label>
-							</div>
-							<div class="form-group">
-								<label class="col-lg-9 control-label">Address: University of Malta Msida MSD 2080</label>
-							</div>
-							<hr>
-							<div class="form-group">
-								<label class="col-lg-9 control-label">For more information: </label>
+								<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
 								<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
 							</div>
 							<hr>
 							<div class="form-group">
 								<div class="col-lg-8 col-lg-offset-9">
 									<a href="shoppingCart.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
-									<a href="checkout-2.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+									<a href="checkout-2.php" class="btn btn-primary btn-lg" type="submit" onSubmit=""> <i class="fa fa-arrow-right"></i></a>
 								</div>
 							</div>	
-							
 						</fieldset>
 					</form>
 				</div>
-				
-				<!-- Display next and previous buttons -->
-				
-
             </div>
 <br>
             <!-- Checkout Sidebar (cart summary + help) -->
@@ -215,7 +214,7 @@
 					<!-- Item Two -->
 					<div class="row">
                         <div class="col-lg-3">
-                            <a href="portfolio-item.html">
+                            <a href="viewItem.php">
 								<img class="img-responsive img-hover" src="images/tablet-1-1.jpg" alt="" width=100%>
 							</a>
 						</div>

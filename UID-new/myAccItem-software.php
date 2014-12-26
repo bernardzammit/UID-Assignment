@@ -24,7 +24,7 @@
     <body>
         <div class="row">
             <div class="col-md-5">
-                <a href="blog-post.html">
+                <a href="viewItem.php">
                     <img class="img-responsive img-hover" src="images/adobe_software.jpg" alt="">
                 </a>
             </div>

@@ -29,7 +29,7 @@
         <!-- Item One -->
         <div class="row">
             <div class="col-md-4">
-                <a href="portfolio-item.html">
+                <a href="viewItem.php">
                     <img class="img-responsive img-hover" src="images/tablet-1-1.jpg" alt="" width=75%>
                 </a>
             </div>
@@ -53,8 +53,27 @@
 
             <div class="col-md-2">
                 <br>
-                <a class="btn btn-primary" href="#">Remove</i></a>
+                <a class="btn btn-primary" data-toggle="modal" data-target="#myModal" href="#">Remove</i></a>
             </div>
+
+            <!-- Modal -->
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">Remove Item</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        Are you sure you want to remove this item from your shopping cart? 
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
         </div>
         <!-- /.row -->
 
@@ -63,7 +82,7 @@
         <!-- Item Two -->
         <div class="row">
             <div class="col-md-4">
-                <a href="portfolio-item.html">
+                <a href="viewItem.php">
                     <img class="img-responsive img-hover" src="images/tablet-1-1.jpg" alt="" width=75%>
                 </a>
             </div>
@@ -87,7 +106,7 @@
 
             <div class="col-md-2">
                 <br>
-                <a class="btn btn-primary" href="#">Remove</i></a>
+                <a class="btn btn-primary" data-toggle="modal" data-target="#myModal" href="#">Remove</i></a>
             </div>
         </div>
         <!-- /.row -->

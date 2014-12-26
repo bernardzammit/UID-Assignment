@@ -24,13 +24,13 @@
     <body>
         <div class="row">
             <div class="col-md-5">
-                <a href="blog-post.html">
+                <a href="viewItem.php">
                     <img class="img-responsive img-hover" src="images/nokia-x-plus.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="blog-post.html">Nokia X Plus</a>
+                    <a href="viewItem.php">Nokia X Plus</a>
                 </h3>
                 <h4><i>07/11/2014</i></h4><br>
 

@@ -5,7 +5,6 @@
 
 <head>
 
-
 </head>
 
 <body>
@@ -37,26 +36,39 @@
             <!-- Main Page Content -->
             <div class="col-lg-7">
 				<div class="well" id="d/cForm">
-					<form class="form-horizontal"   method="POST">
-						<fieldset>
-							<legend>Delivery/Collection Details</legend>
-							<div class="form-group">
-							</div>
-							
-						</fieldset>
-					</form>
+					<div class="bs-component">
+						<legend>Delivery/Collection Details</legend>
+						<p><strong>Delivery cost:</strong> €5.00</p>
+						<p><strong>Estimated Arrival Date: </strong>19/01/2015</p>
+						<p><strong>Address:</strong> 35, Triq is-Salini, Marsaskala, MSK 3010</p>
+						<hr>
+						<div class="row">
+							<div class="col-lg-12 col-lg-offset-10" >
+							   <a href="checkout-1.php" class="btn btn-primary" role="button">Edit</a>
+							</div>			
+						</div>
+					</div>
 				</div>
 				
 				<div class="well" id="paymentForm">
-					<form class="form-horizontal"   method="POST">
-						<fieldset>
-							<legend>Card Payment Details</legend>
-							<div class="form-group">
-							</div>
-							
-						</fieldset>
-					</form>
+					<div class="bs-component">
+						<legend>Card Payment Details</legend>
+						<p><strong>Card type:</strong> MASTERCARD</p>
+						<p><strong>Card Holder's Name:</strong> Monique Vella</p>
+						<p><strong>Card Number:</strong> 1234567891234567</p>
+						<p><strong>Expiry Date:</strong> Jun 2015</p>
+						<hr>
+						<div class="row">
+							<div class="col-lg-12 col-lg-offset-10" >
+							   <a href="checkout-2.php" class="btn btn-primary" role="button">Edit</a>
+							</div>			
+						</div>
+					</div>
 				</div>
+				
+				
+				<br>
+				<br>
             </div>
 
             <!-- Checkout Sidebar (cart summary + help) -->
@@ -103,7 +115,7 @@
 					<!-- Item Two -->
 					<div class="row">
                         <div class="col-lg-3">
-                            <a href="portfolio-item.html">
+                            <a href="viewItem.php">
 								<img class="img-responsive img-hover" src="images/tablet-1-1.jpg" alt="" width=100%>
 							</a>
 						</div>
@@ -139,8 +151,17 @@
 
         </div>
         <!-- /.row -->
-
-        
+		<div class="row">
+			<div class="list-group-item">
+					<div class="form-group">
+						<div class="col-lg-8 col-lg-offset-10">
+							<a href="checkout-3.php" class="btn btn-warning btn-lg" type="submit">Submit Order</a>
+						</div>
+						<br>
+					</div>	
+			</div>
+		</div>
+        <br>
  
     </div>
     <!-- /.container -->

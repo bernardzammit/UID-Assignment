@@ -24,13 +24,13 @@
     <body>
         <div class="row">
             <div class="col-md-5">
-                <a href="blog-post.html">
+                <a href="viewItem.php">
                     <img class="img-responsive img-hover" src="images/apple-tablet.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="blog-post.html">Apple Tablet</a>
+                    <a href="viewItem.php">Apple Tablet</a>
                 </h3>
                 <h4><i>31/12/2013</i></h4><br>
 

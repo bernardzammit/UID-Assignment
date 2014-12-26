@@ -110,7 +110,7 @@
                         </ul>
                     </li>
                     
-                    <li class="dropdown">
+                 <!--   <li class="dropdown">
                         <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '0'?>" class="dropdown-toggle" data-toggle="dropdown" id="laptops">Laptops <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -135,7 +135,7 @@
                                 <a href="viewAllItems.php?varname=<?php echo 'viewAll-laptops.php'?>&checkbox=<?php echo '7'?>">Other</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
 					
                     <li class="dropdown">
                         <a href="viewAllItems.php?varname=<?php echo 'viewAll-tablets.php'?>&checkbox=<?php echo '0'?>" class="dropdown-toggle" data-toggle="dropdown" id="tablets">Tablets <b class="caret"></b></a>
@@ -233,7 +233,7 @@
                     </li>
 					
 					<li>
-                        <a href="#">
+                        <a href="faq.php">
 						  <span class="pull-right fa fa-question fa-lg" id="help-top" title="Help"></span>
 						</a>
                     </li>

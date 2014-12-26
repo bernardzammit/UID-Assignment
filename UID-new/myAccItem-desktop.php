@@ -8,13 +8,13 @@
     <body>
         <div class="row">
             <div class="col-md-5">
-                <a href="blog-post.html">
+                <a href="viewItem.php">
                     <img class="img-responsive img-hover" src="images/desktop-2-1.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="blog-post.html">iMac 21.5</a>
+                    <a href="viewItem.php">iMac 21.5</a>
                 </h3>
                 <h4><i>06/12/2014</i></h4><br>
 

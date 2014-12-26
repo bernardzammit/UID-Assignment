@@ -4,6 +4,13 @@
 <html lang="en">
 
 <head>
+	<!--Load script.js which will create datepicker for input field -->
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="js/datepicker.js"></script>
+	
 	<script>
 		function showAlert()
 		{
@@ -20,7 +27,7 @@
 			alert('test');
 		}
 
-			</script>
+	</script>
 
 
 </head>
@@ -49,17 +56,11 @@
 		<!-- Content Row -->
 		
 		<div class="row">
-            <div class="col-lg-2">
-            </div>
-			
             <div class="col-lg-8">
 			<div class="form-group" id="successAlert"></div>
               <div class="well">
                 <form name = "register" id="registerForm" class="form-horizontal">
                     <fieldset>
-						
-						
-						
                         <legend>Edit Personal Details</legend>
                             <div class="form-group">
 								<label for="Name" class="col-lg-4 col-xs-4 control-label">Name
@@ -73,19 +74,19 @@
 							  
 								<script type="text/javascript">
 									var elem = document.getElementById("FName");
-									elem.value = "Sheryl";
+									elem.value = "Monique";
 								</script>
 							  
 								<div class="col-lg-3 col-xs-3">
 									<span class="nameLast">
-										<input type="text" class="form-control" required id="LName" placeholder="Last">
+										<input type="text" class="form-control" required id="LName" placeholder="Last" value="Vella">
 									</span>
 								</div>
 							  
-								<script type="text/javascript">
+							<!--	<script type="text/javascript">
 									var elem = document.getElementById("LName");
-									elem.value = "Camilleri";					
-								</script>
+									elem.value = "Vella";					
+								</script> -->
                             </div>
 
                             <div class="form-group">
@@ -111,7 +112,7 @@
 							
 							<script type="text/javascript">
 								var elem = document.getElementById("inputAddress");
-								elem.value = "Test";
+								elem.value = "35, Triq is-Salini";
 							</script>
 
                             <div class="form-group">
@@ -123,7 +124,7 @@
 							
 							<script type="text/javascript">
 								var elem = document.getElementById("inputTown");
-								elem.value = "Test";
+								elem.value = "Marsascala";
 							</script>
 
                             <div class="form-group">
@@ -135,7 +136,7 @@
 							
 							<script type="text/javascript">
 								var elem = document.getElementById("inputPostcode");
-								elem.value = "Test";
+								elem.value = "MSK 3010";
 							</script>
 
                             <div class="form-group">
@@ -144,22 +145,22 @@
 								</label>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="mob">
-                                    <input type="number" class="form-control" required id="Mobile" placeholder= "Mobile">
+                                    <input type="number" class="form-control" required id="Mobile" placeholder= "Mobile" >
                                 </span>
                               </div>
                               <div class="col-lg-3 col-xs-3">
                                 <span class="phone">
-                                    <input type="number" class="form-control" id="Phone" placeholder="Phone">
+                                    <input type="number" class="form-control" id="Phone" placeholder="Phone" >
                                 </span>
                               </div>
                             </div>
 							
 							<script type="text/javascript">
 								var elem = document.getElementById("Mobile");
-								elem.value = "1234";
+								elem.value = "12345678";
 								
 								var elem = document.getElementById("Phone");
-								elem.value = "5678";
+								elem.value = "87654321";
 							</script>
 
                             <div class="form-group">
@@ -173,21 +174,15 @@
 							
 							<script type="text/javascript">
 								var elem = document.getElementById("email");
-								elem.value = "Test";
+								elem.value = "moniquevella@gmail.com";
 							</script>
 
                             <div class="form-group">
                               <label for="inputDOB" class="col-lg-4 col-xs-4 control-label">Date of Birth</label>
                               <div class="col-lg-6 col-xs-6">
-                                    <input type="text" class="form-control" name="date" placeholder="mm-dd-yyyy" id="datepicker">                               
-                                    
+                                    <input type="date" class="form-control" name="date" id="datepicker" value="12/12/1992">                                      
                               </div>
-                            </div>
-							
-							<script type="text/javascript">
-								var elem = document.getElementById("datepicker");
-								elem.value = "Test";
-							</script>
+                            </div> 
 							
 							<div class="form-group">
                               <div class="col-lg-8 col-lg-offset-8">
@@ -200,7 +195,7 @@
                             <div class="form-group">
                               <label for="inputUsername" class="col-lg-4 col-xs-4 control-label">Current Password</label>
                               <div class="col-lg-6 col-xs-6">
-                                <input type="text" class="form-control" id="inputUsername">
+                                <input type="password" class="form-control" id="inputUsername">
                               </div>
                             </div>
 

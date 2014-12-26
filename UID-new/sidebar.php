@@ -14,7 +14,7 @@
             <div class="col-md-3">
                 <div class="list-group">
 					<div class="list-group-item">
-						<h3>Hi User!
+						<h3>Hi Monique!
 						<span class="glyphicon glyphicon-user pull-right" ></span>
 						</h3>
 					</div>

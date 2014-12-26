@@ -1,42 +1,8 @@
-<?php include 'header.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
+<?php include 'header.php'; ?>
 
 <head>
-	
-	<script language=javascript type='text/javascript'> 
-	/*	function hideDiv() { 
-		
-			alert ("hide div");
-			
-			if (document.getElementById) { // DOM3 = IE5, NS6 
-			document.getElementById('divPagination').style.visibility = 'hidden'; 
-			} 
-			else { 
-			if (document.layers) { // Netscape 4 
-			document.divPagination.visibility = 'hidden'; 
-			} 
-			else { // IE 4 
-			document.all.divPagination.style.visibility = 'hidden'; 
-			} 
-			} 
-		}
-
-		function showDiv() { 
-		if (document.getElementById) { // DOM3 = IE5, NS6 
-		document.getElementById('divPagination').style.visibility = 'visible'; 
-		} 
-		else { 
-		if (document.layers) { // Netscape 4 
-		document.divPagination.visibility = 'visible'; 
-		} 
-		else { // IE 4 
-		document.all.divPagination.style.visibility = 'visible'; 
-		} 
-		} 
-		} */
-	</script>
 
 </head>
 
@@ -93,7 +59,7 @@
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">iMac 21.5</a>
+								<a href="viewItem.php">iMac 21.5</a>
 							</h3>
 							<h4><i>06/12/2014</i></h4><br>
 
@@ -114,13 +80,13 @@
 					<!-- Product Row 2 -->
 					<div class="row">
 						<div class="col-md-5">
-							<a href="blog-post.html">
+							<a href="viewItem.php">
 								<img class="img-responsive img-hover" src="images/desktop-2-1.jpg" alt="">
 							</a>
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">iMac 21.5</a>
+								<a href="viewItem.php">iMac 21.5</a>
 							</h3>
 							<h4><i>29/11/2014</i></h4><br>
 
@@ -147,7 +113,7 @@
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">Adobe Acrobat X Standard</a>
+								<a href="viewItem.php">Adobe Acrobat X Standard</a>
 							</h3>
 							<h4><i>30/10/2014</i></h4><br>
 
@@ -174,7 +140,7 @@
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">Samsung Galaxy Tab S</a>
+								<a href="viewItem.php">Samsung Galaxy Tab S</a>
 							</h3>
 							<h4><i>30/10/2014</i></h4><br>
 
@@ -237,7 +203,7 @@
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">iMac 21.5</a>
+								<a href="viewItem.php">iMac 21.5</a>
 							</h3>
 							<h4><i>06/12/2014</i></h4><br>
 
@@ -258,13 +224,13 @@
 					<!-- Product Row 2 -->
 					<div class="row">
 						<div class="col-md-5">
-							<a href="blog-post.html">
+							<a href="viewItem.php">
 								<img class="img-responsive img-hover" src="images/desktop-2-1.jpg" alt="">
 							</a>
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">iMac 21.5</a>
+								<a href="viewItem.php">iMac 21.5</a>
 							</h3>
 							<h4><i>29/11/2014</i></h4><br>
 
@@ -279,12 +245,12 @@
 						</div>
 					</div>
 					<!-- /.row -->
-					
-					<hr>
+
 					<br>
 					
 				</div>
-				<div class="tab-pane fade" id="mobiles-tab" >	<!-- l-onchange hazina -->
+				
+				<div class="tab-pane fade" id="mobiles-tab" >	
 					<br>
 					
 					<div class="col-md-5" >
@@ -294,6 +260,7 @@
 					</div>	
 					
 				</div>
+				
 				<div class="tab-pane fade" id="software-tab">
 					<br>
 					<!-- Product Row 1 -->
@@ -305,7 +272,7 @@
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">Adobe Acrobat X Standard</a>
+								<a href="viewItem.php">Adobe Acrobat X Standard</a>
 							</h3>
 							<h4><i>30/10/2014</i></h4><br>
 
@@ -335,7 +302,7 @@
 						</div>
 						<div class="col-md-6">
 							<h3>
-								<a href="blog-post.html">Samsung Galaxy Tab S</a>
+								<a href="viewItem.php">Samsung Galaxy Tab S</a>
 							</h3>
 							<h4><i>30/10/2014</i></h4><br>
 
@@ -351,6 +318,7 @@
 					</div>
 					<!-- /.row -->
 				</div>
+				<br>
 			</div>
 				
 		</div>
@@ -358,6 +326,8 @@
     </div>
     <!-- /.container -->
     
+	</div>
+	
     <?php include 'footer.php'; ?>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
