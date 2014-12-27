@@ -42,7 +42,11 @@
                 </ul>
                 <br>
                 <span class="price"><sup>€</sup>899<sup>99</sup></span>
-                <div class="col-md-3">
+                <div class="col-md-2">
+                    <br />
+                    <button class="btn btn-default">Edit</button>
+                </div>
+				<div class="col-md-3">
                     <br />
                     <button class="btn btn-default">Promote</button>
                 </div>
