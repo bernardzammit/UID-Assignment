@@ -1,7 +1,7 @@
-<?php include 'header.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
+
+<?php include 'header.php'; ?>
 
 <head>
 
@@ -38,7 +38,7 @@
 				<div class="well" id="d/cForm">
 					<div class="bs-component">
 						<legend>Delivery/Collection Details</legend>
-						<p><strong>Delivery cost:</strong> €5.00</p>
+						<p><strong>Delivery cost:</strong> € 5.00</p>
 						<p><strong>Estimated Arrival Date: </strong>19/01/2015</p>
 						<p><strong>Address:</strong> 35, Triq is-Salini, Marsaskala, MSK 3010</p>
 						<hr>
@@ -152,16 +152,35 @@
         </div>
         <!-- /.row -->
 		<div class="row">
-			<div class="list-group-item">
-					<div class="form-group">
-						<div class="col-lg-8 col-lg-offset-10">
-							<a href="checkout-3.php" class="btn btn-warning btn-lg" type="submit">Submit Order</a>
+			<div class="form-actions">
+				<div class="col-lg-8 col-lg-offset-10">
+					<button type = "button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Place Order</button>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Success!</h4>
+						  </div>
+						  <div class="modal-body">
+							<strong>Thank You for purchasing from Digistore!</strong> <br><br> A confirmation e-mail will be sent to you shortly. 
+						  </div>
+						  <div class="modal-footer">
+							<form action="loggedInIndex.php">
+								<input type="submit" value="Continue Shopping">
+							</form>
+						  </div>
 						</div>
-						<br>
-					</div>	
-			</div>
+					  </div>
+					</div>
+				</div>
+				<br>
+			</div>	
+			
 		</div>
         <br>
+		<br>
  
     </div>
     <!-- /.container -->

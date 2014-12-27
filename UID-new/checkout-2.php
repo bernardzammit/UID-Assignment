@@ -26,6 +26,10 @@
 				document.getElementById("paymentForm").style.display="none";
 			}
 		}
+		
+		function CheckAndSubmit () {
+			  alert("redirecting to next page");
+		}
 	</script>
 
 
@@ -60,7 +64,7 @@
             <!-- Main Page Content -->
             <div class="col-lg-7">
                 <div class="form-group" onchange="changeForm()">
-					<label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment method	
+					<label for="textArea" class="col-lg-4 col-xs-4 control-label">Payment method		
 					</label><br>
 					<div class="col-lg-8 col-xs-8" >                 
 						<div class="radio" id="paymentMethod">	<!-- by default check first option -->
@@ -87,43 +91,51 @@
 
 				<!-- Show form/message according to option chosen (by default credit/debit card radio button is checked) -->
 				<div class="well" id="paymentForm" style="display:block">
-					<form class="form-horizontal"   method="POST">
+					<form class="form-horizontal" method="POST" onSubmit="return CheckAndSubmit()">
 						<fieldset>
 							<legend>Card Payment Details</legend>
 							<div class="form-group">
-								<label for="" class="col-lg-4 col-xs-4 control-label">Card Type</label>
+								<label for="" class="col-lg-4 col-xs-4 control-label">Card Type
+									<span class="required" aria-required="true">*</span>			
+								</label>
 								<div class="col-lg-6 col-xs-6">
 									<div class="radio">
 										<label>
-											<input type="radio" name="optionsRadios">MASTERCARD</label>
+											<input type="radio" name="optionsRadios" required>MASTERCARD</label>
 									</div>
 									<div class="radio">
 										<label>
-											<input type="radio" name="optionsRadios">VISA</label>
+											<input type="radio" name="optionsRadios" required>VISA</label>
 									</div>
 									<div class="radio">
 										<label>
-											<input type="radio" name="optionsRadios">CashLink / Premier</label>
+											<input type="radio" name="optionsRadios" required>CashLink / Premier</label>
 									</div>
 								</div>	  
 							</div>
 							<br>
 							<div class="form-group">								
-								<label for="inputCardName" class="col-lg-4 col-xs-4 control-label">Card Holder's Name</label>
+								<label for="inputCardName" class="col-lg-4 col-xs-4 control-label">Card Holder's Name
+									<span class="required" aria-required="true">*</span>			
+								</label>
 								<div class="col-lg-6 col-xs-6">
-									<input type="text" class="form-control" placeholder="as it appears on your card">
+									<input type="text" class="form-control" required placeholder="as it appears on your card">
 								</div>
                             </div>
 							<div class="form-group">								
-								<label for="inputCardNumber" class="col-lg-4 col-xs-4 control-label">Card Number</label>
+								<label for="inputCardNumber" class="col-lg-4 col-xs-4 control-label">Card Number
+									<span class="required" aria-required="true">*</span>			
+								</label>
 								<div class="col-lg-6 col-xs-6">
-									<input type="text" class="form-control" placeholder="no dashes or spaces" maxLength="16">
+									<input type="number" class="form-control" required placeholder="no dashes or spaces" maxLength="16">
 								</div>
                             </div>
 							<div class="form-group">								
-								<label for="inputCardCode" class="col-lg-4 col-xs-4 control-label">Security code</label>
+								<label for="inputCardCode" class="col-lg-4 col-xs-4 control-label">Security code
+									<span class="required" aria-required="true">*</span>			
+								</label>
 								<div class="col-lg-2 col-xs-2">
-									<input type="text" class="form-control" maxLength="3">
+									<input type="number" class="form-control" required maxLength="3">
 									
 								</div>
 								<div class="col-lg-2 col-xs-2">
@@ -131,9 +143,11 @@
 								</div>
                             </div>
 							<div class="form-group">								
-								<label for="inputCardDate" class="col-lg-4 col-xs-4 control-label">Expiry Date</label>
+								<label for="inputCardDate" class="col-lg-4 col-xs-4 control-label">Expiry Date
+									<span class="required" aria-required="true">*</span>			
+								</label>
 								<div class="col-lg-3">
-									<select class="form-control" id="select">
+									<select class="form-control" id="select" required>
 									  <option selected="true" style="display:none;">Month</option>
 									  <option>January</option>
 									  <option>February</option>
@@ -150,7 +164,7 @@
 									</select>
 								</div>
 								<div class="col-lg-3">
-									<select class="form-control" id="select">
+									<select class="form-control" id="select" required>
 									   <option selected="true" style="display:none;">Year</option>
 									  <option>2014</option>
 									  <option>2015</option>
@@ -171,7 +185,7 @@
 							<div class="form-group">
 								<div class="col-lg-8 col-lg-offset-9">
 									<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
-									<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+									<button type="submit" value="submit" class="btn btn-primary btn-lg"> <i class="fa fa-arrow-right"></i></button> 
 								</div>
 							</div>	
 							

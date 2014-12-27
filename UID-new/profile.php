@@ -12,7 +12,7 @@
   <script src="js/datepicker.js"></script>
 	
 	<script>
-		function showAlert()
+		/*function showAlert()
 		{
 			alert('show message');
 			var y = document.getElementById("successAlert");
@@ -20,12 +20,17 @@
 									<button type="button" class="close" data-dismiss="alert">×</button> \
 									<strong>Well done!</strong> You successfully edited and saved your new personal details. \
 								</div> \ ' ;
-		}
+		}*/
 		
-		function showTest()
-		{
-			alert('test');
-		}
+        function CheckAndSubmit () {
+            if(!confirm('Your new changes were successfully saved!'))
+              {return false;}
+        }
+		
+		function CheckPassword () {
+            if(!confirm('Your new password was successfully saved!'))
+              {return false;}
+        }
 
 	</script>
 
@@ -59,7 +64,7 @@
             <div class="col-lg-8">
 			<div class="form-group" id="successAlert"></div>
               <div class="well">
-                <form name = "register" id="registerForm" class="form-horizontal">
+                <form name = "editDetailsForm" id="editDetailsForm" class="form-horizontal"  method="POST" onSubmit="return CheckAndSubmit()">
                     <fieldset>
                         <legend>Edit Personal Details</legend>
                             <div class="form-group">
@@ -191,8 +196,20 @@
                               </div>
                             </div>
 						<br>
-                        <legend>Change Password</legend>
+					</fieldset>
+                </form>
+				
+				<form name = "editPasswordForm" id="editPasswordForm" class="form-horizontal"  method="POST" onSubmit="return CheckPassword()">
+                    <fieldset>
+                        <legend>Change Username / Password</legend>
                             <div class="form-group">
+                              <label for="inputUsername" class="col-lg-4 col-xs-4 control-label">New Username</label>
+                              <div class="col-lg-6 col-xs-6">
+                                <input type="text" class="form-control" id="inputUsername" placeholder="Fill in only if you want to change current username">
+                              </div>
+                            </div>
+
+						   <div class="form-group">
                               <label for="inputUsername" class="col-lg-4 col-xs-4 control-label">Current Password</label>
                               <div class="col-lg-6 col-xs-6">
                                 <input type="password" class="form-control" id="inputUsername">
@@ -212,9 +229,9 @@
                                 <button type="submit" class="btn btn-primary">Change Password</button>
                               </div>
                             </div>
-
-                    </fieldset>
+					</fieldset>
                 </form>
+                  
               </div>
             </div>
         </div>

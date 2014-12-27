@@ -171,7 +171,7 @@
                                         <h4 class="modal-title" id="myModalLabel">Save for Later</h4>
                                       </div>
                                       <div class="modal-body">
-                                        Your registration form will be saved! Shortly you will receive an email with a link to comoplete your form.
+                                        Your registration form will be saved! Shortly you will receive an email with a link to complete your form.
                                       </div>
                                       <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
