@@ -63,7 +63,11 @@
                 <li>
                     <figure>
                         <img src="images/logo.jpg">
-                        
+                        <figcaption>
+                            <h3>Welcome to our E-Commerce Website</h3>
+                            
+
+                        </figcaption>
                        
                     </figure>
                 </li>

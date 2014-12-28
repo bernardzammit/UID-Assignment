@@ -142,15 +142,49 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-globe"></i></i> Welcome!</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi e</p>
+                        <p>Welcome to Digistore, e-commerece website where users can buy and sell new and second-hand products. 
+
+                            Upon registering, you will be able to contact other sellers to buy products and add listings to sell.
+
+                            This is  ipsum dolor sit amet, consectur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?
+                        Lorem ipsum dolor si</p>
                     </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-weixin"></i></i> Chat</h4>
+                    </div>
+
+                    <div class="panel-body">
+                        <p><strong>Customer Support</strong></p>
+                        <p>Ask here your questions, report bugs and leave your feedback :)</p>
+
+                        <p><strong>Users Online (5)</strong></p>
+                         <form class="form-horizontal">
+                            <fieldset>
+                            <div class="form-group">
+                               
+                                <div class="col-lg-10 col-lg-offset-8">
+                                    <a href="register.php" class="btn btn-primary" role="button">Join</a>
+                                </div>
+                            </div>
+                            </fieldset>
+                        </form>
+                        <br>
+
+
+                    </div>
+
                 </div>
             </div>
         </div>
