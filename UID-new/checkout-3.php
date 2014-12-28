@@ -1,9 +1,10 @@
+<?php include 'header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'header.php'; ?>
-
 <head>
+
 
 </head>
 
@@ -38,7 +39,7 @@
 				<div class="well" id="d/cForm">
 					<div class="bs-component">
 						<legend>Delivery/Collection Details</legend>
-						<p><strong>Delivery cost:</strong> € 5.00</p>
+						<p><strong>Delivery cost:</strong> â‚¬ 5.00</p>
 						<p><strong>Estimated Arrival Date: </strong>19/01/2015</p>
 						<p><strong>Address:</strong> 35, Triq is-Salini, Marsaskala, MSK 3010</p>
 						<hr>
@@ -49,7 +50,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="well" id="paymentForm">
 					<div class="bs-component">
 						<legend>Card Payment Details</legend>
@@ -65,8 +66,7 @@
 						</div>
 					</div>
 				</div>
-				
-				
+               
 				<br>
 				<br>
             </div>
@@ -106,8 +106,8 @@
 							<p>Qty=2</p>
 						</div>
 						<div class="col-lg-3">
-							<!--<p><sup>€</sup>650<sup>00</sup></p> -->
-							<p>€ 650.00</p>
+							<!--<p><sup>â‚¬</sup>650<sup>00</sup></p> -->
+							<p>â‚¬ 650.00</p>
 						</div>										
                     </div>
                     <!-- /.row -->
@@ -126,8 +126,8 @@
 							<p>Qty=2</p>
 						</div>
 						<div class="col-lg-3">
-							<!--<p><sup>€</sup>650<sup>00</sup></p> -->
-							<p>€ 650.00</p>
+							<!--<p><sup>â‚¬</sup>650<sup>00</sup></p> -->
+							<p>â‚¬ 650.00</p>
 						</div>										
                     </div>
                     <!-- /.row -->
@@ -135,7 +135,7 @@
 					<!-- Total row -->
 					<div class="row">
                         <div class="col-lg-12 col-lg-offset-7" >
-                            <h4>Total: € 1300.00</h4>
+                            <h4>Total: â‚¬ 1300.00</h4>
 						</div>			
                     </div>
                     <!-- /.row -->
@@ -151,6 +151,7 @@
 
         </div>
         <!-- /.row -->
+		
 		<div class="row">
 			<div class="form-actions">
 				<div class="col-lg-8 col-lg-offset-10">

@@ -28,7 +28,19 @@
 		}
 		
 		function CheckAndSubmit () {
-			  alert("redirecting to next page");
+			
+			/*if (monthSelect.selectedIndex == 0 || monthSelect.options[monthSelect.selectedIndex].value == -1)
+			{
+				alert ("Require selection");
+			}
+			else
+			{
+				location = 'checkout-3.php';
+				return false;
+			}	*/
+			
+			location = 'checkout-3.php';
+				return false;
 		}
 	</script>
 
@@ -147,8 +159,8 @@
 									<span class="required" aria-required="true">*</span>			
 								</label>
 								<div class="col-lg-3">
-									<select class="form-control" id="select" required>
-									  <option selected="true" style="display:none;">Month</option>
+									<select class="form-control" id="monthSelect" required>
+									  <!-- <option selected="true" style="display:none;" >Month</option> -->
 									  <option>January</option>
 									  <option>February</option>
 									  <option>March</option>
@@ -164,8 +176,8 @@
 									</select>
 								</div>
 								<div class="col-lg-3">
-									<select class="form-control" id="select" required>
-									   <option selected="true" style="display:none;">Year</option>
+									<select class="form-control" id="yearSelect" required>
+									  <!-- <option selected="true" style="display:none;">Year</option> -->
 									  <option>2014</option>
 									  <option>2015</option>
 									  <option>2016</option>

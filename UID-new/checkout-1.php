@@ -21,19 +21,9 @@
 			}
 		}
 		
-		function nextPage(){
-			window.location.assign("checkout-2.php");
-			alert("nxtPage");
-		}
-		
 		function CheckAndSubmit () {
-            //if(!confirm('Your new changes were successfully saved!'))
-             // {return false;}
-			
-			// redirect user to checkout-2
-			alert("redirecting to next page");
-			//window.location.replace("checkout-2.php");		
-			window.location="checkout-2.php";
+			location = 'checkout-2.php';
+			return false;
         }
 		
 	</script>
@@ -97,7 +87,7 @@
 						<p><strong>Estimated Arrival Date: </strong>19/01/2015</p>
 					</div>
 					<hr>
-					<form class="form-horizontal" method="POST" onSubmit="return CheckAndSubmit()">
+					<form class="form-horizontal" method="POST" onSubmit="return CheckAndSubmit();">
 						<fieldset>
 							<div class="form-group">
 								<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
