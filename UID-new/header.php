@@ -227,8 +227,8 @@
                     </li>
 					
 					<li>
-                        <a href="shoppingCart.php">
-                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="My cart"></span>
+                        <a href="#" >
+                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="My cart" data-alert-text=" Added to cart" data-toggle="modal" href="#myModal"></span>
 						</a>
                     </li>
 					
@@ -240,6 +240,50 @@
 					
                 </ul>
             </div>
+
+
+             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Warning</h4>
+                        </div>
+                    <div class="modal-body">
+                        You must log in below or register to view cart!
+                         <form class="form-horizontal">
+                                            <fieldset>
+                                                <!-- <legend>Log In</legend> -->
+                                                <div class="form-group">
+                                                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                                                    <div class="col-lg-9" id="login-email">
+                                                        <input type="text" class="form-control" id="inputEmail" placeholder="monnique@gmail.com">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                                                    <div class="col-lg-9" id="login-pass">
+                                                        <input type="password" class="form-control" id="inputPassword" placeholder="********">
+                                                        <div class="checkbox" id="login-rem">
+                                                            <label><input type="checkbox">Remember me</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-lg-10 col-lg-offset-5">
+                                                        <a href="loggedInIndex.php" class="btn btn-primary" role="button">Log in</a>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                    </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Register</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
