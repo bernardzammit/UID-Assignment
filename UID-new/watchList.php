@@ -46,7 +46,7 @@
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="index.php">My Account</a></li>
-                    <li class="active">Current Listings</li>
+                    <li class="active">Watch List</li>
                 </ol>
             </div>
         </div>

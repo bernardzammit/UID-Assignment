@@ -41,7 +41,7 @@
                 <!--<a class="navbar-brand" href="#" title="Log in"><i class="fa fa-lock fa-6"></i></a>-->
                 <ul class="nav navbar-nav navbar-left">
                     <li class="dropdown">
-                        <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-lock fa-6"></i></a>
+                        <a class="navbar-brand" href="index.php" title="Log in"><i class="fa fa-lock fa-6"></i></a>
                         <ul class="dropdown-menu">
                             <div class="col-md-12">
                                 <div id="dropdown-login" class="panel panel-default">

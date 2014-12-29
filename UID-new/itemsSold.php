@@ -255,7 +255,7 @@
 					<br>
 					
 					<div class="col-md-5" >
-						<p>You have not bought any Mobiles yet!</p><br>
+						<p>You have not sold any Mobiles yet!</p><br>
 						
 						<a href="viewAllItems.php?varname=<?php echo 'viewAll-mobiles.php'?>&checkbox=<?php echo '0'?>">See mobiles for sale</a>
 					</div>	
