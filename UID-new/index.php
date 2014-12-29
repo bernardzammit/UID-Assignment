@@ -28,12 +28,12 @@
 
 <body>
    
-            
+        
 
     <div class="row">
-       <div class="col-lg-3 col-md-6 col-sm-3">
+       <div class="col-lg-3 col-sm-6">
             <ul class="grid cs-style-3">
-                <li>
+                
                     <figure>
                         <img src="images/logo.jpg">
                          <figcaption>
@@ -44,13 +44,13 @@
                         
                        
                     </figure>
-                </li>
+                
             </ul>
         </div><!-- /container -->
 
-        <div class="col-lg-3 col-md-6 col-sm-3">
+        <div class="col-lg-3 col-sm-6">
             <ul class="grid cs-style-3">
-                <li>
+                
                     <figure>
                         <img src="images/index-2.jpg">
                         
@@ -60,13 +60,13 @@
 
                         </figcaption>
                     </figure>
-                </li>
+                
             </ul>
         </div><!-- /container -->
 
-        <div class="col-lg-3 col-md-6 col-sm-3">
+        <div class="col-lg-3 col-sm-6">
             <ul class="grid cs-style-3">
-                <li>
+                
                     <figure>
                         <img src="images/index-3.jpg">
                         
@@ -76,13 +76,13 @@
 
                         </figcaption>
                     </figure>
-                </li>
+                
             </ul>
         </div><!-- /container -->
 
-        <div class="col-lg-3 col-md-6 col-sm-3">
+        <div class="col-lg-3 col-sm-6">
             <ul class="grid cs-style-3">
-                <li>
+                
                     <figure>
                         <img src="images/index-1.jpg">
                         
@@ -92,9 +92,10 @@
 
                         </figcaption>
                     </figure>
-                </li>
+                
             </ul>
         </div>
+
     </div>
     
     <script src="js/toucheffects.js"></script>

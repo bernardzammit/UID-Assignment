@@ -1,14 +1,13 @@
 .grid {
-	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
-	margin: 0 auto;
+	padding: 20px 20px 50px 60px;
 	list-style: none;
 	text-align: center;
+	overflow-x:hidden
 }
 
 .grid li {
 	display: inline-block;
-	width: 440px;
+	width: 250px;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -22,7 +21,7 @@
 }
 
 .grid figure img {
-	max-width: 100%;
+	
 	height: 350px;
 	display: block;
 	position: relative;
@@ -30,8 +29,6 @@
 
 .grid figcaption {
 	position: absolute;
-
-
 	padding: 20px;
 	background: #080808;
 	color: #428BCA;
@@ -61,13 +58,14 @@
 /* Caption Style 3 */
 .cs-style-3 figure {
 	overflow: hidden;
+	width: 275px;
 }
 
 .cs-style-3 figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
-	width: 350px;
+	width: 275px;
 }
 
 .no-touch .cs-style-3 figure:hover img,
@@ -80,7 +78,7 @@
 
 .cs-style-3 figcaption {
 	height: 150px;
-	width: 350px;
+	width: 275px;
 	top: auto;
 	bottom: 0;
 	opacity: 0;
@@ -118,7 +116,9 @@
 		padding: 10px 10px 100px 10px;
 	}
 	.grid li {
-		width: 100%;
-		min-width: 300px;
+		width: 275px;
+	
 	}
 }
+
+
