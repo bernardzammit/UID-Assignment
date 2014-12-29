@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php" title="Home"><i class="fa fa-home fa-6"></i></a>
+                <a class="navbar-brand" href="loggedInIndex.php" title="Home"><i class="fa fa-home fa-6"></i></a>
                 <a class="navbar-brand" href="profile.php" title="My Account"><i class="fa fa-user fa-6"></i></a>
                 <a class="navbar-brand" href="index.php" title="Log Out"><i class="fa fa-reply fa-6"></i></a>
                 		
@@ -202,6 +202,10 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
+        <div class="alert alert-success collapse" id="alert">
+            <button type="button" class="close" id="close-alert">&times;</button>
+            <strong>Success!</strong><span></span>
+        </div>
     </nav>
 
 	
@@ -216,6 +220,21 @@
 
     <!-- Script to Activate the Carousel -->
     <script>
+        $(document).ready(function() {
+            $('.watch-btn, .add-cart-btn').click(function() {
+                    $('#alert').removeClass().addClass('alert alert-success');
+                    var text = $(this).data('alert-text');
+                    $('#alert').find('span').text(text);
+                    $('#alert').show();
+            });
+        });
+        
+        $(document).ready(function() {
+            $('#close-alert').click(function() {
+                $('#alert').hide();
+            });
+        });
+        
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     });
