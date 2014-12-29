@@ -98,7 +98,11 @@
 								<br>
 								<span class="price"><sup>€</sup>1500<sup>00</sup></span>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-2">
+								<br />
+								<button class="btn btn-default">Add to cart</button>
+							</div>
+							<div class="col-md-2">
 								<br />
 								<button class="btn btn-default">Remove</button>
 							</div>
@@ -129,7 +133,11 @@
 								<br>
 								<span class="price"><sup>€</sup>450<sup>50</sup></span>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-2">
+								<br />
+								<button class="btn btn-default">Add to cart</button>
+							</div>
+							<div class="col-md-2">
 								<br />
 								<button class="btn btn-default">Remove</button>
 							</div>
@@ -163,7 +171,11 @@
 								<br>
 								<span class="price"><sup>€</sup>1500<sup>00</sup></span>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-2">
+								<br />
+								<button class="btn btn-default">Add to cart</button>
+							</div>
+							<div class="col-md-2">
 								<br />
 								<button class="btn btn-default">Remove</button>
 							</div>
@@ -205,7 +217,11 @@
 								<br>
 								<span class="price"><sup>€</sup>450<sup>50</sup></span>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-2">
+								<br />
+								<button class="btn btn-default">Add to cart</button>
+							</div>
+							<div class="col-md-2">
 								<br />
 								<button class="btn btn-default">Remove</button>
 							</div>
