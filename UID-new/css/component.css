@@ -58,14 +58,14 @@
 /* Caption Style 3 */
 .cs-style-3 figure {
 	overflow: hidden;
-	width: 275px;
+	width: 325px;
 }
 
 .cs-style-3 figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
-	width: 275px;
+	width: 325px;
 }
 
 .no-touch .cs-style-3 figure:hover img,
@@ -78,7 +78,7 @@
 
 .cs-style-3 figcaption {
 	height: 150px;
-	width: 275px;
+	width: 325px;
 	top: auto;
 	bottom: 0;
 	opacity: 0;

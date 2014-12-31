@@ -57,27 +57,13 @@
 
 <body onload="startTimer()">
 	
-	 <div class="row">
-       <div class="col-lg-3 col-md-6 col-sm-3">
-            <ul class="grid cs-style-3">
-                <li>
-                    <figure>
-                        <img src="images/logo.jpg">
-                        <figcaption>
-                            <h3>Welcome to our E-Commerce Website</h3>
-                            
+	  <div class ="container">   
 
-                        </figcaption>
-                       
-                    </figure>
-                </li>
-            </ul>
-        </div><!-- /container -->
-
-        <div class="col-lg-3 col-md-6 col-sm-3">
+    <div class="row">
+       <div class="col-lg-4 col-sm-6">
             <ul class="grid cs-style-3">
-                <li>
-                    <figure>
+                
+                     <figure>
                         <img src="images/index-2.jpg">
                         
                         <figcaption>
@@ -86,42 +72,50 @@
 
                         </figcaption>
                     </figure>
-                </li>
+                
+                
             </ul>
+
+
         </div><!-- /container -->
 
-        <div class="col-lg-3 col-md-6 col-sm-3">
+        <div class="col-lg-4 col-sm-6">
             <ul class="grid cs-style-3">
-                <li>
+                
                     <figure>
-                        <img src="images/index-3.jpg">
-                        
-                        <figcaption>
-                            <h3>Sell your Products</h3>
+                        <img src="images/logo.jpg">
+                         <figcaption>
+                            <h3>Welcome to our E-Commerce Website</h3>
                             
 
                         </figcaption>
+                        
+                       
                     </figure>
-                </li>
+
             </ul>
         </div><!-- /container -->
 
-        <div class="col-lg-3 col-md-6 col-sm-3">
+        <div class="col-lg-4 col-sm-6">
             <ul class="grid cs-style-3">
-                <li>
+                
                     <figure>
                         <img src="images/index-1.jpg">
                         
                         <figcaption>
-                            <h3>Promote your Products</h3>
+                            <h3>Sell & Promote your Products</h3>
                             
 
                         </figcaption>
                     </figure>
-                </li>
+                
             </ul>
-        </div>
+        </div><!-- /container -->
+
+        
+
     </div>
+</div>
     
     <script src="js/toucheffects.js"></script>
     

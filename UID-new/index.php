@@ -4,21 +4,6 @@
 <?php include 'header.php'; ?>
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    
-    <!-- Extra CSS -->
-    <link href="css/extracss.css" rel="stylesheet">
-
     <link rel="shortcut icon" href="../favicon.ico"> 
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -28,10 +13,29 @@
 
 <body>
    
-        
+     <div class ="container">   
 
     <div class="row">
-       <div class="col-lg-3 col-sm-6">
+       <div class="col-lg-4 col-sm-6">
+            <ul class="grid cs-style-3">
+                
+                     <figure>
+                        <img src="images/index-2.jpg">
+                        
+                        <figcaption>
+                            <h3>Checkout the Latest Listings</h3>
+                            
+
+                        </figcaption>
+                    </figure>
+                
+                
+            </ul>
+
+
+        </div><!-- /container -->
+
+        <div class="col-lg-4 col-sm-6">
             <ul class="grid cs-style-3">
                 
                     <figure>
@@ -44,59 +48,30 @@
                         
                        
                     </figure>
-                
+
             </ul>
         </div><!-- /container -->
 
-        <div class="col-lg-3 col-sm-6">
-            <ul class="grid cs-style-3">
-                
-                    <figure>
-                        <img src="images/index-2.jpg">
-                        
-                        <figcaption>
-                            <h3>Checkout the Latest Listings</h3>
-                            
-
-                        </figcaption>
-                    </figure>
-                
-            </ul>
-        </div><!-- /container -->
-
-        <div class="col-lg-3 col-sm-6">
-            <ul class="grid cs-style-3">
-                
-                    <figure>
-                        <img src="images/index-3.jpg">
-                        
-                        <figcaption>
-                            <h3>Sell your Products</h3>
-                            
-
-                        </figcaption>
-                    </figure>
-                
-            </ul>
-        </div><!-- /container -->
-
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-4 col-sm-6">
             <ul class="grid cs-style-3">
                 
                     <figure>
                         <img src="images/index-1.jpg">
                         
                         <figcaption>
-                            <h3>Promote your Products</h3>
+                            <h3>Sell & Promote your Products</h3>
                             
 
                         </figcaption>
                     </figure>
                 
             </ul>
-        </div>
+        </div><!-- /container -->
+
+        
 
     </div>
+</div>
     
     <script src="js/toucheffects.js"></script>
 
