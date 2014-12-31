@@ -155,9 +155,9 @@
 		<div class="row">
 			<div class="form-actions">
 				<div class="col-lg-8 col-lg-offset-10">
-					<button type = "button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Place Order</button>
+					<button type = "button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#successModal">Place Order</button>
 					<!-- Modal -->
-					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					  <div class="modal-dialog">
 						<div class="modal-content">
 						  <div class="modal-header">
