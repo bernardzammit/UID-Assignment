@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'loggedInHeader.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -177,13 +177,14 @@
 							<p><strong>Opening hours: </strong>Monday - Friday from 9:00 - 12:00</p>
 							<p><strong>Address: </strong> 35, Triq is-Salini, Marsaskala, MSK 3010</p>
 						</div>
-						<hr>
+						<br>
 					</div>
-					<hr>
 					<br>
+					<hr>
+					
 					<form class="form-horizontal"   method="POST">
 						<fieldset>
-							<div class="form-group">
+							<div class="form-group">				
 								<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
 								<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
 							</div>

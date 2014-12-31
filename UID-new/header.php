@@ -228,7 +228,7 @@
 					
 					<li>
                         <a href="#" >
-                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="My cart" data-alert-text=" Added to cart" data-toggle="modal" href="#myModal"></span>
+                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="You have no items in your cart" data-alert-text=" Added to cart" data-toggle="modal" href="#myModal"></span>
 						</a>
                     </li>
 					

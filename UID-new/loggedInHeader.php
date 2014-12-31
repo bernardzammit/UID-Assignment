@@ -187,7 +187,8 @@
 					
 					<li>
                         <a href="shoppingCart.php">
-                            <span class="pull-right fa fa-shopping-cart fa-lg" id="cart-top" title="My cart"></span>
+                            <span class="fa fa-shopping-cart fa-lg" id="cart-top" title="Your shopping cart contains 2 items"></span>
+							<span class="pull-right badge">2</span>
 						</a>
                     </li>
 					
