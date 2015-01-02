@@ -19,7 +19,7 @@
                             <p><i class="fa fa-phone"></i> 
                                 <abbr title="Phone">P</abbr>: (356) 79958771</p>
                             <p><i class="fa fa-envelope-o"></i> 
-                                <abbr title="Email">E</abbr>: <a id ="a" href="mailto:name@example.com">name@example.com</a> 
+                                <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a> 
                             </p>
                             <p><i class="fa fa-clock-o"></i> 
                                 <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
