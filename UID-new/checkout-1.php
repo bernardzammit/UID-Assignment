@@ -131,9 +131,9 @@
 							
 							<div class="form-group">
 								<div class="col-lg-8 col-lg-offset-9">
-									<a href="shoppingCart.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
+									<a href="shoppingCart.php" class="btn btn-primary btn-lg" title="Previous (Shopping cart)"> <i class="fa fa-arrow-left"></i></a>
 									<!--<a href="checkout-2.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>-->
-									 <button type="submit" value="submit" class="btn btn-primary btn-lg"> <i class="fa fa-arrow-right"></i></button> 
+									 <button type="submit" value="submit" class="btn btn-primary btn-lg" title="Next (Payment Method)"> <i class="fa fa-arrow-right"></i></button> 
 								</div>
 							</div>	
 						</fieldset>
@@ -191,8 +191,8 @@
 							<hr>
 							<div class="form-group">
 								<div class="col-lg-8 col-lg-offset-9">
-									<a href="shoppingCart.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
-									<a href="checkout-2.php" class="btn btn-primary btn-lg" type="submit" onSubmit=""> <i class="fa fa-arrow-right"></i></a>
+									<a href="shoppingCart.php" class="btn btn-primary btn-lg" title="Previous (Shopping cart)"> <i class="fa fa-arrow-left"></i></a>
+									<a href="checkout-2.php" class="btn btn-primary btn-lg" type="submit" onSubmit="" title="Next (Payment Method)"> <i class="fa fa-arrow-right"></i></a>
 								</div>
 							</div>	
 						</fieldset>

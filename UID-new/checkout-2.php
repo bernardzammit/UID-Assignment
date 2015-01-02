@@ -196,8 +196,8 @@
 							<!-- Display next and previous buttons -->
 							<div class="form-group">
 								<div class="col-lg-8 col-lg-offset-9">
-									<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
-									<button type="submit" value="submit" class="btn btn-primary btn-lg"> <i class="fa fa-arrow-right"></i></button> 
+									<a href="checkout-1.php" class="btn btn-primary btn-lg" title="Previous (Delivery/Collection details)"> <i class="fa fa-arrow-left"></i></a>
+									<button type="submit" value="submit" class="btn btn-primary btn-lg" title="Next (Verify Order)"> <i class="fa fa-arrow-right"></i></button> 
 								</div>
 							</div>	
 							
@@ -213,8 +213,8 @@
 						<!-- Display next and previous buttons -->
 						<div class="form-group">
 							<div class="col-lg-8 col-lg-offset-9">
-								<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
-								<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+								<a href="checkout-1.php" class="btn btn-primary btn-lg" title="Previous (Delivery/Collection details)"> <i class="fa fa-arrow-left"></i></a>
+								<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit" title="Next (Verify Order)"> <i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>	
 					</form>		
@@ -227,16 +227,12 @@
 						<!-- Display next and previous buttons -->
 						<div class="form-group">
 							<div class="col-lg-8 col-lg-offset-9">
-								<a href="checkout-1.php" class="btn btn-primary btn-lg" > <i class="fa fa-arrow-left"></i></a>
-								<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit"> <i class="fa fa-arrow-right"></i></a>
+								<a href="checkout-1.php" class="btn btn-primary btn-lg" title="Previous (Delivery/Collection details)"> <i class="fa fa-arrow-left"></i></a>
+								<a href="checkout-3.php" class="btn btn-primary btn-lg" type="submit" title="Next (Verify Order)"> <i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>	
 					</form>		
 				</div>
-
-				
-               
-
             </div>
 
             <!-- Checkout Sidebar (cart summary + help) -->
