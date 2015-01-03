@@ -82,7 +82,7 @@
 				<!-- Show form according to option chosen (by default delivery form is shown) -->
 				<div class="well" id="deliveryForm" style="display:block">
 					<div class="bs-component">
-						<legend>Delivery/Collection Details</legend>
+						<legend>Delivery Details</legend>
 						<p><strong>Delivery cost:</strong> €5.00</p>
 						<p><strong>Estimated Arrival Date: </strong>19/01/2015</p>
 					</div>
