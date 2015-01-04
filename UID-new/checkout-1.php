@@ -174,8 +174,8 @@
 						<p>Collection of item(s) can be done during the following days at these particular times from the place specified in the address below.</p>
 						<br>
 						<div class="col-lg-10">
-							<p><strong>Opening hours: </strong>Monday - Friday from 9:00 - 12:00</p>
-							<p><strong>Address: </strong> 35, Triq is-Salini, Marsaskala, MSK 3010</p>
+							<p><strong>Opening hours: </strong>Monday - Saturday from 9:00 - 12:00</p>
+							<p><strong>Address: </strong> Digistore Malta, Triq ir-Raddiena, Mgarr, MGR 2431</p>
 						</div>
 						<br>
 					</div>
@@ -186,7 +186,7 @@
 						<fieldset>
 							<div class="form-group">				
 								<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
-								<a href="#" class="btn btn-primary btn-sm">Contact Seller</a>
+								<a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal" data-whatever="@digistoreSeller">Contact Digistore</a>
 							</div>
 							<hr>
 							<div class="form-group">

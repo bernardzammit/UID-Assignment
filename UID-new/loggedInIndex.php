@@ -181,8 +181,14 @@
                         <h4><i class="fa fa-globe"></i></i> Welcome!</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi e</p>
+						<p>Welcome to Digistore, an e-commerce website where users can buy and sell new and second-hand products. 
+						   <br>
+						   <br>
+                           Upon registering, you will be able to contact other sellers to buy products and add listings to sell.
+						   <br>
+						   <br>
+						   Promote your items now to improve your sales.
+                        </p>
                     </div>
                 </div>
             </div>

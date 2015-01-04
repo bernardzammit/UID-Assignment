@@ -124,12 +124,14 @@
                         <h4><i class="fa fa-globe"></i></i> Welcome!</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Welcome to Digistore, e-commerece website where users can buy and sell new and second-hand products. 
-
-                            Upon registering, you will be able to contact other sellers to buy products and add listings to sell.
-
-                            This is  ipsum dolor sit amet, consectur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?
-                        Lorem ipsum dolor si</p>
+                        <p>Welcome to Digistore, an e-commerce website where users can buy and sell new and second-hand products. 
+						   <br>
+						   <br>
+                           Upon registering, you will be able to contact other sellers to buy products and add listings to sell.
+						   <br>
+						   <br>
+						   Promote your items to improve your sales.
+                        </p>
                     </div>
 
                 </div>

@@ -244,17 +244,12 @@
 							<div class="col-lg-8 col-xs-8" >                 
 								<div class="radio" id="paymentMethod">	
 									<label>
-										<input type="radio" name="radio1" title="Item delivered to the customer" required>Delivery
+										<input type="radio" name="radio1" title="Item(s) must be delivered to Digistore" required>Delivery to Digistore
 									</label>
 								</div>
 								<div class="radio" id="paymentMethod">
 									<label>
-										<input type="radio" name="radio1" title="The customer collects item from the specified address" required>Collection
-									</label>
-								</div>
-								<div class="radio" id="paymentMethod">
-									<label>
-										<input type="radio" name="radio1" title="Customer has a choice to choose the shipping method on payment" required>Both
+										<input type="radio" name="radio1" title="Digistore will collect the item(s)" required>Collection by Digistore
 									</label>
 								</div>
 							</div>                                
@@ -267,17 +262,12 @@
 							<div class="col-lg-8 col-xs-8" >                 
 								<div class="radio" id="paymentMethod">	
 									<label>
-										<input type="radio" name="radio2" value=""  title="Choose how you would like to be paid" required>Contact via phone / e-mail
+										<input type="radio" name="radio2" value=""  title="Choose how you would like to be paid" required>Payment on Delivery/Collection
 									</label>
 								</div>
 								<div class="radio" id="paymentMethod">
 									<label>
 										<input type="radio" name="radio2" value="" title="Choose how you would like to be paid" required>Direct payment via PayPal
-									</label>
-								</div>
-								<div class="radio" id="paymentMethod">
-									<label>
-										<input type="radio" name="radio2" value="" title="Choose how you would like to be paid" required>Both
 									</label>
 								</div>
 							</div>                                
