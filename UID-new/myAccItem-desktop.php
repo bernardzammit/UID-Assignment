@@ -14,13 +14,13 @@
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="viewItem.php">iMac 21.5</a>
+                    <a href="viewItem.php">Ienovo</a>
                 </h3>
                 <h4><i>06/12/2014</i></h4><br>
 
                 <ul>
                     <li>Intel® Core™ i5 processor</li>
-                    <li>OS X Mavericks</li>
+                    <li>OS: Windows 8</li>
                     <li>Hard drive: 1 TB</li>
                     <li>Memory: 8 GB</li>
                 </ul>

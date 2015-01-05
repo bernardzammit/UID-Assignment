@@ -204,7 +204,7 @@
                     </li>
 					
 					<li>
-                        <a href="faq.php">
+                                            <a href="faqLoggedIn.php">
 						  <span class="pull-right fa fa-question fa-lg" id="help-top" title="Help"></span>
 						</a>
                     </li>
