@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">My Account
-                    <small>Current Listings</small>
+                    <small>Watch List</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
