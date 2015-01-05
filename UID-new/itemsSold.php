@@ -7,7 +7,6 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
 <!-- Page Content -->
     <div class="container">
 

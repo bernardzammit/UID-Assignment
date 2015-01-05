@@ -150,8 +150,8 @@
                                   <div class="modal-body">
                                     <form>
                                       <div class="form-group">
-                                        <label for="recipient-name" class="control-label">Recipient:</label>
-                                        <input type="text" class="form-control" id="recipient-name">
+                                        <label for="subject-text" class="control-label">Subject:</label>
+                                        <input type="text" class="form-control" id="subject-text">
                                       </div>
                                       <div class="form-group">
                                         <label for="message-text" class="control-label">Message:</label>
@@ -186,7 +186,7 @@
 						<fieldset>
 							<div class="form-group">				
 								<label class="col-lg-9 col-xs-9 control-label">For more information: </label>
-								<a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal" data-whatever="@digistoreSeller">Contact Digistore</a>
+								<a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal" data-whatever="@digistoreSeller">Contact Seller</a>
 							</div>
 							<hr>
 							<div class="form-group">
