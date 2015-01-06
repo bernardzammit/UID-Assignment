@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.php'; ?>
+<?php session_start();
+    if ( isset($_SESSION['loggedIn'])) {
+        include 'loggedInHeader.php';
+    } else {
+        include 'header.php';
+    }
+     ?>
 
 <head>
   <!--Load script.js which will create datepicker for input field -->

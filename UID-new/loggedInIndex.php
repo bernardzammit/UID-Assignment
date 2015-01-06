@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'loggedInHeader.php'; ?>
+    
+<?php 
+    session_start();
+    $_SESSION['loggedIn'] = 1;
+    include 'loggedInHeader.php';
+    ?>
+    
 <head>
 
     <meta charset="utf-8">
