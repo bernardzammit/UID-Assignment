@@ -92,8 +92,8 @@
 
                         <div class="media">
                             <div class="text-center">
-                                <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="@digistoreSeller">Contact Seller</a>
-                                <a href="#" class="btn btn-primary btn-lg">Add to Cart</a>
+                                <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="@digistoreSeller" title="Contact Seller">Contact Seller</a>
+                                <a href="#" class="btn btn-primary btn-lg" title="Add to Cart">Add to Cart</a>
                             </div>
 
                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -126,12 +126,12 @@
                             <div class="text-center">
                                 <a href="#">
                                     <h4>
-                                        <span class="fa fa-eye"> Watch Item</span><br>
+                                        <span class="fa fa-eye" title="Watch Item"> Watch Item</span><br>
                                     </h4>
                                 </a>
                                 <a href="#">
                                     <h4>
-                                        <span class="fa fa-flag" data-toggle="modal" data-target="#myModal1"> Report Item</span><br>
+                                        <span class="fa fa-flag" data-toggle="modal" data-target="#myModal1" title="Report Item"> Report Item</span><br>
                                     </h4>
                                  </a>    
                             </div>
