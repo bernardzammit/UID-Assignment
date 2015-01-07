@@ -1,12 +1,10 @@
-
-<!DOCTYPE html>
-<html lang="en">
-    
 <?php 
     session_start();
     unset( $_SESSION['loggedIn'] );
     include 'header.php';
     ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 
     <link rel="shortcut icon" href="../favicon.ico"> 

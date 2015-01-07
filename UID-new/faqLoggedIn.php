@@ -1,6 +1,6 @@
+<?php include 'loggedInHeader.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
-    <?php include 'loggedInHeader.php'; ?>
     
     <head></head>
     

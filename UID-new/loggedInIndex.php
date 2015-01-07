@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-    
 <?php 
     session_start();
     $_SESSION['loggedIn'] = 1;
     include 'loggedInHeader.php';
-    ?>
+?>
+<!DOCTYPE html>
+<html lang="en">
     
 <head>
 

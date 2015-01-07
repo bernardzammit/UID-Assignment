@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <?php session_start();
     if ( isset($_SESSION['loggedIn'])) {
         include 'loggedInHeader.php';
@@ -8,6 +5,8 @@
         include 'header.php';
     }
      ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 
     <meta charset="utf-8">
